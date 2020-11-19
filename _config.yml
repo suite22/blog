@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: Ben Goertz
+url: https://blog.bengoertz.com
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -27,14 +27,10 @@ sass:
 
 # Options
 
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Ben Goertz
+  url: https://twitter.com/suite22
 
 # Custom vars
 version: 3.0.0
