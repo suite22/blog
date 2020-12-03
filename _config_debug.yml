@@ -4,3 +4,15 @@ title: Ben Goertz [DEBUG]
 # Serve locally using the command:
 # bundle exec jekyll serve --config _config.yml,_config_debug.yml
 baseurl: ""
+
+# This is a hack because the relative path differs between local and github pages.
+# Navbar page list
+nav:
+  - title: Projects
+    url: /projects
+    
+  - title: Blog
+    url: /archive
+
+  - title: About
+    url: /about

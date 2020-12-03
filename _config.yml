@@ -35,13 +35,14 @@ author:
 # Custom vars
 version: 3.0.0
 
+# The local debug config overrides these values as a hack around the relative path failing.
 # Navbar page list
 nav:
   - title: Projects
-    url: {{ site.baseurl }}/projects
+    url: /blog/projects
     
   - title: Blog
-    url: {{ site.baseurl }}/archive
+    url: /blog/archive
 
   - title: About
-    url: {{ site.baseurl }}/about
+    url: /blog/about
