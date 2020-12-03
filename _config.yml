@@ -38,10 +38,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Projects
-    url: /projects
+    url: {{ site.baseurl }}/projects
     
   - title: Blog
-    url: /archive
+    url: {{ site.baseurl }}/archive
 
   - title: About
-    url: /about
+    url: {{ site.baseurl }}/about
