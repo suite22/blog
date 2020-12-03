@@ -1,16 +1,12 @@
-# Dark Poole
+# Personal Blog - Jekyll 
 
-![Dark Poole](https://user-images.githubusercontent.com/13270895/89133355-26b3af80-d4e9-11ea-81cd-eacaa9c78320.png)
+I forked the theme from dark-poole with the goal of hosting a "simple" blog that I can publish to and write using markdown files and hopefully as little fuss as possible. 
 
-Dark Poole is a permanent dark theme of the Poole theme by [@mdo](https://github.com/mdo). I made the theme darker, inspired by [Derek Kedziora's site](https://derekkedziora.com/). Unlike default Poole that utilizes CSS media queries to activate dark mode, the theme will stay dark regardless of the user's preference.
-
-- I added a navbar that is easily customizable. Check out [Development](#development) to see how.
-- I also got rid of the "tagline" in the navbar. I think it looks cleaner without it.
-- Finally, I changed the default font size to 20px. I have 20/20 vision and still thought the original font size was too small.
-
-That's it! I tried to be least intrusive as possible to the Poole code base.
-
-**I noticed that Poole's documentation is slightly outdated and misleading. This documentation will try to address most, if not all, of these issues.**
+To serve locally use:
+```bash
+bundle exec jekyll serve --config _config.yml,_config_debug.yml
+```
+The debug configuration overrides the base URL for local testing.
 
 ---
 
@@ -113,13 +109,6 @@ nav:
   - title: About
     url: /about
 ```
-
-## Author
-
-**Mark Otto**
-
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
 
 ## License
 
