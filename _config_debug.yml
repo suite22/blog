@@ -1,0 +1,6 @@
+# Setup
+title: Ben Goertz [DEBUG]
+# Following the suggestion of this SO answer https://stackoverflow.com/a/37087102/5499522
+# Serve locally using the command:
+# bundle exec jekyll serve --config _config.yml,_config_debug.yml
+baseurl: ""
