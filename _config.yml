@@ -2,7 +2,7 @@
 title: Ben Goertz
 url: https://suite22.github.io/blog/
 paginate: 1
-baseurl: "https://suite22.github.io/blog/"
+baseurl: "/blog"
 permalink: pretty
 
 # Gems
