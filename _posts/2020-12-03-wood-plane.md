@@ -10,4 +10,4 @@ I love the closing story in this talk (about 33:00 in) from Erin Kissane about J
 > "When you have the right plane and you understand the wood and you slide the plane across the wood. The sound that comes across isn't just an ugly sound or a vibration, you're actually making music.
 If you hear the music that means you're doing it right. You have the right system, the right wood, the right touch, you're making the right thing."
 
-I'm a sucker for stories about woodworking but I'm trying to hold off from following down that rabbit hole as a hobby. The number of software developer souls lost to handcrafts is immense.
+I'm a sucker for stories about woodworking but I'm trying to hold off from falling down that rabbit hole as a hobby. The number of software developer souls lost to handcrafts is immense.
