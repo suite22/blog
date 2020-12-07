@@ -1,3 +1,8 @@
+---
+layout: post
+title: If You Hear The Music
+---
+
 # Screaming into the Void of the Internet
 ## What Orwell Got Wrong
 Kirby Ferguson's post "Censored For 48 Hours" about the brief removal of one of his videos for "cyberbullying" has sparked some thoughts about ways to improve the content review process. I want to expand on several of his suggestions, about transparency and censorship, but you should start with his post first if you haven't yet.
