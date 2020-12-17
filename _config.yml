@@ -1,9 +1,9 @@
 # Setup
 title: Ben Goertz
-url: https://suite22.github.io/blog/
+url: https://bengoertz.com/
 paginate: 1
 paginate_path: "/baseurl/page:num/"
-baseurl: "/blog"
+baseurl: ""
 permalink: pretty
 
 # Gems
@@ -40,10 +40,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Projects
-    url: /blog/projects
+    url: /projects
     
-  - title: Blog
-    url: /blog/archive
+  - title: Posts
+    url: /archive
 
   - title: About
-    url: /blog/about
+    url: /about
