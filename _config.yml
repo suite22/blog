@@ -2,8 +2,7 @@
 title: Ben Goertz
 url: https://bengoertz.com/
 paginate: 1
-paginate_path: "/baseurl/page:num/"
-baseurl: ""
+paginate_path: "/page:num/"
 permalink: pretty
 
 # Gems
