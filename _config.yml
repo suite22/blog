@@ -39,11 +39,11 @@ version: 3.0.0
 # The local debug config overrides these values as a hack around the relative path failing.
 # Navbar page list
 nav:
+  - title: About
+    url: /about
+
   - title: Projects
     url: /projects
     
   - title: Posts
     url: /archive
-
-  - title: About
-    url: /about
