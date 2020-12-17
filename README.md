@@ -1,12 +1,14 @@
-# Personal Blog - Jekyll 
+# Personal Site powered by Jekyll 
 
-I forked the theme from dark-poole with the goal of hosting a "simple" blog that I can publish to and write using markdown files and hopefully as little fuss as possible. 
+I forked the theme from dark-poole with the goal of hosting a "simple" site that I can publish to and write using markdown files and hopefully as little fuss as possible. 
 
 To serve locally use:
 ```bash
-bundle exec jekyll serve --config _config.yml,_config_debug.yml
+bundle exec jekyll serve
 ```
-The debug configuration overrides the base URL for local testing.
+
+## Github Actions
+🤞 on every change to the main branch the Github action should run to deploy the latest version of the site to the `gh-pages` branch.
 
 ---
 

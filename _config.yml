@@ -42,8 +42,8 @@ nav:
   - title: About
     url: /about
 
-  - title: Projects
-    url: /projects
-    
   - title: Posts
     url: /archive
+
+  - title: Projects
+    url: /projects
