@@ -25,17 +25,11 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
-
 # Specify the author for blog posts
 author:
   name: Ben Goertz
   url: https://twitter.com/suite22
 
-# Custom vars
-version: 3.0.0
-
-# The local debug config overrides these values as a hack around the relative path failing.
 # Navbar page list
 nav:
   - title: About
@@ -46,3 +40,18 @@ nav:
 
   - title: Projects
     url: /projects
+
+# Conversion
+markdown: kramdown
+
+liquid:
+  error_mode: strict
+
+# Markdown Processors
+kramdown:
+  auto_ids          : true
+  toc_levels        : [1, 2, 3, 4]
+  smart_quotes      : lsquo,rsquo,ldquo,rdquo
+  hard_wrap         : false
+  footnote_nr       : 1
+  show_warnings     : true
