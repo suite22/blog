@@ -8,7 +8,7 @@ bundle exec jekyll serve
 ```
 
 ## Github Actions
-🤞 on every change to the main branch the Github action should run to deploy the latest version of the site to the `gh-pages` branch.
+On every change to the main branch the Github action should 🤞 run to deploy the latest version of the site to the `gh-pages` branch.
 
 ---
 
@@ -111,6 +111,10 @@ nav:
   - title: About
     url: /about
 ```
+
+## Quotebacks
+
+I love the intent behind [Quoteback](https://quotebacks.net) and my goal is to use them whenever I cite someone else. 
 
 ## License
 
