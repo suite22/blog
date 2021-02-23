@@ -92,11 +92,6 @@ In `index.html`, remove the `prepend:`:
 
 ## Development
 
-Poole has two branches, but only one is used for active development.
-
-- `master` for development. **All pull requests should be to submitted against `master`.**
-- `gh-pages` for hosted demo **Please avoid using this branch.**
-
 CSS is handled via Jeykll's built-in Sass compiler. Source Sass files are located in `_sass/`, included into `styles.scss`, and compile to `styles.css`.
 
 ### Customize Navbar
@@ -115,6 +110,13 @@ nav:
 ## Quotebacks
 
 I love the intent behind [Quoteback](https://quotebacks.net) and my goal is to use them whenever I cite someone else. 
+
+## Oops!
+
+Something broke again. Did I / you / me remember to:
+
+### Ruby version
+Did you set the [version of ruby](https://stackoverflow.com/a/54873916/5499522) using `chruby`?
 
 ## License
 
