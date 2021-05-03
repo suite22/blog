@@ -118,6 +118,10 @@ Something broke again. Did I / you / me remember to:
 ### Ruby version
 Did you set the [version of ruby](https://stackoverflow.com/a/54873916/5499522) using `chruby`?
 
+```bash
+chruby 2.7.2
+```
+
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
