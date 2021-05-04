@@ -47,4 +47,4 @@ Did the State fail to properly manage the project? Did Oracle set out to rip the
 
 --- 
 
-If you also find this topic interesting or have insights you would like to share please reach out on Twitter. I've spent a long time pondering about this story and I'm excited to finally start sharing more of my findings here.
+If you also find this topic interesting I have an open-source [repo on Github](https://github.com/suite22/oregon-healthcare-website-retro) where I've been collecting source material and notes. If you have insights you would like to share please [reach out on Twitter](https://twitter.com/suite22). I've spent a long time thinking this story and I'm excited to finally start sharing more of my findings here.
