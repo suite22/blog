@@ -41,6 +41,13 @@ img {
   border-radius: var(--border-radius);
 }
 
+iframe {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 table {
   margin-bottom: 1rem;
   width: 100%;

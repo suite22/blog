@@ -1,6 +1,6 @@
 # Setup
 title: Ben Goertz
-url: https://bengoertz.com/
+url: https://bengoertz.com
 paginate: 1
 paginate_path: "/page:num/"
 permalink: pretty
