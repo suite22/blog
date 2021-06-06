@@ -21,6 +21,14 @@ On every change to the main branch the Github action should 🤞 run to deploy t
 
 ## Usage
 
+### 0. Environment
+
+* Install Homebrew
+* Install `chruby`
+* Install `ruby-install`
+  * I've been using Ruby 2.7.3
+* Use chruby for managing the local version of Ruby
+
 ### 1. Install dependencies
 
 Poole is built on Jekyll and uses its built-in SCSS compiler to generate our CSS. Before getting started, you'll need to install the Jekyll gem and related dependencies:
@@ -31,13 +39,19 @@ $ gem install jekyll jekyll-gist jekyll-sitemap jekyll-seo-tag
 
 ### 2. Install bundler
 
-You must have bundler installed. If you already have bundler installed, please skip this step.
+You must have bundler installed. If you already have bundler installed, skip this step.
 
 ```bash
 # Update Rubygems
 $ gem update --system
 # Update bundler
 $ gem install bundler
+```
+
+Now install the bundle:
+
+```bash
+$ bundle install
 ```
 
 ### 3. Running locally
@@ -52,7 +66,7 @@ Open <http://localhost:4000> in your browser, and voilà.
 
 ### 4. Serving it up
 
-If you host your code on GitHub, you can use [GitHub Pages](https://pages.github.com) to host your project.
+You can use [GitHub Pages](https://pages.github.com) to host your project.
 
 1. Fork this repo and switch to the `gh-pages` branch.
 1. If you're [using a custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages), modify the `CNAME` file to point to your new domain.
@@ -121,6 +135,9 @@ Did you set the [version of ruby](https://stackoverflow.com/a/54873916/5499522) 
 ```bash
 chruby 2.7.2
 ```
+
+### M1 Processor
+Did you try to install Ruby on an M1 iMac and read through several blog posts? Read this and update `ffi` https://www.moncefbelyamani.com/how-to-install-homebrew-and-ruby-on-a-mac-with-the-m1-apple-silicon-chip/
 
 ## License
 
