@@ -13,7 +13,7 @@ I'm learning about the Cover Oregon project failure from several years ago. My n
 
 ## CineNation podcast
 
-Since our [first episode](https://open.spotify.com/episode/23975r7PXmoev44OQF3QYk?si=hpKZ4_UrQQ-gqf_5QuESSw) together in 2014 the podcast has grown and expanded to cover a wide range of genres and film history. The last couple years I've gone on less but [Brandon](https://twitter.com/brandonsparks33) is still leading the charge and I enjoy every time we get together. Our [recent episode](https://open.spotify.com/episode/6c8HNkVvBYWjnp5sNsrIUa?si=UoKZJMi8R4qf9yScw0dRjA) digging into Rian Johnson's film "[Brick](https://letterboxd.com/film/brick/)" was a lot of fun!
+Since our [first episode](https://open.spotify.com/episode/23975r7PXmoev44OQF3QYk?si=hpKZ4_UrQQ-gqf_5QuESSw) in 2014 the podcast has grown and expanded to cover a wide range of film genres and history. The last couple years I've gone on less but [Brandon](https://twitter.com/brandonsparks33) is still leading the charge and I enjoy every time we get together. Our [recent episode](https://open.spotify.com/episode/6c8HNkVvBYWjnp5sNsrIUa?si=UoKZJMi8R4qf9yScw0dRjA) digging into Rian Johnson's film "[Brick](https://letterboxd.com/film/brick/)" was a lot of fun!
 
 ---
 
