@@ -19,7 +19,7 @@ A study of smartphone users (the title is aptly called "Brain Drain") found that
 <footer>McCombs School of Business<cite> <a href="https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/">https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/</a></cite></footer>
 </blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-Cal Newport's recent book "Digital Minimalism" is a good compliment to his older book "Deep Work", which I think taken together point towards a better path. The most obvious option for silencing your devices is to leave them behind. Walk away. 
+[Cal Newport](https://www.calnewport.com)'s recent book "[Digital Minimalism](https://bookshop.org/books/digital-minimalism-choosing-a-focused-life-in-a-noisy-world/9780525536512)" is a good compliment to his older book "[Deep Work](https://bookshop.org/books/deep-work-rules-for-focused-success-in-a-distracted-world-9781455586677/9781455586677)", which I think taken together point towards a better path. The most obvious option for silencing your devices is to leave them behind. Walk away. 
 
 ## Design Space
 Apple, or any company, is unlikely to reach a design solution that means less of what they make or profit from. One of the choices on the list of “Focus” options (in the gif above) includes sleep! Is sleep a “mind-set”? 
