@@ -5,7 +5,7 @@ title: Phone = Mood
 
 In Apple’s massive list of new features today at [WWDC](https://developer.apple.com/wwdc21/) is an option to “focus.” [Craig Federighi](https://www.apple.com/leadership/craig-federighi/)’s pitch was, “Focus is a new way to match your device to your current mind-set." 
 
-<a title="Apple WWDC 2021 Keynote" href="https://youtu.be/0TD96VTf0Xs?t=1134"><img alt="Match phone to mind-set" src="assets/wwdc-keynote2021-mood.gif"></a>
+<a title="Apple WWDC 2021 Keynote" href="https://youtu.be/0TD96VTf0Xs?t=1134"><img alt="Match phone to mind-set" src="/assets/wwdc-keynote2021-mood.gif"></a>
 
 I’ve been mulling that sentence (and the ideas that support it) for most of the afternoon.
 
