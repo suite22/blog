@@ -31,4 +31,4 @@ Apple, or any company, is unlikely to reach a design solution that means less of
 
 So far no one has found a way to profit off your sleep. I'm okay with protecting my time and sleep myself. 
 
-Is Apple's aim to help you match your device to your mood or your mood to their device?
+Is Apple's aim to help you match the device to your mind-set or your mind-set to their device?
