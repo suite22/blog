@@ -3,7 +3,7 @@ layout: post
 title: Phone = Mood
 ---
 
-In Apple’s massive list of new features today at [WWDC](https://developer.apple.com/wwdc21/) is an option to “focus.” [Craig Federighi](https://www.apple.com/leadership/craig-federighi/)’s pitch was, “Focus is a new way to match your device to your current mind-set." 
+In Apple’s massive list of new features today at [WWDC](https://developer.apple.com/wwdc21/) is an option to “focus.” [Craig Federighi](https://www.apple.com/leadership/craig-federighi/)’s pitch was, “focus is a new way to match your device to your current mind-set." 
 
 <a title="Apple WWDC 2021 Keynote" href="https://youtu.be/0TD96VTf0Xs?t=1134"><img alt="Match phone to mind-set" src="/assets/wwdc-keynote2021-mood.gif"></a>
 
@@ -12,7 +12,7 @@ I’ve been mulling that sentence (and the ideas that support it) for most of th
 ## Control Flow
 Which way does the control flow? Do you change your device to match your mood or is your device changing your mood? 
 
-A study of smartphone users (the title is aptly called "Brain Drain") found that the mere presense of a phone, even when silenced, is enough to significantly lower our ability to focus on a task.
+A study of smartphone users (the title is aptly called "Brain Drain") found that the mere presence of a phone, even when silenced, is enough to significantly lower our ability to focus on a task.
 
 <blockquote class="quoteback" darkmode="true" data-title="Brain Drain: The Mere Presence of One’s Own Smartphone Reduces Available Cognitive Capacity" data-author="McCombs School of Business" cite="https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/">
 <div><div>Having a smartphone within sight or within easy reach reduces a person’s ability to focus and perform tasks because part of their brain is actively working to not pick up or use the phone.</div><br><div>“It’s not that participants were distracted because they were getting notifications on their phones,” said Ward. “The mere presence of their smartphone was enough to reduce their cognitive capacity.”</div></div>
