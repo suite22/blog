@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Ben Goertz</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="https://bengoertz.com/"/>
+ <updated>2021-06-20T20:58:45+00:00</updated>
+ <id>https://bengoertz.com</id>
+ <author>
+   <name>Ben Goertz</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Phone = Mood</title>
+   <link href="https://bengoertz.com//2021/06/07/match-mood/"/>
+   <updated>2021-06-07T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/06/07/match-mood</id>
+   <content type="html">&lt;p&gt;In Apple’s massive list of new features today at &lt;a href=&quot;https://developer.apple.com/wwdc21/&quot;&gt;WWDC&lt;/a&gt; is an option to “focus.” &lt;a href=&quot;https://www.apple.com/leadership/craig-federighi/&quot;&gt;Craig Federighi&lt;/a&gt;’s pitch was, “focus is a new way to match your device to your current mind-set.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Apple WWDC 2021 Keynote&quot; href=&quot;https://youtu.be/0TD96VTf0Xs?t=1134&quot;&gt;&lt;img alt=&quot;Match phone to mind-set&quot; src=&quot;/assets/wwdc-keynote2021-mood.gif&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been mulling that sentence (and the ideas that support it) for most of the afternoon.&lt;/p&gt;
+
+&lt;h2 id=&quot;control-flow&quot;&gt;Control Flow&lt;/h2&gt;
+&lt;p&gt;Which way does the control flow? Do you change your device to match your mood or is your device changing your mood?&lt;/p&gt;
+
+&lt;p&gt;A study of smartphone users (the title is aptly called “Brain Drain”) found that the mere presence of a phone, even when silenced, is enough to significantly lower our ability to focus on a task.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Brain Drain: The Mere Presence of One’s Own Smartphone Reduces Available Cognitive Capacity&quot; data-author=&quot;McCombs School of Business&quot; cite=&quot;https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/&quot;&gt;
+&lt;div&gt;&lt;div&gt;Having a smartphone within sight or within easy reach reduces a person’s ability to focus and perform tasks because part of their brain is actively working to not pick up or use the phone.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;“It’s not that participants were distracted because they were getting notifications on their phones,” said Ward. “The mere presence of their smartphone was enough to reduce their cognitive capacity.”&lt;/div&gt;&lt;/div&gt;
+&lt;footer&gt;McCombs School of Business&lt;cite&gt; &lt;a href=&quot;https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/&quot;&gt;https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.calnewport.com&quot;&gt;Cal Newport&lt;/a&gt;’s recent book “&lt;a href=&quot;https://bookshop.org/books/digital-minimalism-choosing-a-focused-life-in-a-noisy-world/9780525536512&quot;&gt;Digital Minimalism&lt;/a&gt;” is a good compliment to his older book “&lt;a href=&quot;https://bookshop.org/books/deep-work-rules-for-focused-success-in-a-distracted-world-9781455586677/9781455586677&quot;&gt;Deep Work&lt;/a&gt;”, which I think taken together point towards a better path. The most obvious option for silencing your devices is to leave them behind. Walk away.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-space&quot;&gt;Design Space&lt;/h2&gt;
+&lt;p&gt;Apple, or any company, is unlikely to reach a design solution that means less of what they make or profit from. One of the choices on the list of “Focus” options (in the gif above) includes sleep! Is sleep a “mind-set”?&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Sleep Is Our Competition&quot; data-author=&quot;Reed Hastings&quot; cite=&quot;https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition&quot;&gt;
+&lt;div&gt;&quot;You get a show or a movie you’re really dying to watch, and you end up staying up late at night, so we actually compete with sleep,” he said of his No. 1 competitor. Not that he puts too much stock in his rival: &quot;And we’re winning!&quot;&lt;/div&gt;
+&lt;footer&gt;Reed Hastings&lt;cite&gt; &lt;a href=&quot;https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition&quot;&gt;https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;So far no one has found a way to profit off your sleep. I’m okay with protecting my time and sleep myself.&lt;/p&gt;
+
+&lt;p&gt;Is Apple’s aim to help you match the device to your mind-set or your mind-set to their device?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Salon of Ideas</title>
+   <link href="https://bengoertz.com//2021/05/17/salon-of-ideas/"/>
+   <updated>2021-05-17T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/05/17/salon-of-ideas</id>
+   <content type="html">&lt;p&gt;It’s a little silly but over the years my brother and I have made several attempts to host a structured intellectual discussion, a sort of &lt;a href=&quot;https://en.wikipedia.org/wiki/Coffeehouse#History&quot;&gt;17th century coffeehouse&lt;/a&gt; or a &lt;a href=&quot;https://en.wikipedia.org/wiki/Salon_(gathering)&quot;&gt;salon&lt;/a&gt; of ideas with friends. We’re pretentious sometimes like that but our goal isn’t to be pompous. The hope is to learn and sharpen all our thinking - to move beyond the latest headline or gossip towards new perspectives and the roots of our beliefs, the stuff that makes every individual uniquely interesting.&lt;/p&gt;
+
+&lt;p&gt;Attempting to add some rigor or structure to group discussions is actually difficult. In our various attempts things tend towards a more normal open chat about whatever friends want. In person we end up having a good time either way. We talk about whatever is fun, or witty, or serious, and then we go home.&lt;/p&gt;
+
+&lt;p&gt;Online the problems of any sort of discussion are significantly more thorny. Debates online are usually terrible. Most efforts to help improve this seem (take for example &lt;a href=&quot;https://letter.wiki/conversation/1141&quot;&gt;Letter.wiki&lt;/a&gt;) to be fighting uphill against our tendency towards unstructured and bitesized comments. On Twitter the ratio of thoughtful discussions to shallow or frustrating noise is a perpetual letdown.&lt;/p&gt;
+
+&lt;p&gt;None of this is breaking news, the negatives of social media and the (related) decline of people’s engagement in deep discussions in-person have been written about extensively. So why am I writing about it, what is my goal? What can I do to counteract these societal trends? I want to live in a more thoughtful and articulate world, where discourse is elevated above simplistic slogans and instead leads to deeper introspection and understanding. How can we live out what sounds about as cliche as a campaign slogan itself? I’m going to keep killing the buzz at parties with dense discussion prompts. But what about online discussions?&lt;/p&gt;
+
+&lt;p&gt;I think the problem with most recommendations for improving online discussions, especially when centering around disinformation, is the focus on persuading others. Trying to move people who disagree with me, or you, towards views we think are better (obviously better - like only a FOOL would disagree!). But some research, and I think a slowly evolving consensus based on recent history, is that efforts to persuade can move people further away. The act of causing someone to notice their own views can shift them towards the extremes. This quote from the Sante Fe Institute’s Complexity podcast has stuck with me:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Podcast: The Physics of Attitudes &amp;amp; Beliefs&quot; data-author=&quot;Jonas Dalege&quot; cite=&quot;https://complexity.simplecast.com/episodes/57/transcript&quot;&gt;
+&lt;p&gt;&lt;i&gt;Pretty direct implication of our model is that what basically happens, if you have a discussion with a person you don't agree with, there's probably two things going on... because of this conversation, the other person will of course direct attention to the issue.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;And this in our model directly leads you to your beliefs, becoming more correlated and going to more extremes. So what then can happen is even if this person hears the information from your side, it might actually be that increase in attention and importance will actually move this person further away from you because this person's existing beliefs become more correlated and therefore this person becomes more extreme in the other direction.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;And I think for example, if you would tell a person that basically, well, you're wrong, this will basically just lead this person to become even more entrenched in his or her former beliefs. And so basically having an open mind and signaling, yeah, I have an open mind also for what would you think would probably reduce this tendency at least somewhat, and then maybe you can actually really have a good discussion and actually exchange information instead of just entrenching your beliefs even more...&lt;/i&gt;&lt;/p&gt;
+&lt;footer&gt;Jonas Dalege&lt;cite&gt; &lt;a href=&quot;https://complexity.simplecast.com/episodes/57/transcript&quot;&gt;https://complexity.simplecast.com/episodes/57/transcript&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;What is to be done? I think maybe the goal is not to directly change someone else’s mind but instead to sharpen your own thinking. Writing in particular illustrates how scattered your thoughts really are. Collecting my own thoughts can cause changes in myself that actually move me, not some intellectual opponent, closer to the change I’m hoping to see broadly in society.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Finding bugs without running or even looking at code&quot; data-author=&quot;Dick Guindon&quot; cite=&quot;https://youtu.be/FvNRlE4E9QQ?t=191&quot;&gt;
+&lt;div&gt;Writing is nature's way of letting you know how sloppy your thinking is.&lt;/div&gt;
+&lt;footer&gt;Dick Guindon&lt;cite&gt; &lt;a href=&quot;https://youtu.be/FvNRlE4E9QQ?t=191&quot;&gt;https://youtu.be/FvNRlE4E9QQ?t=191&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Before launching a barrage of (extremely witty and well reasoned) Tweets I can reflect to be less reactionary. Ponder to be more imaginative. Disengage to absorb fewer petty squabbles. Take the time to be more thoughtful. Read (and hopefully write) more of the longform content I enjoy that leads to insights compared to the flickering rage inducing screeds that scroll by on various feeds.&lt;/p&gt;
+
+&lt;p&gt;This really is one of those problems that can be solved through small changes individually that then bubble up through to the larger society level changes. Our own small efforts to have better discussions individually can shift the world away from shallow extremes and out into more interesting waters.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;The Midnight Library&quot; data-author=&quot;Matt Haig&quot; cite=&quot;https://bookshop.org/books/the-midnight-library-9780655697077/9780525559474&quot;&gt;
+&lt;div&gt;“Never underestimate the power of small things.&quot;&lt;/div&gt;
+&lt;footer&gt;Matt Haig&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/the-midnight-library-9780655697077/9780525559474&quot;&gt;https://bookshop.org/books/the-midnight-library-9780655697077/9780525559474&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Cover Oregon Failure</title>
+   <link href="https://bengoertz.com//2021/05/04/cover-oregon-overview/"/>
+   <updated>2021-05-04T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/05/04/cover-oregon-overview</id>
+   <content type="html">&lt;p&gt;If we’ve met in person you’ve probably heard me try to steer the conversation towards the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cover_Oregon#Website_failure&quot;&gt;Cover Oregon website failure&lt;/a&gt;. If only the site worked as well as the &lt;a href=&quot;https://www.youtube.com/watch?v=Dh9munYYoqQ&quot;&gt;“violently adorable” TV ads&lt;/a&gt;! To me it’s a software disaster as stunning as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Hindenburg_disaster&quot;&gt;Hindenburg&lt;/a&gt; and it happened right here in my own backyard. The blank stares after talking about it for 10 (or more) minutes tell me that not everyone shares my level of fascination. In particular, I find that people who work in software are the &lt;em&gt;least&lt;/em&gt; surprised, “Oh of course it failed! I bet the code was a mess!”  But why do we view the failure of massive software projects like this as almost inevitable?&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Sam Shere (1905–1982), Public domain, via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File:Hindenburg_disaster.jpg&quot;&gt;&lt;img alt=&quot;Hindenburg disaster&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/1c/Hindenburg_disaster.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Co-worker’s aren’t wrong about the odds of success, most large software projects tend to fail not just government projects. But we don’t talk about other types of engineering like this. Bridges rarely collapse even though civil engineers in the United States issue dire reports. Even rockets, AKA literal rocket science, launch &lt;em&gt;and land&lt;/em&gt; without much fanfare these days. Yet core parts of our state infrastructure can fail to deliver unemployment insurance correctly and the reporting focuses mostly on the high level political characters - as if it’s their fault the mainframes running COBOL can’t handle the crisis.&lt;/p&gt;
+
+&lt;p&gt;In an obvious sense it is a failure in leadership to let core systems fail through mismanagement and neglect. But that’s not the story of the Cover Oregon failure. The State and (mostly) Federal government spent over $300M for a new website that never launched. We didn’t even get to see a rocket explode during testing. Nothing. Any number greater than a dollar for &lt;em&gt;nothing&lt;/em&gt; seems like a bad deal.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happened&quot;&gt;What happened?&lt;/h2&gt;
+
+&lt;p&gt;Again if you’ve ever worked in software you can probably guess most of the root causes &lt;a href=&quot;https://github.com/suite22/oregon-healthcare-website-retro&quot;&gt;listed in the reporting&lt;/a&gt;: poor planning, terrible communication, lots of political CYA’ing, shoddy work, etc… And yet how can we have nothing to show for it all beyond lawsuits between the State and Oracle? Where is the code? What were the details of some of the terrible decisions?&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-we-learn&quot;&gt;What did we learn?&lt;/h2&gt;
+
+&lt;p&gt;That’s the core of the question that has kept me interested in this story. With the Hindenburg we stopped flying around in massive explode-y ships. We &lt;a href=&quot;https://practical.engineering/blog/2019/3/9/why-the-tacoma-narrows-bridge-collapsed&quot;&gt;built bridges differently&lt;/a&gt; after the Tacoma Narrows bridge collapsed. After the Challenger disaster &lt;a href=&quot;https://www.washingtonpost.com/archive/politics/1986/06/10/challenger-disaster-blamed-on-o-rings-pressure-to-launch/6b331ca1-f544-4147-8e4e-941b7a7e47ae/&quot;&gt;the commission named names&lt;/a&gt; and made significant changes to prevent another shuttle from exploding (the &lt;a href=&quot;https://www.space.com/challenger-final-flight-netflix-docuseries.html&quot;&gt;Netflix series&lt;/a&gt; is great!). Complex problems and projects &lt;a href=&quot;https://how.complexsystems.fail&quot;&gt;fail for complex reasons&lt;/a&gt; but after reading through the newspaper reporting, TV segments, lawsuits, and Congressional report it seems most of us (residents of the state and software engineers) learned next to nothing from the $300M+.&lt;/p&gt;
+
+&lt;p&gt;I plan to highlight the best portions in later posts from the Congressional report and lawsuits about the Cover Oregon failure, but there’s no &lt;a href=&quot;http://www.feynman.com/science/the-challenger-disaster/&quot;&gt;memorable Feynman-level insight&lt;/a&gt; that I’ve uncovered. There’s also been no major reform in how the State does business with Oracle. The lawsuits were ultimately settled and Oracle still sells software that is &lt;a href=&quot;https://patch.com/oregon/portland/oregon-settles-oracle-over-cover-oregon-fiasco&quot;&gt;critical to core operations in the State&lt;/a&gt;. We’re talking about a project failure that ultimately required &lt;a href=&quot;https://pamplinmedia.com/pt/9-news/294405-171739-documents-oracle-doesnt-want-you-to-read-&quot;&gt;daily updates to Larry Ellison&lt;/a&gt; - the co-founder and head of Oracle at the time. Lots of political fallout was &lt;a href=&quot;https://www.oregonlive.com/business/2014/08/oracle_cover_oregon_lawsuit.html&quot;&gt;placed on Governor Kitzhaber&lt;/a&gt; after he left office from unrelated scandals. But are they the only satisfying characters to blame as the figureheads at the top?&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-we-prevent-another-disaster&quot;&gt;How do we prevent another disaster?&lt;/h2&gt;
+
+&lt;p&gt;Beyond the specifics of the Oregon Cover failure, how and what should we change so we actually learn from the past? Talking with other smart folks I want to write about how we can improve - building software inside and outside government.&lt;/p&gt;
+
+&lt;p&gt;In future posts my hope is to find a way to tell you a story worth sticking around for - what happened, what did we learn, and how do we prevent another disaster.&lt;/p&gt;
+
+&lt;p&gt;My (rough) outline ahead is:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-what-is-code&quot;&gt;1. What is code?&lt;/h3&gt;
+&lt;p&gt;How do we talk about a software project failure in a way that everyone can follow along? What analogies or comparisons can we make to understand the scale? What does a bridge project cost? How much have other major software project failures cost? Paul Ford’s legendary 38K word article &lt;a href=&quot;https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/&quot;&gt;“What is code?”&lt;/a&gt; is a wonderful prompt for further exploration.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-reporting-on-software&quot;&gt;2. Reporting on Software&lt;/h3&gt;
+&lt;p&gt;I’ve spent hours reading and watching through the wonderful reporting done by newsrooms across the state: &lt;a href=&quot;https://twitter.com/JeffmanningOre&quot;&gt;Jeff Manning&lt;/a&gt; at The Oregonian, &lt;a href=&quot;https://twitter.com/NickBudnick&quot;&gt;Nick Budnick&lt;/a&gt; at the Portland Tribune, and &lt;a href=&quot;https://twitter.com/ChelseaKopta&quot;&gt;Chelsea Kopta&lt;/a&gt; at KATU in particular spent endless hours reporting the various angles of the story. The technical specifics of the project though are largely buried in source materials. How should technical failures be reported? Do people care about the details? Professionally, I still have questions about the high level architecture and a serious fascination with minutiae like: burn-down charts, team structures, source code, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-software-as-infrastructure&quot;&gt;3. Software as Infrastructure&lt;/h3&gt;
+&lt;p&gt;The analogy of software to roads and bridges is popular, but is it useful in this case? We grade the health of bridges in the State but do we grade the health of software used by the State? What is the state of our software infrastructure?&lt;/p&gt;
+
+&lt;h3 id=&quot;4-crash-investigators&quot;&gt;4. Crash Investigators&lt;/h3&gt;
+&lt;p&gt;When a plane crashes the NTSB is responsible for determining a root cause and making recommendations to improve overall safety for air travel. Should we have something like the NTSB for failed software projects?&lt;/p&gt;
+
+&lt;h3 id=&quot;5-software-engineering&quot;&gt;5. Software &lt;em&gt;Engineering&lt;/em&gt;?&lt;/h3&gt;
+&lt;p&gt;Is the field of engineering the best comparison for writing software? In the early days of the field people  had to fight for the title of “Software &lt;strong&gt;Engineer&lt;/strong&gt;” so that they would be taken as seriously as the other engineering disciplines. But is there a better analogy? Is writing software on a large team more like writing a novel together - software &lt;em&gt;novelists&lt;/em&gt;? Martin Fowler said that maybe a lawyer is a better comparison because what is software if not contracts between systems?&lt;/p&gt;
+
+&lt;h3 id=&quot;6-state-mishandling-vs-corporate-fraud&quot;&gt;6. State Mishandling vs Corporate Fraud?&lt;/h3&gt;
+&lt;p&gt;Did the State fail to properly manage the project? Did Oracle set out to rip the State off from the start? Who is ultimately responsible? Much of the reporting on the failure centered on these questions, and I’m not certain I will be the one to establish any new insights but I hope that a thorough review of the technical details can bring more satisfying answers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you also find this topic interesting I have an open-source &lt;a href=&quot;https://github.com/suite22/oregon-healthcare-website-retro&quot;&gt;repo on Github&lt;/a&gt; where I’ve been collecting source material and notes. If you have insights you would like to share please &lt;a href=&quot;https://twitter.com/suite22&quot;&gt;reach out on Twitter&lt;/a&gt;. I’ve spent a long time thinking this story and I’m excited to finally start sharing more of my findings here.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Into the Unknown</title>
+   <link href="https://bengoertz.com//2021/02/22/into-the-unknown/"/>
+   <updated>2021-02-22T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/02/22/into-the-unknown</id>
+   <content type="html">&lt;p&gt;Some of the teachers at our school have a quote in their email signatures that I love:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If you want to build a ship, don’t drum up people to collect wood and don’t assign them tasks and work, but rather teach them to long for the endless immensity of the sea.”&lt;/p&gt;
+
+  &lt;p&gt;~ &lt;a href=&quot;https://en.wikipedia.org/wiki/Antoine_de_Saint-Exupéry&quot;&gt;Antoine de Saint-Exupéry&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“&lt;a href=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;Beyond the Known&lt;/a&gt;” uses its quick 300 pages to launch a bright flare across the imagination.  There are lots of potential flaws in attempting to summarize all of (recorded) history into a popular book, but part of the magic of distilling and lining up events through the lens of exploration is the amazing comparisons across time - all of human history on Earth. Until reading this (and some of Jared Diamond’s chapter on Easter Island in &lt;a href=&quot;https://bookshop.org/books/collapse-how-societies-choose-to-fail-or-succeed/9780143117001&quot;&gt;Collapse&lt;/a&gt;) I don’t remember learning about how the Polynesians explored the distant islands scattered around the vast oceans but now I’m completely amazed! What would it have been like to explore a totally unknown ocean?&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Beyond the Known, page 38&quot; data-author=&quot;Andrew Rader&quot; cite=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;
+&lt;div&gt;If a future civilization were judging our accomplishments by, say, deciphering the characters on the Lincoln and Jefferson Memorials, they might never imagine that we'd traveled to the Moon. We can definitively recount some exploits of ancient people and guess about others, but we can never know with certainty the full magnitude of their achievements.&lt;/div&gt;
+&lt;footer&gt;Andrew Rader&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Andrew Rader’s goal with the book is I think a lot like teaching people to long for the sea: he briefly covers generation after generation setting out towards goals deemed next to impossible and then towards the end of the book points up at the open sea of space that’s calling us. I’m a sucker for that siren song. During &lt;a href=&quot;https://arstechnica.com/science/2021/02/humans-had-never-seen-a-spacecraft-land-on-another-planet-until-now/&quot;&gt;Perseverance’s landing on Mars&lt;/a&gt; the other day I had to contain myself while driving when the livestream I was listening to started roaring through the stereo as everyone at mission control cheered. We have so much to learn about everything around us.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Beyond the Known, page 160&quot; data-author=&quot;Andrew Rader&quot; cite=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;
+&lt;div&gt;Like Columbus, Magellan continued to massively underestimate the size of the world. In his imagination, the world's largest ocean shrank to a few days' sailing. Thus, two of the greatest explorations in history were grounded in profound ignorance.&lt;/div&gt;
+&lt;footer&gt;Andrew Rader&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;There are lots of books arguing for sending humans to Mars, but the strength of this book is the broader appeal to all exploration. I don’t share his gushing optimism for a future where exploration resolves all our collective ills, but it is a wonderful shared purpose to rally behind. Sections of his futuristic utopia echo Sagan’s positivity which is good company to join.&lt;/p&gt;
+
+&lt;p&gt;Each chapter is short, potentially bordering near Wikipedia summary length sometimes, but the great thing is all the ideas and related books that reading this has sparked for me. My concurrent (and slow moving) cruise through related books is a recent habit but I’m following up from “Beyond the Known” with a long list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/collapse-how-societies-choose-to-fail-or-succeed/9780143117001&quot;&gt;Collapse&lt;/a&gt; by Jared Diamond&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-silk-roads-a-new-history-of-the-world/9781101912379&quot;&gt;The Silk Roads&lt;/a&gt; by Peter Frankopan&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-map-of-knowledge-a-thousand-year-history-of-how-classical-ideas-were-lost-and-found/9781101974063&quot;&gt;The Map of Knowledge&lt;/a&gt; by Violet Moller&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/libraries-in-the-ancient-world-revised/9780300097214&quot;&gt;Libraries in the Ancient World&lt;/a&gt; by Lionel Casson&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-clock-of-the-long-now-time-and-responsibility-revised/9780465007806&quot;&gt;Clock of the Long Now&lt;/a&gt; by Stewart Brand&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/tupaia-captain-cook-s-polynesian-navigator/9780995130906&quot;&gt;Tupaia: Captain Cook’s Polynesian Navigator&lt;/a&gt; by Joan Druett&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-journals-of-lewis-and-clark-9780395859964/9780395859964&quot;&gt;The Journals of Lewis and Clark&lt;/a&gt; edited by Bernard Devoto&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-prehistoric-exploration-and-colonisation-of-the-pacific/9780521476515&quot;&gt;The Prehistoric Exploration and Colonisation of the Pacific&lt;/a&gt; by Geoffrey Irwin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A few more books will likely wander onto the list as I keep following the trail of interesting ideas and stories. If you have any suggestions or recommendations please share them with me!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Screaming into the Void of the Internet</title>
+   <link href="https://bengoertz.com//2020/12/06/screaming-into-the-internet-void/"/>
+   <updated>2020-12-06T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2020/12/06/screaming-into-the-internet-void</id>
+   <content type="html">&lt;h2 id=&quot;what-orwell-got-wrong&quot;&gt;What Orwell Got Wrong&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.everythingisaremix.info/&quot;&gt;Kirby Ferguson&lt;/a&gt;’s post “&lt;a href=&quot;https://link.medium.com/qhmdrKvX0bb&quot;&gt;Censored For 48 Hours&lt;/a&gt;” about the brief removal of one of his videos for “cyberbullying” has sparked some thoughts about ways to improve the content review process. I want to expand on several of his suggestions, about transparency and censorship, but you should start with his post first if you haven’t yet.&lt;/p&gt;
+
+&lt;p&gt;Kirby’s key point that censoring material can cause the inverse intention, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Streisand_effect&quot;&gt;Streisand effect&lt;/a&gt; (where more attention comes from being banned), points towards the path forward. Attention is the rare resource. Perception matters and as Kirby points out being banned can radicalize people with views in the gray zone. Platforms are failing at an impossible mission by trying to play the outright guardian of truth for all users. These companies should flip the script by giving all users the power to opt-in or opt-out of filtering efforts. You want to read the sitting President’s tweets, no matter how false they are deemed to be by the platform, then opt &lt;em&gt;out&lt;/em&gt; of warning labels on his tweets. Make the process available but full of friction so that the default choice means 90%+ of users experience content with additional context to fight disinformation. This step alone removes the rhetorical attack of people screaming “censorship” by side stepping the volley.&lt;/p&gt;
+
+&lt;p&gt;Orwell famously raised the dystopian nightmare of censorship in 1984 - Big brother, thought crimes, etc. The nuanced discussion (covered by many smarter folks) that when YouTube, Facebook, or Twitter remove “free speech” from their platforms it’s not the govenment that’s censoring speech but a private company no longer hosting it (for free). The complex truth is worth stating but these nuances miss the simplistic attack that rings true enough to most Americans. Having something you’ve written deemed “too much” for these sites &lt;em&gt;feels&lt;/em&gt; Orwellian. Some now wear it as a badge of honor. I have a greater fear of the vapid mental intake of most social media than platforms where political debates become too crass. Huxley’s view of a world where we entertain ourselves into oblivian rings truer to me than Orwell’s direct assault on truth.&lt;/p&gt;
+
+&lt;p&gt;What is more dangerous for an idea: that it dies in obsurity (as most of our thoughts and works do) or that they’re are deemed too dangerous (and gain the allure of the metaphorical apple from the tree of good and evil)? If you’ve ever tried to get attention online (for good or bad) you know that being ignored is far harsher than someone taking the time to disagree or even attack you. In many cases on the internet, and one of Trump’s greatest strengths, is truly that no news is bad news.&lt;/p&gt;
+
+&lt;p&gt;If a video strays too far from YouTube’s guidelines, the gradient of actions should only reach outright remove after:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Demonetize it (remove the economic incentive to dance along the line of the gray zone)&lt;/li&gt;
+  &lt;li&gt;De-prioritize it in the recommendation system (how the majority of videos gain viral reach)&lt;/li&gt;
+  &lt;li&gt;Disable comments (reduce engagement and the chance for even worse content to be highlighted by bad actors)&lt;/li&gt;
+  &lt;li&gt;De-prioritize it in search (Google already does this for web results)&lt;/li&gt;
+  &lt;li&gt;De-list so it’s only available via direct link&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Maybe some of these actions already happen? Kirby’s request for more transparency holds here. A community review board and other ways to determine why your views might be supressed are valid. The key here is that supression on the platform is not the same as censorship. Is this list of suggestions the perfect answer? No. And no system will be. I think the danger of the current approach from Twitter and Facebook in particular is that Congress will potentially introduce oversight which could be far more complex and less effective (potentially, I know smart folks are debating options). And the other clear outcome is that users are leaving for far more dangerous platforms where oversight might not even reach - Parler, 8chan, and dark corners of Reddit for example (how on earth has the management of Reddit avoided being hauled before congress?). We are better off sharing common spaces with ideas we disagree with than fracturing into corners where we no longer see any common ground.&lt;/p&gt;
+
+&lt;p&gt;Companies like YouTube want users to spend time on the site for advertising and they don’t want the platform to become so toxic that users or advertisers leave. I also want to be on platforms with protections so that I don’t receive death threats or view reprehensible things. Remember that many abhorrent types of content are already governed by strict laws in the U.S. My argument here is for speech that falls into the debatable gray zone - not beheadings.&lt;/p&gt;
+
+&lt;p&gt;There is a key distinction between stopping the spread of misinformation and trying to stop the &lt;em&gt;existence&lt;/em&gt; of misinformation. Information, however bad or dangerous it might be, will find a way to replicate and exist on the internet as long as data is basically free to copy and store. This post is hosted for free on Github and could be de-platformed but I can take my markdown files to basically any other host and continue. At worst my git repo (nerd speak for backups) that stores all the files is copied to several of my machines. De-platforming me would do almost nothing to stop these ideas from existing other than maybe making it annoying for me to share it (which can be effective for low propensity bullshitters!) and could help the moderators at Github / Microsoft feel a little better. It’s the spread of “bad” ideas that platforms can help with, not cleaning up all bad ideas.&lt;/p&gt;
+
+&lt;p&gt;Social media is terrible but some form of it will be with us for a long time. Leave terrible ideas to exist and scream into the dark empty void of internet space. Don’t give fuel to bad ideas by giving them the allure of being dangerous. Use censorship as only the last resort. Reduce the attacks against platforms by giving users a burdensome process to opt-out.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>If You Hear The Music</title>
+   <link href="https://bengoertz.com//2020/12/03/wood-plane/"/>
+   <updated>2020-12-03T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2020/12/03/wood-plane</id>
+   <content type="html">&lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/38458933?byline=0&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I love the closing story in &lt;a href=&quot;https://incisive.nu&quot;&gt;Erin Kissane&lt;/a&gt;‘s talk (about 33:00 in) from James Krenov:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When you have the right plane and you understand the wood and you slide the plane across the wood. The sound that comes across isn’t just an ugly sound or a vibration, you’re actually making music.
+If you hear the music that means you’re doing it right. You have the right system, the right wood, the right touch, you’re making the right thing.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m a sucker for stories about woodworking but I’m trying to hold off from falling down that rabbit hole as a hobby. The number of software developer souls lost to handcrafts is immense.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="https://bengoertz.com//2020/12/01/hello-world/"/>
+   <updated>2020-12-01T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2020/12/01/hello-world</id>
+   <content type="html">&lt;p&gt;It’s trite to open a blog with an “Initial commit” style post, but I think I’ve finally got Jekyll reasonably configured and working! It only took a few weeks 😂 from when I first started poking around and joking about it on Twitter to now.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;m going to attempt to setup a blog section of my site using Jekyll and github actions. Let&amp;#39;s see how long this takes...&lt;/p&gt;&amp;mdash; Ben Goertz (@suite22) &lt;a href=&quot;https://twitter.com/suite22/status/1323074787812417536?ref_src=twsrc%5Etfw&quot;&gt;November 2, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Thankfully it was only a couple hours after work a few nights.&lt;/p&gt;
+
+&lt;p&gt;My personal site has been static HTML and CSS for years now and my hope is now that I’ve got this running as a Github action on commit it’ll keep working for… who am I kidding! I know I’ll have to cajole this thing back to life whenever some upstream dependency changes. The hope is that keeping important writings (like this significant achievement here) in markdown files will make the eventual migration to the future easier.&lt;/p&gt;
+
+&lt;p&gt;I’m mostly writing all this to laugh at myself in the future.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Learning by Powers of 10</title>
+   <link href="https://bengoertz.com//2012/05/14/learning-by-powers-of-10/"/>
+   <updated>2012-05-14T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2012/05/14/learning-by-powers-of-10</id>
+   <content type="html">&lt;p&gt;“The ability to collect, store, and manage data is increasing quickly, but our ability to understand it remains constant.” ~ Ben Fry – &lt;a href=&quot;http://benfry.com/phd/&quot;&gt;Computational Information Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gathering-information&quot;&gt;GATHERING INFORMATION&lt;/h2&gt;
+&lt;p&gt;We’re great at reading, gathering, searching, and finding new and interesting ideas. With search engines now almost anything on the internet can be found using the right keywords. The problem now is not finding information, but sorting and relating it to other information we already know. We start doing this sorting and categorizing at a young age – this is a dog, it’s an animal; this is a cat, it’s also an animal. Slowly over time the number of categories and items we understand expands through learning – Kampala is the capital of Uganda, which is a country in Africa, which is one of 7 continents. These layers can become quite complex and deep. As I learn more about Uganda I store it away in my mind with other information about the country or maybe even relating it to some of its neighboring countries.&lt;/p&gt;
+
+&lt;h2 id=&quot;context-is-everything&quot;&gt;CONTEXT IS EVERYTHING&lt;/h2&gt;
+&lt;p&gt;Once we have a basic framework, we start to hang new information around what we already know. However, without an understanding of the big picture new information can seem meaningless. For example, in my economics class we jumped straight into utility theory formulas without discussing the broader context of how and why we need to analyze individuals utility preferences.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/powers-of-10-micro-econ.jpg&quot; alt=&quot;micro economics class notes about utility preferences&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After looking at these graphs long enough I started to build an understanding on my own, but only through repeated rote exercises – copying the board directly from the professor. If instead we could slowly zoom further in to each level of detail, the foundation for each idea would be much firmer. The best example of this idea of zooming if of course Powers of 10 by Ray &amp;amp; Charles Eames:&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube-nocookie.com/embed/0fKBhvDjuy0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Why don’t we have a massive Powers of 10-esque way of presenting knowledge? We have Wikipedia, but right now we can only see one page at a time. The average person can’t aggregate data into any sort of meaningful visual form.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-as-exploration&quot;&gt;LEARNING AS EXPLORATION&lt;/h2&gt;
+&lt;p&gt;Once a beginner sees the big picture – micro vs macro economics – its time to zoom into those groups for more information. &lt;a href=&quot;https://prezi.com&quot;&gt;Prezi&lt;/a&gt; presentations are the most popular way to visually represent this movement. Concepts only become visible once we zoom down through the larger items.&lt;/p&gt;
+
+&lt;p&gt;These broad sweeps of information should not be limited to something that only the professor does as part of a presentation. By visually representing the data so students can explore and relate interesting ideas on their own, learning can become exploratory and interesting again.&lt;/p&gt;
+
+&lt;p&gt;Imagine a zoomable Prezi for any topic you want to learn that has detailed layers that allow you to skim the broad concepts or learn all the way down to ongoing research.&lt;/p&gt;
+
+&lt;p&gt;The problem with Prezi’s is that the proportions and layers are all built individually by the presenter. We need a new system that allows the data to persist between Prezi’s, for this web to expand through the efforts of everyone just like Wikipedia is built by the masses instead of one author.&lt;/p&gt;
+
+&lt;h2 id=&quot;big-history&quot;&gt;BIG HISTORY&lt;/h2&gt;
+&lt;p&gt;Microsoft’s &lt;a href=&quot;https://www.microsoft.com/en-us/research/project/chronozoom/&quot;&gt;ChronoZoom&lt;/a&gt; research project is one of the best examples I’ve seen of trying to give the broadest sense of context with an ability to zoom in to what interests you. ChronoZoom is part of the broader field of &lt;a href=&quot;http://en.wikipedia.org/wiki/Big_History&quot;&gt;Big History&lt;/a&gt; – best summarized by &lt;a href=&quot;http://www.ted.com/talks/david_christian_big_history.html&quot;&gt;David Christian at TED&lt;/a&gt; – which tries to place human history within the context of the full history of the universe. Imagine learning history in school with this massive level of context that’s fully zoomable.&lt;/p&gt;
+
+&lt;h2 id=&quot;not-just-pretty-computable&quot;&gt;NOT JUST PRETTY; COMPUTABLE&lt;/h2&gt;
+&lt;p&gt;I keep talking about representing the ideas or data visually but the key here is that the web of information isn’t just a static mindmap that’s used once; instead by defining the relationships between items we can sort, pivot, rotate, filter, and re-organize the data in ways that answer questions. These sorts of questions are the ones I hope to answer and illustrate in future postings.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
