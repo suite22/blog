@@ -125,6 +125,10 @@ nav:
 
 I love the intent behind [Quoteback](https://quotebacks.net) and my goal is to use them whenever I cite someone else. 
 
+## Interactive articles
+
+I'd like to try writing some interactive [explorable explanations](https://explorabl.es) and I think this [Curvenote](https://curvenote.dev) option looks interesting.
+
 ## Oops!
 
 Something broke again. Did I / you / me remember to:
