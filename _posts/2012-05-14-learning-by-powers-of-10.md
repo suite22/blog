@@ -15,8 +15,9 @@ Once we have a basic framework, we start to hang new information around what we 
 
 After looking at these graphs long enough I started to build an understanding on my own, but only through repeated rote exercises – copying the board directly from the professor. If instead we could slowly zoom further in to each level of detail, the foundation for each idea would be much firmer. The best example of this idea of zooming if of course Powers of 10 by Ray & Charles Eames:
 
-<iframe width=640 height=480 src="https://www.youtube-nocookie.com/embed/0fKBhvDjuy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width=640 height=480 src="https://www.youtube-nocookie.com/embed/0fKBhvDjuy0" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
+<br>
 Why don’t we have a massive Powers of 10-esque way of presenting knowledge? We have Wikipedia, but right now we can only see one page at a time. The average person can’t aggregate data into any sort of meaningful visual form.
 
 ## LEARNING AS EXPLORATION
