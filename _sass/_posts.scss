@@ -12,6 +12,12 @@
   }
 }
 
+// Using with idyll-embed
+.idyll-dynamic {
+  text-decoration: underline;
+  text-decoration-style: dotted
+}
+
 // Blog post or page title
 .page-title,
 .post-title {
