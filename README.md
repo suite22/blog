@@ -127,7 +127,7 @@ I love the intent behind [Quoteback](https://quotebacks.net) and my goal is to u
 
 ## Interactive articles
 
-I'd like to try writing some interactive [explorable explanations](https://explorabl.es) and I think this [Curvenote](https://curvenote.dev) option looks interesting.
+I'd like to try writing some interactive [explorable explanations](https://explorabl.es). The main tools I've looked at are [Curvenote](https://curvenote.dev) and [idyll](https://github.com/idyll-lang). I used [idyll-embed](https://github.com/idyll-lang/idyll-embed) to create the first explorable on the site - [Exploring the Drake Equation](https://bengoertz.com/2021/11/22/drake-equation/).
 
 ## Oops!
 
