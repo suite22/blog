@@ -15,8 +15,10 @@ I'm learning about the Cover Oregon project failure from several years ago. My n
 
 I've been gathering [notes related to complex systems](/complex-systems). Please get in contact through [Twitter](https://twitter.com/suite22) if you have related reading suggestions or want to chat more.
 
-### Reading List
+### Related Reading
 
+* [Thinking in Systems](https://bookshop.org/books/thinking-in-systems-international-bestseller/9781603580557) by Donella Meadows
+* [What is Code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) by Paul Ford
 * [The Logic of Failure](https://bookshop.org/books/the-logic-of-failure-recognizing-and-avoiding-error-in-complex-situations/9780201479485) by Dietrich Dörner
 
 --- 
