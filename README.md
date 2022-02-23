@@ -1,5 +1,7 @@
 # Personal Site powered by Jekyll 
 
+[![Build and deploy Jekyll site to GitHub Pages](https://github.com/suite22/blog/actions/workflows/jekyll.yml/badge.svg?branch=master)](https://github.com/suite22/blog/actions/workflows/jekyll.yml)
+
 I forked the theme from dark-poole with the goal of hosting a "simple" site that I can publish to and write using markdown files and hopefully as little fuss as possible. 
 
 To serve locally use:
