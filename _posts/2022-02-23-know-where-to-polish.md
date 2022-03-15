@@ -3,7 +3,7 @@ layout: post
 title: Know Where to Polish
 ---
 
-Software engineers are typically drawn to the ideals of [craftsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship). Many [books](https://bookshop.org/books/clean-code-a-handbook-of-agile-software-craftsmanship/9780132350884) and blogs praise caring deeply about code in a similar way to an artisanal woodworker caring about every detail of the wood they work with. 
+Software engineers are typically drawn to the ideals of [craftsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship). Many [books](https://bookshop.org/books/clean-code-a-handbook-of-agile-software-craftsmanship/9780132350884) and blogs praise caring deeply about code in a similar way to an artisanal woodworker caring about every detail of the wood they shape. 
 
 This story about Steve Jobs comes to mind for me:
 
@@ -28,7 +28,7 @@ Am I suggesting we leave wood scraps and saw dust all over the work area? No.
 
 But some of the best video editors I’ve worked with leave horrific messes while working. They focus relentlessly though on every moment in the final edit being exactly how they want. The names of the tracks? The folders where things are stored? The versions of the project file name? Chaotic to an outside observer. It can be hard to collaborate and work along side folks like that, but their completed work speaks for itself.
 
-Given the ideal option we all want to be great at every step along the way. But your music, film, and code don’t matter if the final thing that people experience is not good. Perfectly organizing and endlessly debating parts of the intermediate stage, anything that doesn’t affect the final product, is missing the big picture.
+Given the ideal option we all want to be great at every step along the way. But your music, film, and code don’t matter if the final thing that people experience is not good. Perfectly organizing and endlessly debating parts of the _intermediate_ stage, anything that doesn’t affect the final product, is missing the big picture.
 
 Most of Apple’s sample iOS code wouldn’t pass the corporate code review gauntlets at the large places I’ve worked. Yet many engineers I know aspire to work at Apple, where only the best engineers make it through the hiring process. Apple’s sample code is a teaching tool _not_ the final product. Engineers want to work there because we respect what they _ship_. Not the sample code. They know what they’re doing. 
 
