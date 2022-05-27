@@ -24,3 +24,7 @@ My wife Lisa and I have a favorite song from Jason Isbell called "If We Were Vam
 Born in Hartselle 85 years ago, he told Pam recently he was able to do just about everything he wanted to do in his life. He spent his final days near the banks of the Tennessee river with sunshine coming in gently through the trees in their backyard warming his room overflowing with love. A life well lived.
 
 There's a hole now in the tree canopy. A once giant tree is gone. It's hard to know how we'll make it without his love and support always there to protect us. But he helped us put down strong roots. Sheltered us from storms as we grew up. I hope to be able to do the same for my family. To provide shelter, shade and support for the little roots taking hold below and their branches reaching up towards the light. May we grow to fill the great opening with love as strong as him.
+
+---
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/657276889?h=248ba2f93b&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
