@@ -143,7 +143,7 @@ chruby 2.7.2
 ```
 
 ### M1 Processor
-Did you try to install Ruby on an M1 iMac and read through several blog posts? Read this and update `ffi` https://www.moncefbelyamani.com/how-to-install-homebrew-and-ruby-on-a-mac-with-the-m1-apple-silicon-chip/
+Did you try to install Ruby on a Mac with Apple silicon and read through several blog posts? Read this and update `ffi` https://www.moncefbelyamani.com/how-to-install-homebrew-and-ruby-on-a-mac-with-the-m1-apple-silicon-chip/
 
 ## License
 
