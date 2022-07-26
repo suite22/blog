@@ -7,6 +7,8 @@ author: Ben Goertz
 
 # Subversion 
 
+<a title="DALL·E Info" href="https://labs.openai.com/s/AWqqhYIwbsZ9Uxs2Na1PbLsC"><img alt="Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance" src="../../assets/dalle2-subversion-botany.jpg"></a>
+
 Inside the research bubble my attention is drawn not to the distinct hum of each miniaturized botany experiment neatly ordered within the clean space but to the fluctuation of the competing sounds together - sometimes the sound waves forming an almost harmonious unified chorus and then drifting to discordance. The collective sound of all the machines is never stable enough for my brain to silence it as background noise. It's annoying when I'm trying to keep the trail of movements in my encoded puzzles fresh in my memory. 
 
 Abruptly breaking through the sound and into the research bubble is Carl, "you got another message Ada. Metadata says the cache today has a response from Dr. Quorn for you. Should be out of confirmation analysis in a bit."
