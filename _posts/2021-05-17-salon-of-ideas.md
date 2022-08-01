@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Salon of Ideas
+image: https://commons.wikimedia.org/wiki/File:Abraham_Bosse_Salon_de_dames.jpg
 ---
 
 It's a little silly but over the years my brother and I have made several attempts to host a structured intellectual discussion, a sort of [17th century coffeehouse](https://en.wikipedia.org/wiki/Coffeehouse#History) or a [salon](https://en.wikipedia.org/wiki/Salon_(gathering)) of ideas with friends. We’re pretentious sometimes like that but our goal isn't to be pompous. The hope is to learn and sharpen all our thinking - to move beyond the latest headline or gossip towards new perspectives and the roots of our beliefs, the stuff that makes every individual uniquely interesting. 

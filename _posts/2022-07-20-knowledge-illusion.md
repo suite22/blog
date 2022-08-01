@@ -2,7 +2,6 @@
 layout: post
 title: The Illusion of Knowledge
 image: https://images-us.bookshop.org/ingram/9780399184369.jpg?height=200&v=v2
-author: Ben Goertz
 ---
 
 There’s a simple experiment in cognitive science, easily self-administered, to measure how well we think we know something:

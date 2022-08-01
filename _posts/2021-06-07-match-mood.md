@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Phone = Mood
+image: https://images-us.bookshop.org/ingram/9780525536512.jpg?height=500&v=v2
 ---
 
 In Apple’s massive list of new features today at [WWDC](https://developer.apple.com/wwdc21/) is an option to “focus.” [Craig Federighi](https://www.apple.com/leadership/craig-federighi/)’s pitch was, “focus is a new way to match your device to your current mind-set." 

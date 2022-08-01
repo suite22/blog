@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tape Wizard and the Magic of Short Docs
+image: http://www.amuletsmusic.com/img/amulets%20between%20distant%20and%20remote%20cover.jpeg
 ---
 
 I found this great mini-doc today about [Amulets](http://www.amuletsmusic.com) - a local Portland musician who makes incredible ambient music using, as the doc shows, tape recorders from Goodwill and other amazing lo-fi parts.

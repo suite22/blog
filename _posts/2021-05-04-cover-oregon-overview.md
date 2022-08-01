@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Cover Oregon Failure
+image: https://commons.wikimedia.org/wiki/File:Hindenburg_disaster.jpg
 ---
 
 If we've met in person you've probably heard me try to steer the conversation towards the [Cover Oregon website failure](https://en.wikipedia.org/wiki/Cover_Oregon#Website_failure). If only the site worked as well as the ["violently adorable" TV ads](https://www.youtube.com/watch?v=Dh9munYYoqQ)! To me it's a software disaster as stunning as the [Hindenburg](https://en.wikipedia.org/wiki/Hindenburg_disaster) and it happened right here in my own backyard. The blank stares after talking about it for 10 (or more) minutes tell me that not everyone shares my level of fascination. In particular, I find that people who work in software are the _least_ surprised, "Oh of course it failed! I bet the code was a mess!"  But why do we view the failure of massive software projects like this as almost inevitable? 

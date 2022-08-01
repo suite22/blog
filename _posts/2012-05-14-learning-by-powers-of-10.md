@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Learning by Powers of 10
+image: /assets/powers-of-10-micro-econ.jpg
 ---
 
 “The ability to collect, store, and manage data is increasing quickly, but our ability to understand it remains constant.” ~ Ben Fry – [Computational Information Design](http://benfry.com/phd/)
