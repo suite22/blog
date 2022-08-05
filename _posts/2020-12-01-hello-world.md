@@ -5,7 +5,7 @@ title: Hello World
 
 It's trite to open a blog with an "Initial commit" style post, but I think I've finally got Jekyll reasonably configured and working! It only took a few weeks 😂 from when I first started poking around and joking about it on Twitter to now. 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m going to attempt to setup a blog section of my site using Jekyll and github actions. Let&#39;s see how long this takes...</p>&mdash; Ben Goertz (@suite22) <a href="https://twitter.com/suite22/status/1323074787812417536?ref_src=twsrc%5Etfw">November 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I&#39;m going to attempt to setup a blog section of my site using Jekyll and github actions. Let&#39;s see how long this takes...</p>&mdash; Ben Goertz (@suite22) <a href="https://twitter.com/suite22/status/1323074787812417536?ref_src=twsrc%5Etfw">November 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Thankfully it was only a couple hours after work a few nights. 
 
