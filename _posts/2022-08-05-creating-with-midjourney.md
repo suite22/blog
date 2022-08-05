@@ -43,6 +43,6 @@ I learned a few tips about inputting the same `seed` value to try to produce sim
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">I am still overwhelmed with how much this feels like peering into another world that I can only get glimpses of for a moment. <a href="https://t.co/OMMkE45Vsk">pic.twitter.com/OMMkE45Vsk</a></p>&mdash; Ben Goertz (@suite22) <a href="https://twitter.com/suite22/status/1555400662166278145?ref_src=twsrc%5Etfw">August 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I still haven't settled on what these swirls of feelings are from using MidJourney. It feels like a universe of stories I can only dip into and come back to reality with a few images. When I plunge back down into the river, the stories are different, the images change. There's no firm control, but it's an incredible opening into new worlds.
+I still haven't settled on what these swirls of feelings are from using MidJourney. It feels like a universe of stories I can only dip into and come back to reality with [a few images](https://www.midjourney.com/app/users/779155509735325768/). When I plunge back down into the river, the stories are different, the images change. There's no firm control, but it's an incredible opening into new worlds.
 
 ![MidJourney A Telescope in the Distance](/assets/midjourney/midjourney-hilltop-telescope.jpg)
