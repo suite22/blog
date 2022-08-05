@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Fed Lines From My Short Story Into DALL·E
-image: assets/dalle2-subversion-madmen-among-the-stars.jpg
+image: /assets/dalle2-subversion-madmen-among-the-stars.jpg
 ---
 
 When you save an image from [Open AI](https://openai.com)'s [DALL·E](https://openai.com/dall-e-2/) to your collection on the site, the attribution says your name x DALL·E "Human & AI":
