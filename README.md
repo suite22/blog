@@ -64,6 +64,14 @@ To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, 
 $ bundle exec jekyll serve
 ```
 
+Ah, but say you want to include [draft posts](https://jekyllrb.com/docs/posts/#drafts). Add this build flag:
+
+```bash
+$ bundle exec jekyll serve --draft
+```
+
+Drafts should be added to the `_drafts` folder without a date as a prefix in the filename. 
+
 Open <http://localhost:4000> in your browser, and voilà.
 
 ### 4. Serving it up
