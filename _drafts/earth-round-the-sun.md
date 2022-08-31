@@ -13,7 +13,7 @@ Why in the night sky are the lights hung?
 <footer>Blue Spotted Tail<cite> <a href="https://www.fleetfoxes.co/music/helplessness-blues">https://www.fleetfoxes.co/music/helplessness-blues</a></cite></footer>
 </blockquote><script src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-I'm thinking about this data driven astronomy class. I'm thinking about how Galileo ground his own lenses to discover the moons and rings of Saturn. The opening scientific rounds from the James Webb telescope will be completely free and open to the public. There's basically a developers guide for using the telescope! 
+I'm thinking about this [data-driven astronomy class](https://www.coursera.org/learn/data-driven-astronomy) I'm taking. I'm thinking about how Galileo ground his own lenses to discover the moons and rings of Saturn. The opening scientific rounds from the James Webb telescope will be completely free and open to the public. There's a [developers guide for using the telescope](https://jwst-docs.stsci.edu)! 
 I'm thinking about the power of Open Space and how we can explore from anywhere with a little bit of effort. Hours of explorations are free on YouTube. 
 
 I'm thinking about Frank Drake's life and his book, "Is Anyone Out There?". Decades of work and him sitting on the sofa drinking a coke in "Five Billion Years of Solitude". Reading about the Rio 2.0 scale for the significance of a detection. What Drake really longed for is a bi-directional communication. A real chat. Not just a message to us but also from us. We hear you loud and clear and we're here. 
