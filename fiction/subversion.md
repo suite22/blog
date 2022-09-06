@@ -5,9 +5,41 @@ image: ../../assets/dalle2-subversion-tree.jpg
 author: Ben Goertz
 ---
 
+<script>
+    const knownDreamers = ['alone', 'dalle', 'midjourney'];
+    // An inline script to keep it simple with Jekyll.
+    function changeTo(dreamer) {
+        const dreamerSelector = document.querySelectorAll('.' + dreamer);
+        // Enable selected dreamer
+        for (let i = 0; i < dreamerSelector.length; i++) {
+            dreamerSelector[i].style.setProperty('display', 'contents');
+        }
+        // Bold the link to select at top of page
+        const dreamerLinkSelector = document.getElementById(dreamer + 'Link')
+        dreamerLinkSelector.style.setProperty('font-weight', 'bold');
+
+        // Hide all other dreamers
+        const hiddenDreamers = knownDreamers.filter(function(e) { return e !== dreamer });
+        for (let j = 0; j < hiddenDreamers.length; j++) {
+            // Reset bold for hidden dreamers
+            const hideDreamerLinkSelector = document.getElementById(hiddenDreamers[j] + 'Link');
+            hideDreamerLinkSelector.style.setProperty('font-weight', 'normal');
+            const hideDreamerSelector = document.querySelectorAll('.' + hiddenDreamers[j]);
+            for (let k = 0; k < hideDreamerSelector.length; k++) {
+                hideDreamerSelector[k].style.setProperty('display', 'none');
+            }
+        }
+    }
+</script>
+
+> _Dream with:_
+<a id="midjourneyLink" href="javascript:void(0)" onclick="changeTo('midjourney');">Midjourney</a>
+<a id="dalleLink" href="javascript:void(0)" onclick="changeTo('dalle');">Dalle</a>
+<a id="aloneLink" href="javascript:void(0)" onclick="changeTo('alone');">Alone</a> 
+
 # Subversion 
 
-<a title="DALL·E Info" href="https://labs.openai.com/s/AWqqhYIwbsZ9Uxs2Na1PbLsC"><img alt="Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance" src="../../assets/dalle2-subversion-botany.jpg"></a>
+<div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/AWqqhYIwbsZ9Uxs2Na1PbLsC"><img alt="Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance" src="../../assets/dalle2-subversion-botany.jpg"></a></div>
 
 Inside the research bubble my attention is drawn not to the distinct hum of each miniaturized botany experiment neatly ordered within the clean space but to the fluctuation of the competing sounds together - sometimes the sound waves forming an almost harmonious unified chorus and then drifting to discordance. The collective sound of all the machines is never stable enough for my brain to silence it as background noise. It's annoying when I'm trying to keep the trail of movements in my encoded puzzles fresh in my memory. 
 
@@ -29,7 +61,7 @@ I enjoy discussing research with Carl even though our work is focused on differe
 
 The heavy respirator with my oversized hazard suit crumples awkwardly on my young form. The gravel under my boots has a different crunch than I have ever heard while walking to the gate sealing in our station. As we wait for the gate to open, a process my father has been through hundreds of times, I want to see his warm smile as he turns to me but his eyes are the only part of him I recognize, "stay close to me. I'll show you where the first sensors are that we need to service." My heart pounds in my ears over the cycle of the respirator as we step out together into the Exclusion Zone.
 
-<a title="DALL·E Info" href="https://labs.openai.com/s/cJdBbdqbok1m9kutzI0GV79H"><img alt="A large oak tree with a low branch reaching towards the ground in a wooded glen with fallen leaves and brown ferns at golden hour" src="../../assets/dalle2-subversion-tree.jpg"></a>
+<div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/cJdBbdqbok1m9kutzI0GV79H"><img alt="A large oak tree with a low branch reaching towards the ground in a wooded glen with fallen leaves and brown ferns at golden hour" src="../../assets/dalle2-subversion-tree.jpg"></a></div>
 
 At some point the paved service road had been so broken open by grasses and weeds that it was chipped up into more of a loose path. We walk along the uneven road and then fork off into the woods near a massive barren tree screaming up overhead slowly decaying. One large branch drooping to the ground, almost like a helpful inclined ramp for the few animals left to explore the great tree. The sadness of the tree reminds me of some of the bedtime stories my father told. Instead of fairy tales he would tell stories about things he found in the Exclusion Zone. His primary research focused on plant and animal regeneration within the zone but his passion, what kept him up late into the night in his study, was the restoration of lost works. Stories, poems, even graffiti, he photographed and copied anything that had a chance of holding lost meaning. Several colleagues met with him regularly at our house comparing translations of works that had been found in various languages, each attempting to weave back to the original author's language or intent. The joy and the warmth that poured out of their debates felt warmer to me than any fire we huddled around later to hear readings. They drank and laughed together, savoring every recovered gem with endless excitement. My father told stories from before Doomsday about the forests and the animals that used to roam the area. His voice slowly drifting towards sadness as he talked about what was lost. Gone now and never coming back. He mourned the organic and the man-made. Tales of lost species took him on endless trails to works from his youth. 
 
@@ -57,7 +89,7 @@ When my father turns back to me I see almost the same crazed eyes I saw earlier 
 
 Outside, we lock the door. His only words are, “I’ll take care of it later.”
 
-<a title="DALL·E Info" href="https://labs.openai.com/s/HA9OrHHtU4lD86pmV37sXGVi"><img alt="The station as the rouge sunset flares" src="../../assets/dalle2-subversion-rouge-sunset.jpg"></a>
+<div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/HA9OrHHtU4lD86pmV37sXGVi"><img alt="The station as the rouge sunset flares" src="../../assets/dalle2-subversion-rouge-sunset.jpg"></a></div>
 
 We make it back to the station as the rouge sunset flares on the horizon over the group of small structures in our research outpost. After decontamination we look through the photos from our day in his work room: dried skat from a herbivore, black and gray fur scraped into the rough bark of a tree, and the paw prints we studied. Incomplete stories, but now I have experienced the pieces that my father draws from. We add the best to the walls of his study, covered with overlapping photos and pages many found by him or shared by a colleague digging through rubble in one of the zones. After several drinks and loud debates my father usually bursting into laughter. He was constantly floating between deeply serious and spontaneously funny. 
 
@@ -106,7 +138,7 @@ My application however said "accepted: Active Research Position I."
 
 I sat for a long time trying to tease out the series of steps that led to a universe where someone as intelligent as my father would be denied for something so clearly false. How could any of this be true?
 
-<a title="DALL·E Info" href="https://labs.openai.com/s/mVtBowlRNkQnGGhYHDHizc11"><img alt="As the light through the window cast shadows slowly across each photo and text on the wall" src="../../assets/dalle2-subversion-light-through-window.jpg"></a>
+<div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/mVtBowlRNkQnGGhYHDHizc11"><img alt="As the light through the window cast shadows slowly across each photo and text on the wall" src="../../assets/dalle2-subversion-light-through-window.jpg"></a></div>
 
 As the light through the window cast shadows slowly across each photo and text on the wall I sat for a long time silently. Reports in various states of review and completion lay in loose piles on his desk. He hated politics. He spoke only of the inappropriate oversight of the data from his research. As my anger soared I opened drawers and picked through pages looking for this subversion they claimed existed. In the back of a drawer under a book I found a list of short, coded symbols - I immediately felt their repulsive intent. The light in the room shifted like a sudden eclipse from one of the moons and there in the doorway stood my father. "Be careful what you leave written down, it might travel farther than you think."
 
@@ -114,7 +146,7 @@ As we sat silently drinking his favorite rare gin it felt wasted on us. He was t
 
 > "We build what we do not understand and we know what we have done only once we destroy the systems upon which we depend. We are mad men among the stars. It is up to each of us to prevent more destruction."
 
-<a title="DALL·E Info" href="https://labs.openai.com/s/1SBsmSI2fNZQ3bwlhTnL5f1u"><img alt="We are mad men among the stars" src="../../assets/dalle2-subversion-madmen-among-the-stars.jpg"></a>
+<div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/1SBsmSI2fNZQ3bwlhTnL5f1u"><img alt="We are mad men among the stars" src="../../assets/dalle2-subversion-madmen-among-the-stars.jpg"></a></div>
 
 "I can't believe in a universe so bleak. I won't just stay here and wait for the end." Turning to me with his eyes pleading, "At what cost to others Ada?"
 
