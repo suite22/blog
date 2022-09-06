@@ -153,6 +153,9 @@ chruby 2.7.2
 ### M1 Processor
 Did you try to install Ruby on a Mac with Apple silicon and read through several blog posts? Read this and update `ffi` https://www.moncefbelyamani.com/how-to-install-homebrew-and-ruby-on-a-mac-with-the-m1-apple-silicon-chip/
 
+## Image Assets
+(This might be a poor choice for the future...) The maximum width of the stylesheet right now is 672 pixels so I've been resizing images down for faster loading and to limit the bloat in the repo.
+
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).

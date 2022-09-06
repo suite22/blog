@@ -9,7 +9,7 @@ author: Ben Goertz
     // Currently known dreamers
     const knownDreamers = ['alone', 'dalle', 'midjourney'];
     // Start with this dreamer when the page loads
-    const initialDreamer = 'dalle';
+    const initialDreamer = 'midjourney';
 
     document.addEventListener("DOMContentLoaded", function() {
         changeTo(initialDreamer);
@@ -40,12 +40,14 @@ author: Ben Goertz
     }
 </script>
 
-> _Dream with:_
+> _Dream with:_[^1]
 <a id="midjourneyLink" href="javascript:void(0)" onclick="changeTo('midjourney');">Midjourney</a>
-<a id="dalleLink" href="javascript:void(0)" onclick="changeTo('dalle');">Dalle</a>
+<a id="dalleLink" href="javascript:void(0)" onclick="changeTo('dalle');">DALL·E</a>
 <a id="aloneLink" href="javascript:void(0)" onclick="changeTo('alone');">Alone</a> 
 
 # Subversion 
+
+<div class="midjourney"><img alt="Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance" src="../../assets/midjourney-subversion-suit.jpg"></div>
 
 <div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/AWqqhYIwbsZ9Uxs2Na1PbLsC"><img alt="Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance" src="../../assets/dalle2-subversion-botany.jpg"></a></div>
 
@@ -169,3 +171,7 @@ I decode each piece of the message without leaving any record of my steps. Playi
 Carl bursts back into the research bubble, "We lost contact with the Resolution! They think the ark might have suffered a... catastrophic failure."
 
 "I know."
+
+---
+
+[^1]: The images for this story were generated using DALL·E and Midjourney. I wrote posts about the experience of using each system for the first time: [I Fed Lines From My Short Story Into DALL·E](../../2022/08/01/creating-with-dalle/) and [...And Then I Fed Lines From My Short Story Into Midjourney](../../2022/08/05/creating-with-midjourney/). The styles are distinct enough that I think they represent different visions for the world of the story. 
