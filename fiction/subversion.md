@@ -6,7 +6,15 @@ author: Ben Goertz
 ---
 
 <script>
+    // Currently known dreamers
     const knownDreamers = ['alone', 'dalle', 'midjourney'];
+    // Start with this dreamer when the page loads
+    const initialDreamer = 'dalle';
+
+    document.addEventListener("DOMContentLoaded", function() {
+        changeTo(initialDreamer);
+    });
+
     // An inline script to keep it simple with Jekyll.
     function changeTo(dreamer) {
         const dreamerSelector = document.querySelectorAll('.' + dreamer);
