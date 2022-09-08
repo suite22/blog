@@ -47,7 +47,7 @@ author: Ben Goertz
 
 # Subversion 
 
-<div class="midjourney"><img alt="Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance" src="../../assets/subversion/midjourney-suit.jpg"></div>
+<div class="midjourney"><img alt="The sound waves forming an almost harmonious unified chorus and then drifting to discordance." src="../../assets/subversion/midjourney-drifting-to-discordance.jpg"></div>
 
 <div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/AWqqhYIwbsZ9Uxs2Na1PbLsC"><img alt="Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance" src="../../assets/dalle2-subversion-botany.jpg"></a></div>
 
@@ -71,17 +71,23 @@ I enjoy discussing research with Carl even though our work is focused on differe
 
 The heavy respirator with my oversized hazard suit crumples awkwardly on my young form. The gravel under my boots has a different crunch than I have ever heard while walking to the gate sealing in our station. As we wait for the gate to open, a process my father has been through hundreds of times, I want to see his warm smile as he turns to me but his eyes are the only part of him I recognize, "stay close to me. I'll show you where the first sensors are that we need to service." My heart pounds in my ears over the cycle of the respirator as we step out together into the Exclusion Zone.
 
+<div class="midjourney"><img alt="The heavy respirator with my oversized hazard suit crumples awkwardly on my young form." src="../../assets/subversion/midjourney-suit.jpg"></div>
+
 <div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/cJdBbdqbok1m9kutzI0GV79H"><img alt="A large oak tree with a low branch reaching towards the ground in a wooded glen with fallen leaves and brown ferns at golden hour" src="../../assets/dalle2-subversion-tree.jpg"></a></div>
 
 At some point the paved service road had been so broken open by grasses and weeds that it was chipped up into more of a loose path. We walk along the uneven road and then fork off into the woods near a massive barren tree screaming up overhead slowly decaying. One large branch drooping to the ground, almost like a helpful inclined ramp for the few animals left to explore the great tree. The sadness of the tree reminds me of some of the bedtime stories my father told. Instead of fairy tales he would tell stories about things he found in the Exclusion Zone. His primary research focused on plant and animal regeneration within the zone but his passion, what kept him up late into the night in his study, was the restoration of lost works. Stories, poems, even graffiti, he photographed and copied anything that had a chance of holding lost meaning. Several colleagues met with him regularly at our house comparing translations of works that had been found in various languages, each attempting to weave back to the original author's language or intent. The joy and the warmth that poured out of their debates felt warmer to me than any fire we huddled around later to hear readings. They drank and laughed together, savoring every recovered gem with endless excitement. My father told stories from before Doomsday about the forests and the animals that used to roam the area. His voice slowly drifting towards sadness as he talked about what was lost. Gone now and never coming back. He mourned the organic and the man-made. Tales of lost species took him on endless trails to works from his youth. 
 
 "How can I explain a poem to you that I only remember the feeling of?" 
 
+<div class="midjourney"><img alt="The heavy respirator with my oversized hazard suit crumples awkwardly on my young form." src="../../assets/subversion/midjourney-bright-layers-of-sediment.jpg"></div>
+
 We walk beyond the tree with the branch like a ramp for several kilometers through small ravines lined with unnaturally bright layers of sediment washed like bright bands from a child's paint set. Together in an open plain of low grass not higher than my boots my father taps my arm and points down into the mud - a small animal's footprint. One of the few signs of animal life. We follow the trail for a few paces looking for clearer prints. "What do you think it is?" I ask. He studies the prints closely, "hard to say. They're from before the last rain so at least a few days old." A few meters away I find another grouping of paw prints, this time with a tiny set trailing, "look I think these prints are from a baby!" My father bends down close to the ground near the tiny prints. "Yes but look at how it's dragging the right side. It's either injured or more likely malformed." Few animals play near our home at the research outpost. Seeing these prints, thinking about the stories of destruction from my father, and now imagining a young creature trying to limp along attempting to keep up with a parent - my eyes race across the trail and then the edges of the field hoping to see more signs of survival, something to indicate they are okay. That we are okay. As the tears and heavy breathing fog up my respirator mask I look towards the low rust colored clouds and start to wobble. My father catches me. His comforting words are broken up over the comms by my sobs but once I'm calmer he says, "the damage that's been done here cannot be undone." His firm grip on my shoulder, willing his strength down into me, helps me. I stand tall; take a deep breath. 
 
 We reach the sensor station after a short walk out of the grassy plain. Along the ridge line near my father I stand waiting while he works. He asks me to hand him each tool even though he could set his bag closer and work alone as he usually does. My mind wanders between tasks as I look out further, our valley behind us, and study the outlines of buildings in the distance that I have only seen in photographs from my father. What was this all like before? What did the flowers and fruit trees look like in bloom before the cold set in? I want to know every person who stood along these ridges and saw their town, their home, as it was in its prime. Not as it is, but as it should have been.
 
 "Hand me that smaller brush, the one with the two millimeter wires. No, the other one. Thanks." My father carefully places each detached component on a clean cloth on the ground next to him. "These collection trays and sensors keep getting overwhelmed with how much material is being collected. I keep telling them it's above the margins in the spec." His voice trailing off, his comment not entirely meant for me as he remains focused on his work. 
+
+<div class="midjourney"><img alt="the whir of the sensors and radio relay" src="../../assets/subversion/midjourney-whir-of-sensors.jpg"></div>
 
 I wait. My wonder is punctured by the whir of the sensors and radio relay powering back up a low, almost harmonious, hum of technology among the whirl of the wind moving through the leaves nearby. “Help me pack the tools up Ada. We’ve got enough daylight left, I want to show you my favorite spot in the Zone.” 
 
@@ -91,6 +97,8 @@ Inside, rays of light cut through the fallen shelves to books in various states 
 
 “What use is it to speak if you don’t know what to say.”
 
+<div class="midjourney"><img alt="How can I explain a poem to you that I only remember the feeling of?" src="../../assets/midjourney/subversion-the-feeling-of-a-poem.jpg"></div>
+
 Standing next to him now I hear the warmth in his voice and know his smile is slowly growing as he rolls around the words with delight in his mind. I want to live here with him. Among these pages regardless of the danger.
 
 In the stillness a shadow on the wall glances off one of the puddles near us. Immediately my father grabs my arm and shifts me behind him. Without looking down he pulls a long metal tool from his tool bag and turns up our suit lights. Cutting back into the dark corners on the far side where shelves remain sagging - the light catches eyes. Iridescent. Terror escapes me as a scream that my father cuts short, grabbing me, “stay behind me and move with me slowly.” The open archway back into the main entrance and outside is almost cut off as the creature moves between us and the exit. I see my father’s grip tighten on the tool now turned weapon as the shadows slip off the dark furred canine, something likely bred from one of the pets from Earth. Its fangs are sharp enough to rip our haz-suits. My father moves us back along the wall I entered, the legends to my back. As we move down the rows of still standing shelves it keeps pace from the center of the room glaring between the stacks back at us. Just before the archway is a circular desk and as we pass the last shelf the animal lunges from floor, splashing, to the desk, claws craving against the surface, and at us. The swing of the tool meets it in midair, a singular muted tone and a yelp. My father shoves me back as he turns his full weight into the next swing and I hear the squish of the dense tone again. No more cries from the animal.
@@ -98,6 +106,8 @@ In the stillness a shadow on the wall glances off one of the puddles near us. Im
 When my father turns back to me I see almost the same crazed eyes I saw earlier across the room but from a man covered in red streaks over the once clear mask. 
 
 Outside, we lock the door. His only words are, “I’ll take care of it later.”
+
+<div class="midjourney"><img alt="We make it back to the station as the rouge sunset flares on the horizon over the group of small structures in our research outpost." src="../../assets/subversion/midjourney-flames-burn-to-ash.jpg"></div>
 
 <div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/HA9OrHHtU4lD86pmV37sXGVi"><img alt="The station as the rouge sunset flares" src="../../assets/dalle2-subversion-rouge-sunset.jpg"></a></div>
 
@@ -162,6 +172,8 @@ As we sat silently drinking his favorite rare gin it felt wasted on us. He was t
 
 He gently pulls the coded sheet from my hand and into the fireplace. We both watch as the flames burn it to ash and I feel the lonesome burn of propellant that will lift me away from this home to a new one.
 
+<div class="midjourney"><img alt="We both watch as the flames burn it to ash" src="../../assets/subversion/midjourney-flames-burn-to-ash.jpg"></div>
+
 ---
 
 With Carl out of the research area, I hesitate for a moment before gliding over to read the message from Dr. Quorn. The proper thing to do is to wait for the entire cache to pass through error correction, but errors are rare and I know I must search before anyone else. Our coded messages are thinly veiled at best, we've never had a secret actually worth intently searching for before. 
@@ -171,6 +183,8 @@ I decode each piece of the message without leaving any record of my steps. Playi
 Carl bursts back into the research bubble, "We lost contact with the Resolution! They think the ark might have suffered a... catastrophic failure."
 
 "I know."
+
+<div class="midjourney"><img alt="Ada's face" src="../../assets/midjourney/midjourney-character-face.jpg"></div>
 
 ---
 
