@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Subversion
-image: ../../assets/dalle2-subversion-tree.jpg
+image: ../../assets/subversion/midjourney-suit.jpg
 author: Ben Goertz
 ---
 
