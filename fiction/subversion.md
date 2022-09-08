@@ -107,7 +107,7 @@ When my father turns back to me I see almost the same crazed eyes I saw earlier 
 
 Outside, we lock the door. His only words are, “I’ll take care of it later.”
 
-<div class="midjourney"><img alt="We make it back to the station as the rouge sunset flares on the horizon over the group of small structures in our research outpost." src="../../assets/subversion/midjourney-flames-burn-to-ash.jpg"></div>
+<div class="midjourney"><img alt="We make it back to the station as the rouge sunset flares on the horizon over the group of small structures in our research outpost." src="../../assets/subversion/midjourney-rouge-sunset.jpg"></div>
 
 <div class="dalle"><a title="DALL·E Info" href="https://labs.openai.com/s/HA9OrHHtU4lD86pmV37sXGVi"><img alt="The station as the rouge sunset flares" src="../../assets/dalle2-subversion-rouge-sunset.jpg"></a></div>
 
