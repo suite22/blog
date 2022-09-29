@@ -10,6 +10,8 @@ title: Writing Process
 3. Add notes (either on printed copies or the [reMarkable](https://remarkable.com)).
 4. Edit and revise on the laptop (Byword + Visual Studio Code).
  * This stage is still my biggest frustration and limiting factor. My goal is to spend as little time as possible on my laptop!
+ * [Julian Shapiro's tips for rewriting](https://www.julian.com/guide/write/rewriting) have inspired more aggressive (clinging to the exact phrasing of the first draft less) exercises for writing to the core idea:
+> Take an hour-long break. Rewrite the section from memory—focusing only on the critical points.
 5. Publish here as soon as it's a complete idea or thing (Agh! How do you know?!).
 6. Directly reach out to friends who might be interested, ask for feedback and discuss.
 7. Rinse and repeat.
