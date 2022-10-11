@@ -58,10 +58,10 @@ We should not allow Mingus' political ploy to undermine the established process 
 # Ballot Exhaustion and Hofstra University Paper
 
 The strangest line of reasoning deployed in the editorial centers around an [academic paper they cite](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2519723) from [Craig Burnett](https://twitter.com/burnettpolisci) at Hofstra University and the concerns about "exhausted ballots." Twenty-six, double-spaced, pages later I am furious that they reference it. Here are the problems with citing it, so you don't have to angrily read it yourself: 
-1. The key points of the paper are misrepresented. **In the abstract on page 1** the authors make clear the analysis is about [instant runoff voting (IRV)](https://en.wikipedia.org/wiki/Instant-runoff_voting) which would only be used for city wide offices and **not** council seats. The charter proposal is for 3 winners in each of the 4 geographic districts.
-1. The paper's main claim is about the problems of ballot exhaustion in single-winner districts when many candidates run. A debatable concern.
+1. The key points of the paper are misrepresented. **In the abstract on page 1** the authors make clear the analysis is about [instant runoff voting (IRV)](https://en.wikipedia.org/wiki/Instant-runoff_voting) which would only be used for city wide offices and **not** council seats. The charter proposal for council seats is for 3 winners in each of the 4 geographic districts.
+1. The paper's main claim is about the problems of ballot exhaustion in single-winner districts when many candidates run. A debatable concern. 
 1. The paper is from 2015 and not widely cited.[^4]
-1. The paper looks at 4 elections in the US from 2009-2011. 
+1. The paper looks at only 4 elections in the US from 2009-2011. 
 
 I could keep going but I don't want to get sidetracked, like the Oregonian, but the key concern of "ballot exhaustion" raised in the editorial is bewildering. Compared what happens now in our [first-past-the-post (PFTP)](https://en.wikipedia.org/wiki/First-past-the-post_voting) elections where voters who vote for anyone other than the winner sees their ballots "exhausted." The paper directly references this point, including a footnote to a Ninth Court of Appeals argument, on page 23:
 
