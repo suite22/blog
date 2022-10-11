@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Oregonian's Flawed Charter Reform Editorial
-image: 
+title: Flaws in The Oregonian's Charter Reform Editorial
+image: /assets/oregonian-charter-reform/ballot-image.png
 ---
 
 The Oregonian's[^1] recent [editorial against the proposed charter reform](https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html) is riddled with enough issues I want to address them individually here. The editorial opens with a point most Portlander's agree with: the city is not functioning well.
@@ -13,9 +13,9 @@ Portlanders don't need much prodding to agree that our city government is broken
 <footer>Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government<cite><a href="https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html">https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html</a></cite></footer>
 </blockquote><script src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-Great! This is exactly why we have a process for a citizen led commission to propose changes to the city charter every decade.
+Great! This is exactly why we have a process for a [citizen-led commission to propose changes to the city charter every decade](https://www.portland.gov/omf/charter-review-commission).
 
-For the remainder of the editorial the board swerves around using phrases like "mega-measure" and "rank-choice voting" (why is RCV always in quotes in the article? It's like they're holding it out at arms length and plugging their nose) and falls into the weeds of technical details that I think they have misstated and misunderstood - all while claiming the commission is the confused group.
+For the remainder of the editorial the board swerves around using phrases like "mega-measure" and "rank-choice voting" (why is [RCV](https://fairvote.org/our-reforms/ranked-choice-voting/) always in quotes in the article? It's like they're holding it out at arms length and plugging their nose.) and falls into the weeds of technical details that I think they have misstated and misunderstood - all while claiming the commission is the confused group.
 
 # Unique
 
@@ -45,7 +45,7 @@ It is impossible for Commissioner Mapps' draft proposal to match the amount of p
 
 [![The Charter Commissions Public Process](/assets/oregonian-charter-reform/charter-review-public-process.png)](https://www.portland.gov/omf/charter-review-commission/proposedballotmeasure)
 
-The editorial board claims the proposal's "model is built on highly optimistic assumption[s]" when in fact it is this fanciful wish for a better alternative that endangers any hopes of fixing the problems with city government. Voters do not have (and should not) have an option to vote for either: 
+The editorial board claims the proposal's "model is built on highly optimistic assumption[s]" when in fact it is this fanciful wish for a better alternative that endangers our chance at fixing the problems with city government. Voters do not have (and should not) have an option to vote for either: 
 
 A) The Charter Commissions proposal or 
 
@@ -58,7 +58,7 @@ We should not allow Mingus' political ploy to undermine the established process 
 # Ballot Exhaustion and Hofstra University Paper
 
 The strangest line of reasoning deployed in the editorial centers around an [academic paper they cite](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2519723) from [Craig Burnett](https://twitter.com/burnettpolisci) at Hofstra University and the concerns about "exhausted ballots." Twenty-six, double-spaced, pages later I am furious that they reference it. Here are the problems with citing it, so you don't have to angrily read it yourself: 
-1. The key points of the paper are misrepresented. **In the abstract on page 1** the authors make clear the analysis is about [instant runoff voting (IRV)](https://en.wikipedia.org/wiki/Instant-runoff_voting) which would only used for city wide offices and **not** council seats. The charter proposal is for 3 winners in each of the 4 geographic districts.
+1. The key points of the paper are misrepresented. **In the abstract on page 1** the authors make clear the analysis is about [instant runoff voting (IRV)](https://en.wikipedia.org/wiki/Instant-runoff_voting) which would only be used for city wide offices and **not** council seats. The charter proposal is for 3 winners in each of the 4 geographic districts.
 1. The paper's main claim is about the problems of ballot exhaustion in single-winner districts when many candidates run. A debatable concern.
 1. The paper is from 2015 and not widely cited.[^3]
 1. The paper looks at 4 elections in the US from 2009-2011. 
@@ -102,7 +102,7 @@ One benefit of holding the print edition of the paper in your hands is that you 
 
 <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">A reminder of what single member, at large districts have meant in Portland over a century. Concentration of power in a small rectangle of the City, and almost no voice for the rest of the population. <a href="https://t.co/U8fMGf3Rmr">pic.twitter.com/U8fMGf3Rmr</a></p>&mdash; gronke (@gronke) <a href="https://twitter.com/gronke/status/1579720915742756864?ref_src=twsrc%5Etfw">October 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The board argues we shouldn't worry about diversity on the council because public campaign finance has already solved it. I love that we have the Small Donor Elections program but when you look at what the charter reform commission is trying to accomplish with STV there's little doubt in my mind we would have a broader range of viewpoints represented on the council. Under a multi-winner district system there would be room for Sam Adams to actually win an official position in the city to represent business interests (instead of [operating in the shadows](https://www.pdxmonthly.com/news-and-city-life/2022/07/sam-adams-portland-city-council-shadow-mayor)), Hardesty's push for police accountability, and even "law and order" candidates like Gonzalez. Voting yes on reform would be a major improvement over the limited range of voices that make it the council now. Yes, there would be more voices and therefore less power for incumbents like Commissioner Mapps, but that is exactly the point. 
+The board argues we shouldn't worry about diversity on the council because public campaign finance has already solved it. I love that we have the [Small Donor Elections program](https://www.portland.gov/smalldonorelections) but when you look at what the charter reform commission is trying to accomplish with STV there's little doubt in my mind we would have a broader range of viewpoints represented on the council. Under a multi-winner district system there would be room for Sam Adams to actually win an official position in the city to represent business interests (instead of [operating in the shadows](https://www.pdxmonthly.com/news-and-city-life/2022/07/sam-adams-portland-city-council-shadow-mayor)), several candidates pushing like Hardesty for police accountability, and even "law and order" candidates like Gonzalez. Voting yes on reform would be a major improvement over the limited range of voices that make it the council now. Yes, there would be more voices and therefore less power for incumbents like Commissioner Mapps, but that is exactly the point. 
 
 # Weak Candidate Pool
 I've saved this line of argument for last because it is the easiest to refute and least interesting. The board claims:
@@ -114,7 +114,7 @@ In recent years, Portland City Council races have drawn roughly 8-10 candidates,
 <footer>Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government<cite><a href="https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html">https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html</a></cite></footer>
 </blockquote><script src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-Candidates are not going to waste their time running if they think their odds of winning are low. If we vote yes on charter reform more candidates will have smaller geographic areas to campaign and incentives through STV to build broad coalitions to become one of the top three choices within their district. From ["Breaking the Two-Party Doom Loop"](https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547) again:
+Candidates are not going to waste their time running if they think their odds of winning are low. If we vote yes on charter reform more candidates will have smaller geographic areas to campaign within and incentives through STV to build broad coalitions to become one of the top three choices within their district. From ["Breaking the Two-Party Doom Loop"](https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547) again:
 
 <blockquote class="quoteback" darkmode="true" data-title="Breaking the Two-Party Doom Loop" data-author="Lee Drutman" cite="https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547">
 <div>
@@ -127,7 +127,7 @@ Parties and candidates are competing to be not only voters' first choice but als
 
 Instead of adding confusion about the Charter Commissions proposal and backing Commissioner Mapps' risky, unilateral draft, the Oregonian should take more time to thoroughly understand the issues and explain to readers how they would work instead of publishing muddled editorials like this. 
 
-I am frustrated by the failures of elected officials to address critical issues in the city but I am optimistic that voting yes on reform will bring more voices to the Council, reduce polarization through ranked choice voting[^5] and improve day-to-day services by hiring a city manager.
+I am frustrated by the failures of elected officials to address critical issues in the city but I am optimistic that voting yes on Measure 26-228 will bring more voices to the Council, reduce polarization through ranked choice voting[^5] and improve day-to-day services by hiring a city manager.
 
 [^1]: A small footnote here to say that we get the Sunday edition delivered (real paper you can hold in your hands!). Although my post here is a point by point rebuttal of the board's flawed rationale The Oregonian continues to have some of the best reporting on state wide issues and they play a critical role in the civic discourse in the state. It is only because of the importance of their role that I thought it useful to clearly respond with what they have gotten wrong in this specific case.
 [^2]: No.
