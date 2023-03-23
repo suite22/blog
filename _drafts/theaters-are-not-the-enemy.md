@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Dear Netflix, Theaters Are Not Your Enemy
-date: Sometime in 2017 in draft form on Medium
 ---
+
+> Date: Sometime in 2017 in draft form on Medium
 
 Dear Netflix, Theaters Are Not Your Enemy
 In their recent letter to shareholder's, Netflix seemed to soften their stance ever so slightly on distributing their films to theaters:
