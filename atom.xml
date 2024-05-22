@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Ben Goertz</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="https://bengoertz.com/"/>
+ <updated>2024-05-22T22:27:06+00:00</updated>
+ <id>https://bengoertz.com</id>
+ <author>
+   <name>Ben Goertz</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Seeing the Grid</title>
+   <link href="https://bengoertz.com//2024/02/13/seeing-the-grid/"/>
+   <updated>2024-02-13T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2024/02/13/seeing-the-grid</id>
+   <content type="html">&lt;p&gt;We lost power for several stretches during the recent ice storms in Portland. The longest outage for us was about 12 hours. Some folks were out of power for a week or more!&lt;/p&gt;
+
+&lt;p&gt;Last year I bought a big portable battery system for running video gear in the field but it’s gotten the most usage here at the house during outages. We mostly use it to run the blower on a small gas furnace to keep the house warm.  Out of curiosity (and delicious anticipation), I also used it to run the coffeemaker. I obviously could have boiled water another way and made pour over but I wanted to see how much of the battery that everyday task would take.&lt;/p&gt;
+
+&lt;div class=&quot;extended-content-container&quot;&gt;
+  &lt;table&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;img src=&quot;/assets/seeing-the-grid/battery-before.jpeg&quot; /&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;img src=&quot;/assets/seeing-the-grid/battery-brewing.jpeg&quot; /&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;img src=&quot;/assets/seeing-the-grid/battery-after.jpeg&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Seeing the coffeemaker draw 1145W on the battery display and watching the battery drop got me thinking about how clear that data is about our energy usage compared to the graphs at the end of the month from the electric and gas companies. While making coffee like this the grid is easy to see and understand - it’s the battery and our coffeemaker. What does the grid look like when the lights come back on?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/seeing-the-grid/example-usage-chart.png&quot; alt=&quot;Example energy usage chart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The simplest difference between the battery counting down the precious energy I have stored and the monthly bills is the graphs just go upwards at the same rate even if I ran something stupid in my basement - like a crypto mining operation&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the PNW, most of our grid energy comes from renewable sources&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, but they’re not limitless. A hydro-dam is basically a big battery with all the potential energy measured by the water upstream. Comparing my 1200Wh portable battery to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Bonneville_Dam&quot;&gt;Bonneville Dam&lt;/a&gt; is potentially silly because of the difference in scale&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; but both have limits.&lt;/p&gt;
+
+&lt;!--
+&lt;span id=&quot;interactive-article-anchor&quot;&gt;&lt;/span&gt;
+
+&lt;script src=&quot;/assets/idyll-embed.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+    // Find the element where Idyll will inject content.
+    var articleAnchor = document.getElementById('interactive-article-anchor');
+
+    // Get your markup.
+    var idyllMarkup = '\
+    [var name:&quot;home&quot; value:3 /] \
+    Energy usage per home = [Dynamic value:home min:0 max:25 format:&quot;d&quot; /] the average electricity used per home. \
+    [br /] \
+    [derived name:&quot;totalHomes&quot; value:`home` /] \
+    [i]Homes served by Bonneville Dam[/i] = [Display value:totalHomes format:&quot;d&quot; /] the number of homes powered by Bonneville Dam';
+
+    // Instantiate the Idyll runtime.
+    Idyll.render(idyllMarkup, articleAnchor);
+&lt;/script&gt;
+--&gt;
+
+&lt;p&gt;There’s no link between what I see on the bill, or in realtime on their websites, and the energy production of those renewable sources. If greener sources are tapped out or offline but demand on the grid rises then &lt;a href=&quot;https://en.wikipedia.org/wiki/Peaking_power_plant&quot;&gt;gas peaker plants&lt;/a&gt; kick on. The power companies are fulfilling their promise to customers that: “I turn on whatever I want, whenever, and y’all figure it out. Oh and bill me the same rate no matter what!”&lt;/p&gt;
+
+&lt;p&gt;I know that peak pricing (PGE calls it &lt;a href=&quot;https://portlandgeneral.com/about/info/pricing-plans/time-of-day&quot;&gt;Time of Day pricing&lt;/a&gt;) is one way to encourage people to think about usage. Maybe we should switch to see what it’s like but 
+ since we don’t have solar for the house or a battery system to draw on during peak hours I don’t think it makes sense. We’re currently enrolled in the 100% renewable program&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; for a slightly higher kWh rate but there’s no additional incentive to actually reducing usage. The program reminds me of &lt;a href=&quot;https://en.wikipedia.org/wiki/Jevons_paradox&quot;&gt;Jevons paradox&lt;/a&gt; where now that the energy is all green, reducing usage doesn’t feel like it matters as much.&lt;/p&gt;
+
+&lt;p&gt;What I’m mostly considering after the storm (beyond the fragility of infrastructure) is looking at better ways to see the energy we’re actually using - hopefully prompting us to go beyond simply remembering to turn off unused things. &lt;a href=&quot;https://solar.lowtechmagazine.com/power/&quot;&gt;Low Tech magazine’s solar powered website&lt;/a&gt; is an excellent example of finding ways to make energy usage visible. I want to find more ways to link that battery experience with the real, but basically invisible, batteries in the grid.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Spoiler: I do not. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.bpa.gov/energy-and-services/power/hydropower-impact&quot;&gt;&lt;img src=&quot;/assets/seeing-the-grid/pnw-power-generation-mix.png&quot; alt=&quot;PNW Power generation mix&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://www.nwp.usace.army.mil/bonneville/&quot;&gt;website says the dam can generate 1218MW&lt;/a&gt; or “enough electricity to power approximately 900,000 homes, or a city the size of Portland.” &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The program name seems to have gone through committee “&lt;a href=&quot;https://portlandgeneral.com/energy-choices/renewable-power/green-future-choice&quot;&gt;Green Future Choice Renewable Power&lt;/a&gt;” &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Eco-Econ 101</title>
+   <link href="https://bengoertz.com//2023/03/22/eco-econ-101/"/>
+   <updated>2023-03-22T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2023/03/22/eco-econ-101</id>
+   <content type="html">&lt;p&gt;Years ago I was considering going back to school to get a masters in economics. Because my undergrad was in media production my admissions advisor recommended I take a couple lower level micro and macro economics classes to prepare for the program. I was working at the time as an editor and video producer as well as teaching film classes at night (and preparing for my son to arrive). But I put in the work to graph the utility preference curves, the intersection of supply and demand, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/eco-econ101/notebook.jpeg&quot; alt=&quot;Economics class homework&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I kept waiting for the “real stuff”. For the theory and math to escalate to match the complexity of the real economy as we experience it. The rubble of the economic mess of 2008 was still fresh in my mind. Around that time books like &lt;a href=&quot;https://en.wikipedia.org/wiki/Freakonomics&quot;&gt;Freakonomics&lt;/a&gt; had become popular and Dan Ariely’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Predictably_Irrational&quot;&gt;Predictably Irrational&lt;/a&gt; captured my attention. I was curious about the real decisions people make even though economists consider them economically “irrational”.&lt;/p&gt;
+
+&lt;p&gt;Finally, near the end of these classes I asked one of my professors when we’d cover more realistic scenarios instead of toy models with illusions of mathematical purity and yet little of the richness of reality. He shyly told me the whole department was focused on &lt;a href=&quot;https://en.wikipedia.org/wiki/Neoclassical_economics&quot;&gt;“traditional” economics&lt;/a&gt; with the advanced masters level classes focused on &lt;a href=&quot;https://en.wikipedia.org/wiki/Econometrics&quot;&gt;econometrics&lt;/a&gt;. He thought maybe one other professor mentioned alternatives, like behavioral economics, in one class. I realized this was &lt;em&gt;not&lt;/em&gt; the department I was looking for.&lt;/p&gt;
+
+&lt;p&gt;The “traditional” classes taught foundational ideas like “fully rational agents” - people acting 100% in their own self-interest (at all times!) &lt;strong&gt;and&lt;/strong&gt; excellent prediction of the future - which seemed totally contrary to everyone I knew (but maybe I only ever met irrational people). I didn’t have the words or mental models of what I thought might be a more reasonable way to study economics, I was looking to the closest experts to learn, but I didn’t want to pause my career for something so abstract and impractical. I wanted tools to understand, fold in new data, and hopefully predict or manage based on some scientific understanding.&lt;/p&gt;
+
+&lt;p&gt;Wandering and learning on my own the last few years has finally landed me on what I was looking for years ago: &lt;a href=&quot;https://en.wikipedia.org/wiki/Ecological_economics&quot;&gt;ecological economics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Joan Robinson quoted in the Progress Illusion&quot; data-author=&quot;Joan Robinson&quot; cite=&quot;https://en.wikipedia.org/wiki/Joan_Robinson&quot;&gt;
+&lt;div&gt;
+The purpose of studying economics is not to acquire a set of ready-made answers to economic questions, but to learn how to avoid being deceived by economists.
+&lt;/div&gt;
+&lt;footer&gt;Joan Robinson quoted in the Progress Illusion&lt;cite&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Joan_Robinson&quot;&gt;https://en.wikipedia.org/wiki/Joan_Robinson&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;My &lt;a href=&quot;/complex-systems/&quot;&gt;ongoing study of complexity&lt;/a&gt; pairs well with the systems thinking of folks like &lt;a href=&quot;https://en.wikipedia.org/wiki/Jon_David_Erickson&quot;&gt;Jon Erickson&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/William_E._Rees&quot;&gt;William Rees&lt;/a&gt;, as well as outspoken critics of neoclassical economics like &lt;a href=&quot;https://en.wikipedia.org/wiki/Steve_Keen&quot;&gt;Steve Keen&lt;/a&gt;. Keen’s work (best summarized in &lt;a href=&quot;https://www.thegreatsimplification.com/episode/30-steve-keen&quot;&gt;this podcast interview&lt;/a&gt;) ruthlessly, and thoroughly, dismembers the broken assumptions at the core of neoclassical thinking. Erickson’s book, &lt;a href=&quot;https://bookshop.org/p/books/the-progress-illusion-reclaiming-our-future-from-the-fairytale-of-economics-jon-d-erickson/18434602?ean=9781642832525&quot;&gt;The Progress Illusion&lt;/a&gt;, provides a gentler takedown as well as wonderful reminders of hope like Robert Kennedy’s famous speech about the limits of GDP.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Robert Kennedy on GDP&quot; data-author=&quot;Robert Kennedy&quot; cite=&quot;https://www.youtube.com/watch?v=3FAmr1la6w0&quot;&gt;
+&lt;div&gt;
+... if we judge the United States of America [by our Gross National Product], that counts air pollution and cigarette advertising, and ambulances to clear our highways of carnage. It counts special locks for our doors and the jails for the people who break them. It counts the destruction of the redwood and the loss of our natural wonder in chaotic sprawl. 
+&lt;br /&gt;...&lt;br /&gt;
+Yet the gross national product does not allow for the health of our children, the quality of their education or the joy of their play. It does not include the beauty of our poetry or the strength of our marriages, the intelligence of our public debate or the integrity of our public officials. It measures neither our wit nor our courage, neither our wisdom nor our learning, neither our compassion nor our devotion to our country, it measures everything in short, except that which makes life worthwhile. And it can tell us everything about America except why we are proud that we are Americans.
+&lt;/div&gt;
+&lt;footer&gt;Robert Kennedy on GDP&lt;cite&gt;&amp;lt;a href=&quot;https://www.youtube.com/watch?v=3FAmr1la6w0&quot;&amp;lt;/a&amp;gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Where I hope all this leads me is a more robust understanding of how the economy actually works framed within the obvious physical limits of our planet.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Kenneth Boulding&quot; data-author=&quot;Kenneth Boulding&quot; cite=&quot;https://en.wikipedia.org/wiki/Kenneth_E._Boulding&quot;&gt;
+&lt;div&gt;
+... anyone who believes exponential growth can go on forever in a finite world is either a madman or an economist.
+&lt;/div&gt;
+&lt;footer&gt;Kenneth Boulding&lt;cite&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Kenneth_E._Boulding&quot;&gt;https://en.wikipedia.org/wiki/Kenneth_E._Boulding&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Oregonian's Flawed Charter Reform Editorial</title>
+   <link href="https://bengoertz.com//2022/10/11/oregonian-charter-reform-response/"/>
+   <updated>2022-10-11T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2022/10/11/oregonian-charter-reform-response</id>
+   <content type="html">&lt;p&gt;The Oregonian’s&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; recent &lt;a href=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;editorial against the proposed charter reform&lt;/a&gt; is riddled with enough issues I want to address them individually here. The editorial opens with a point most Portlander’s agree with: the city is not functioning well.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&quot; data-author=&quot;The Oregonian Editorial Board&quot; cite=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;
+&lt;div&gt;
+Portlanders don't need much prodding to agree that our city government is broken. For the first time in decades, residents appear eager to change our form of government...
+&lt;/div&gt;
+&lt;footer&gt;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&lt;cite&gt;&lt;a href=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Great! This is exactly why we have a process for a &lt;a href=&quot;https://www.portland.gov/omf/charter-review-commission&quot;&gt;citizen-led commission to propose changes to the city charter every decade&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the remainder of the editorial the board swerves around&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; using phrases like “mega-measure” and “rank-choice voting” (why is &lt;a href=&quot;https://fairvote.org/our-reforms/ranked-choice-voting/&quot;&gt;RCV&lt;/a&gt; always in quotes in the article? It’s like they’re holding it out at arms length and plugging their nose.) and falls into the weeds of technical details that I think they have misstated and misunderstood - all while claiming the commission is the confused group.&lt;/p&gt;
+
+&lt;h1 id=&quot;unique&quot;&gt;Unique&lt;/h1&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&quot; data-author=&quot;The Oregonian Editorial Board&quot; cite=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;
+&lt;div&gt;
+Portland doesn't need a unique system. We need a system that we know will work.
+&lt;/div&gt;
+&lt;footer&gt;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&lt;cite&gt;&lt;a href=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;For a city proud of its weirdness this objection is not compelling. What city or form of government does the editorial board wish to copy? They don’t say.&lt;/p&gt;
+
+&lt;p&gt;The claim that the charter reform proposal is “untested” is barely honest in that many cities have portions of the proposal but none have &lt;strong&gt;exactly&lt;/strong&gt; this system. The unique history and approach of Portland has gotten us this far, with the pros and (widely known) cons pointing towards a need for change. “Unique” is not a negative for Portland - Keep Portland Unique.&lt;/p&gt;
+
+&lt;h1 id=&quot;commissioner-mapps-magical-proposal&quot;&gt;Commissioner Mapps Magical Proposal&lt;/h1&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&quot; data-author=&quot;The Oregonian Editorial Board&quot; cite=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;
+&lt;div&gt;
+It makes no sense for Portland to adopt this form of government, especially as City Commissioner Mingus Mapps is developing a simpler, straightforward and well-tested alternative to put before the city next year.
+&lt;/div&gt;
+&lt;footer&gt;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&lt;cite&gt;&lt;a href=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The transparent, cloak and dagger political manuevers of Commissioner Mapps to undermine the years of hard work of by the citizen-led &lt;a href=&quot;https://www.portland.gov/omf/charter-review-commission&quot;&gt;Charter Commission&lt;/a&gt;, promising that his draft proposal will be better, is an insult to the process that Portlanders have setup to make charter reform democratic, inclusive, and citizen-led. Should one person be allowed to change the entire way we govern and run the city outside of this decades long process?&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;It is impossible for Commissioner Mapps’ draft proposal to match the amount of public feedback and citizen involvement that the Charter Commission has achieved over the many months they have worked. See for example this collection of stats about the amount of public involvement:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.portland.gov/omf/charter-review-commission/proposedballotmeasure&quot;&gt;&lt;img src=&quot;/assets/oregonian-charter-reform/charter-review-public-process.png&quot; alt=&quot;The Charter Commissions Public Process&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The editorial board claims the proposal’s “model is built on highly optimistic assumption[s]” when in fact it is this fanciful wish for a better alternative that endangers our chance at fixing the problems with city government. Voters do not have (and should not) have an option to vote for either:&lt;/p&gt;
+
+&lt;p&gt;A) The Charter Commissions proposal or&lt;/p&gt;
+
+&lt;p&gt;B) Mingus’ proposed plan (oddly named &lt;a href=&quot;https://www.ulyssespac.com/the-proposal&quot;&gt;Ulysses&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Commissioner Mapps’ gambit, risks sinking the charter reform measure in November with the possibility that his own plan (which has an uncertain path from here to the ballot) fails. Then we’re stuck with the broken system everyone is upset about!&lt;/p&gt;
+
+&lt;p&gt;We should not allow Mingus’ political ploy to undermine the established process for charter reform. If this proposal fails in November he should work to join the commissions next attempt in 2030.&lt;/p&gt;
+
+&lt;h1 id=&quot;ballot-exhaustion-and-hofstra-university-paper&quot;&gt;Ballot Exhaustion and Hofstra University Paper&lt;/h1&gt;
+
+&lt;p&gt;The strangest line of reasoning deployed in the editorial centers around an &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2519723&quot;&gt;academic paper they cite&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/burnettpolisci&quot;&gt;Craig Burnett&lt;/a&gt; at Hofstra University and the concerns about “exhausted ballots.” Twenty-six, double-spaced, pages later I am furious that they reference it. Here are the problems with citing it, so you don’t have to angrily read it yourself:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The key points of the paper are misrepresented. &lt;strong&gt;In the abstract on page 1&lt;/strong&gt; the authors make clear the analysis is about &lt;a href=&quot;https://en.wikipedia.org/wiki/Instant-runoff_voting&quot;&gt;instant runoff voting (IRV)&lt;/a&gt; which would only be used for city wide offices and &lt;strong&gt;not&lt;/strong&gt; council seats. The charter proposal for council seats is for 3 winners in each of the 4 geographic districts.&lt;/li&gt;
+  &lt;li&gt;The paper’s main claim is about the problems of ballot exhaustion in single-winner districts when many candidates run. A debatable concern.&lt;/li&gt;
+  &lt;li&gt;The paper is from 2015 and not widely cited.&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;The paper looks at only 4 elections in the US from 2009-2011.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I could keep going but I don’t want to get sidetracked, like the Oregonian, but the key concern of “ballot exhaustion” raised in the editorial is bewildering. Compared what happens now in our &lt;a href=&quot;https://en.wikipedia.org/wiki/First-past-the-post_voting&quot;&gt;first-past-the-post (PFTP)&lt;/a&gt; elections where voters who vote for anyone other than the winner sees their ballots “exhausted.” The paper directly references this point, including a footnote to a Ninth Court of Appeals argument, on page 23:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;DUDUM v. ARNTZ, United States Court of Appeals, Ninth Circuit&quot; data-author=&quot;United States Court of Appeals, Ninth Circuit&quot; cite=&quot;https://caselaw.findlaw.com/us-9th-circuit/1568172.html&quot;&gt;
+&lt;div&gt;
+“Exhausted” ballots are counted in the election, they are just counted for losing candidates in the tally of total votes. In the terms used by election experts, these are “wasted” votes, not because they aren't counted, but because they were cast for candidates not ultimately elected. Notably, both IRV and restricted IRV tend to result in fewer entirely “wasted” votes than plurality voting, because voters whose first-choice candidate is eliminated may choose the winning candidate as their second- or third-choice pick.
+&lt;/div&gt;
+&lt;footer&gt;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&lt;cite&gt;&lt;a href=&quot;https://caselaw.findlaw.com/us-9th-circuit/1568172.html&quot;&gt;https://caselaw.findlaw.com/us-9th-circuit/1568172.html&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The paper goes go on to disagree with the courts argument &lt;em&gt;but none of that matters&lt;/em&gt; because the paper isn’t even about the primary type of ranked-choice voting that’s proposed in the Charter reform. Most of the power will be at the Commissioner level and all of those positions will not be IRV. The failure to explain (or catch) the distinction causes the core complaint in the editorial to crumble - they are arguing against the wrong thing!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Single_transferable_vote&quot;&gt;&lt;img src=&quot;/assets/oregonian-charter-reform/wikipedia-screenshot-not-to-be-confused.png&quot; alt=&quot;Wikipedia entry on STV, not to be confused with IRV&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;single-transferrable-vote-stv&quot;&gt;Single Transferrable Vote (STV)&lt;/h1&gt;
+
+&lt;p&gt;Ranked-choice voting is complicated, but we live in a city with an arts tax that’s collected differently from all other taxes in the city - we can handle complexity! When I first read about the Charter proposal I did what I hope many voters will do and I looked up how &lt;a href=&quot;https://en.wikipedia.org/wiki/Single_transferable_vote&quot;&gt;single transferrable vote&lt;/a&gt; actually works. After a 6 minute YouTube video I got it:&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/l8XOZJkozfI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The Willamette Weekly took the best path and &lt;a href=&quot;https://www.wweek.com/news/2022/10/05/we-tried-to-imagine-how-voting-would-work-under-portlands-proposed-charter-reforms/&quot;&gt;described in detail how STV would work in Portland&lt;/a&gt; along with visual examples. I wish the Oregonian had taken the same approach to understand the proposals details enough to describe them to readers instead of mudding the waters with irrelevant academic papers.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://twitter.com/leedrutman&quot;&gt;Lee Drutman’s&lt;/a&gt; perfectly named book &lt;a href=&quot;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&quot;&gt;“Breaking the Two-Party Doom Loop”&lt;/a&gt; an entire chapter is dedicated to the specifics of different ranked choice voting systems used around the world. STV is ranked one of the best systems by elections experts.&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; The use of STV is also not new in America!&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Breaking the Two-Party Doom Loop&quot; data-author=&quot;Lee Drutman&quot; cite=&quot;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&quot;&gt;
+&lt;div&gt;
+Multi-winner ranked-choice voting also has a largely forgotten history in America. Between 1915 and 1948, twenty-four cities adopted this voting system, most notably Sacramento, Cincinnati, Cleveland, and New York City. Under the new voting rules, women got elected to citywide office for the first time in several cities. In Toledo and Cincinnati, African Americans got elected to citywide office for the first time. In New York City, communists got elected. These developments provoked a backlash and contributed to the voting system's undoing in these three cities. Incumbent partisan machines also disliked the system, because it gave voters more choices. So they worked to get rid of it...
+&lt;/div&gt;
+&lt;footer&gt;Breaking the Two-Party Doom Loop&lt;cite&gt;&lt;a href=&quot;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&quot;&gt;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Sound familiar?&lt;/p&gt;
+
+&lt;h1 id=&quot;but-look-how-diverse-the-council-is&quot;&gt;But Look How Diverse The Council Is&lt;/h1&gt;
+
+&lt;p&gt;One benefit of holding the print edition of the paper in your hands is that you can see the twisted logic in the two main endorsements sharing the editorial page. The board is against charter reform and endorsing Hardesty’s opponent - the only council member from east of 82nd ever elected in the city.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-theme=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A reminder of what single member, at large districts have meant in Portland over a century. Concentration of power in a small rectangle of the City, and almost no voice for the rest of the population. &lt;a href=&quot;https://t.co/U8fMGf3Rmr&quot;&gt;pic.twitter.com/U8fMGf3Rmr&lt;/a&gt;&lt;/p&gt;&amp;mdash; gronke (@gronke) &lt;a href=&quot;https://twitter.com/gronke/status/1579720915742756864?ref_src=twsrc%5Etfw&quot;&gt;October 11, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The board argues we shouldn’t worry about diversity on the council because public campaign finance has already solved it. I love that we have the &lt;a href=&quot;https://www.portland.gov/smalldonorelections&quot;&gt;Small Donor Elections program&lt;/a&gt; but when you look at what the charter reform commission is trying to accomplish with STV there’s little doubt in my mind we would have a broader range of viewpoints represented on the council. Under a multi-winner district system there would be room for Sam Adams to actually win an official position in the city to represent business interests (instead of &lt;a href=&quot;https://www.pdxmonthly.com/news-and-city-life/2022/07/sam-adams-portland-city-council-shadow-mayor&quot;&gt;operating in the shadows&lt;/a&gt;), several candidates pushing like Hardesty for police accountability, and even “law and order” candidates like Gonzalez. Voting yes on reform would be a major improvement over the limited range of voices that make it the council now. Yes, there would be more voices and therefore less power for incumbents like Commissioner Mapps, but that is exactly the point.&lt;/p&gt;
+
+&lt;h1 id=&quot;weak-candidate-pool&quot;&gt;Weak Candidate Pool&lt;/h1&gt;
+&lt;p&gt;I’ve saved this line of argument for last because it is the easiest to refute and least interesting. The board claims:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&quot; data-author=&quot;The Oregonian Editorial Board&quot; cite=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;
+&lt;div&gt;
+In recent years, Portland City Council races have drawn roughly 8-10 candidates, but few of those have had the qualifications or shown the broad understanding of government to wage a strong campaign.
+&lt;/div&gt;
+&lt;footer&gt;Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government&lt;cite&gt;&lt;a href=&quot;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&quot;&gt;https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Candidates are not going to waste their time running if they think their odds of winning are low. If we vote yes on charter reform more candidates will have smaller geographic areas to campaign within and incentives through STV to build broad coalitions to become one of the top three choices within their district. From &lt;a href=&quot;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&quot;&gt;“Breaking the Two-Party Doom Loop”&lt;/a&gt; again:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Breaking the Two-Party Doom Loop&quot; data-author=&quot;Lee Drutman&quot; cite=&quot;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&quot;&gt;
+&lt;div&gt;
+Parties and candidates are competing to be not only voters' first choice but also their second and third and fourth choices. This coalition-building can help bridge racial, religious, and other cleavages, as different groups try to reach others' supporters. This is why election experts often recommend it for deeply divided societies...
+&lt;/div&gt;
+&lt;footer&gt;Breaking the Two-Party Doom Loop&lt;cite&gt;&lt;a href=&quot;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&quot;&gt;https://bookshop.org/books/breaking-the-two-party-doom-loop-the-case-for-multiparty-democracy-in-america-6d214242-b43c-4dfb-a54f-f1da3728e72c/9780197577547&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;h1 id=&quot;correct-the-record&quot;&gt;Correct the Record&lt;/h1&gt;
+
+&lt;p&gt;Instead of adding confusion about the Charter Commissions proposal and backing Commissioner Mapps’ risky, unilateral draft, the Oregonian should take more time to thoroughly understand the issues and explain to readers how they would work instead of publishing muddled editorials like this.&lt;/p&gt;
+
+&lt;p&gt;I am frustrated by the failures of elected officials to address critical issues in the city but I am optimistic that voting yes on Measure 26-228 will bring more voices to the Council, reduce polarization through ranked choice voting&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; and improve day-to-day services by hiring a city manager.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;A small footnote here to say that we get the Sunday edition delivered (real paper you can hold in your hands!). Although my post here is a point by point rebuttal of the board’s flawed rationale The Oregonian continues to have some of the best reporting on state wide issues and they play a critical role in the civic discourse in the state. It is only because of the importance of their role that I thought it useful to clearly respond with what they have gotten wrong in this specific case. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The winding path of the editorial reminded me of this great line from Dennard Dayle’s &lt;a href=&quot;https://bookshop.org/books/everything-abridged-stories/9781419760969&quot;&gt;“Everything Abridged”&lt;/a&gt;: “analysis: The journey back to your established opinion.” &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;No. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Someone prove to me that they didn’t find this paper by simply entering “academic papers against ‘ranked choice voting’”. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Ranked 2nd among 9 systems considered. &lt;a href=&quot;https://www.researchgate.net/publication/38175077_Expert_Opinion_on_Electoral_Systems_So_Which_Electoral_System_Is_Best&quot;&gt;Bowler, Shaun &amp;amp; Farrell, David &amp;amp; Pettitt, Robin. (2005). Expert Opinion on Electoral Systems: So Which Electoral System Is “Best”. Journal of Elections, Public Opinion and Parties.&lt;/a&gt;. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;No scare quotes needed. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>...And Then I Fed Lines From My Short Story Into Midjourney</title>
+   <link href="https://bengoertz.com//2022/08/05/creating-with-midjourney/"/>
+   <updated>2022-08-05T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2022/08/05/creating-with-midjourney</id>
+   <content type="html">&lt;p&gt;In my &lt;a href=&quot;/2022/08/01/creating-with-dalle/&quot;&gt;previous post&lt;/a&gt; I fed lines from my short story, &lt;a href=&quot;/fiction/subversion&quot;&gt;Subversion&lt;/a&gt;, into Open AI’s &lt;a href=&quot;https://openai.com/dall-e-2/&quot;&gt;DALL·E&lt;/a&gt;. It took some experimenting to land on the postfix “… in the style of John Harris” to produce images I felt matched the style for the short story. The results were interesting enough to share and continue learning more about AI image generators.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dalle2-subversion-rouge-sunset.jpg&quot; alt=&quot;Example from DALL·E&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The day after I published, I read this &lt;a href=&quot;https://www.theverge.com/2022/8/2/23287173/ai-image-generation-art-midjourney-multiverse-interview-david-holz&quot;&gt;amazing article on The Verge interviewing the founder of Midjourney&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-theme=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Get out of here!! “All the games are dreams.” &lt;a href=&quot;https://t.co/sYj0I0y28h&quot;&gt;pic.twitter.com/sYj0I0y28h&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ben Goertz (@suite22) &lt;a href=&quot;https://twitter.com/suite22/status/1554518987446267910?ref_src=twsrc%5Etfw&quot;&gt;August 2, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Where DALL·E felt like a curiosity (with limited credits to play with) &lt;a href=&quot;https://www.midjourney.com/&quot;&gt;Midjourney&lt;/a&gt; is this boisterous, open Discord where you use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/imagine ...&lt;/code&gt; as much as you want in the public channels for free. If you pay $10/month you gain full commercial license of the images you generate. The results have left my mind racing!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/midjourney/midjourney-render-feeling-of-a-poem.mp4&quot; alt=&quot;Midjourney Video Render&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the start, Midjourney leans towards stylized art rather than almost photo realistic output. The fact you can watch the system working to create the images feels like watching dreams or memories coalesce. Almost any input has beautiful outputs. The system is a black box but the illusion and feeling of control, picking and choosing variants, changing input keywords, all while a mass of other people are running their own commands in the same Discord channel is overwhelming. After a few hours I started to feel the limits of my imagination in what I could generate.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Midjourney Job Info&quot; href=&quot;https://www.midjourney.com/app/jobs/4d6a0acc-09d1-43cc-b01f-91596c6fd053/&quot;&gt;&lt;img alt=&quot;Midjourney The Feeling of a Poem&quot; src=&quot;/assets/midjourney/subversion-the-feeling-of-a-poem.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In a way, Midjourney sidesteps the &lt;a href=&quot;https://en.wikipedia.org/wiki/Turing_test&quot;&gt;Turing test&lt;/a&gt;. I wasn’t chatting with the AI to determine if it was sentient. But I also don’t chat with a friend and ask for dozens of incredible images (posthaste!) and then revisions all in a short period of time. It’s not humanly possible. This is something new.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;An interview with Midjourney founder David Holz&quot; data-author=&quot;David Holz&quot; cite=&quot;https://www.theverge.com/2022/8/2/23287173/ai-image-generation-art-midjourney-multiverse-interview-david-holz&quot;&gt;
+&lt;div&gt;
+... we see this technology as an engine for the imagination.&lt;br /&gt;
+[...]&lt;br /&gt;
+Midjourney is trying to figure out is, okay, how do we use this for people? How do we teach people to swim? How do we make boats? How do we dam it up?
+&lt;/div&gt;
+&lt;footer&gt;An interview with Midjourney founder David Holz&lt;cite&gt;&lt;a href=&quot;https://www.theverge.com/2022/8/2/23287173/ai-image-generation-art-midjourney-multiverse-interview-david-holz&quot;&gt;https://www.theverge.com/2022/8/2/23287173/ai-image-generation-art-midjourney-multiverse-interview-david-holz&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The strangest thing to me is the human faces that I started to see after many runs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Midjourney Job Info&quot; href=&quot;https://www.midjourney.com/app/jobs/7be7b230-f5a2-46dc-b2ac-eac33357f472/&quot;&gt;&lt;img alt=&quot;Midjourney A Character's Face&quot; src=&quot;/assets/midjourney/midjourney-character-face.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t have the control over the system to say, “Yep! That’s my main character. Keep them and now put them in a new scene.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Midjourney Job Info&quot; href=&quot;https://www.midjourney.com/app/jobs/0533e5ca-598c-4ff2-8755-1d2a21af253a/&quot;&gt;&lt;img alt=&quot;Midjourney A Variant of The Character's Face&quot; src=&quot;/assets/midjourney/midjourney-character-face2.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I learned a few tips about inputting the same &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;seed&lt;/code&gt; value to try to produce similar results to a previous image. But again, the levers seem far removed from actual control.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-theme=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I am still overwhelmed with how much this feels like peering into another world that I can only get glimpses of for a moment. &lt;a href=&quot;https://t.co/OMMkE45Vsk&quot;&gt;pic.twitter.com/OMMkE45Vsk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ben Goertz (@suite22) &lt;a href=&quot;https://twitter.com/suite22/status/1555400662166278145?ref_src=twsrc%5Etfw&quot;&gt;August 5, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I still haven’t settled on what these swirls of feelings are from using Midjourney. It feels like a universe of stories I can only dip into and come back to reality with &lt;a href=&quot;https://www.midjourney.com/app/users/779155509735325768/&quot;&gt;a few images&lt;/a&gt;. When I plunge back down into the river, the stories are different, the images change. There’s no firm control, but it’s an incredible opening into new worlds.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Midjourney Job Info&quot; href=&quot;https://www.midjourney.com/app/jobs/0f008bfe-5a95-44e3-965b-ab1cbaa524e8/&quot;&gt;&lt;img alt=&quot;Midjourney A Telescope in the Distance&quot; src=&quot;/assets/midjourney/midjourney-hilltop-telescope.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>I Fed Lines From My Short Story Into DALL·E</title>
+   <link href="https://bengoertz.com//2022/08/01/creating-with-dalle/"/>
+   <updated>2022-08-01T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2022/08/01/creating-with-dalle</id>
+   <content type="html">&lt;p&gt;When you save an image from &lt;a href=&quot;https://openai.com&quot;&gt;Open AI&lt;/a&gt;’s &lt;a href=&quot;https://openai.com/dall-e-2/&quot;&gt;DALL·E&lt;/a&gt; to your collection on the site, the attribution says your name x DALL·E “Human &amp;amp; AI”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dalle-attribution.jpg&quot; alt=&quot;Open AI attribution&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a range of odd emotions about how to even consider what part is considered mine in the creation process and what the AI has made after drinking the internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;DALL·E Info&quot; href=&quot;https://labs.openai.com/s/mVtBowlRNkQnGGhYHDHizc11&quot;&gt;&lt;img alt=&quot;As the light through the window cast shadows slowly across each photo and text on the wall&quot; src=&quot;/assets/dalle2-subversion-light-through-window.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve had a draft of a short story called &lt;a href=&quot;/fiction/subversion&quot;&gt;Subversion&lt;/a&gt; sitting on my hard drive for too long. After playing around with lines from the story and seeing the images from DALL·E I finally posted it. The images that came out of the system surprised me. They’re not like what I had in my head while I wrote the story. The process reminds me of teaching juxtaposition in video editing classes years ago: cutting together Video A + Video B creates a new meaning C. The output from the AI is something new.&lt;/p&gt;
+
+&lt;p&gt;Months ago, I considered working with a (human) artist to draw an image based on the story but in that alternate path I’m not sure if any of the images they might have produced would be similar to what I had in my head either. Communication with anyone, human or freaky image producing AI, is difficult.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“How can I explain a poem to you that I only remember the feeling of?” ~ &lt;a href=&quot;/fiction/subversion&quot;&gt;Subversion&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a title=&quot;DALL·E Info&quot; href=&quot;https://labs.openai.com/s/HA9OrHHtU4lD86pmV37sXGVi&quot;&gt;&lt;img alt=&quot;The station as the rouge sunset flares&quot; src=&quot;/assets/dalle2-subversion-rouge-sunset.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the suggestions for input prompts into DALL·E is to add “… in the style of X”. I love the cover art that John Harris made for John Scalzi’s &lt;a href=&quot;https://bookshop.org/books/old-man-s-war/9780765348272&quot;&gt;Old Man’s War&lt;/a&gt;, so of course that’s what I fed in as input to see what it would look like.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;DALL·E Info&quot; href=&quot;https://labs.openai.com/s/1SBsmSI2fNZQ3bwlhTnL5f1u&quot;&gt;&lt;img alt=&quot;We are mad men among the stars&quot; src=&quot;/assets/dalle2-subversion-madmen-among-the-stars.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The results are wild! I tried a lot of different variations and lines from my story. The obvious ethical question though is: John Harris is a living artist. Am I copying his style? Am I &lt;a href=&quot;https://www.everythingisaremix.info&quot;&gt;remixing&lt;/a&gt;? Is the AI dreaming of loosely related pixels that we think look kind of like John Harris’ work?&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;DALL·E Info&quot; href=&quot;https://labs.openai.com/s/AWqqhYIwbsZ9Uxs2Na1PbLsC&quot;&gt;&lt;img alt=&quot;Fluctuations of the competing sounds together forming an almost harmonious unified chorus and then drifting to discordance&quot; src=&quot;/assets/dalle2-subversion-botany.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The attribution links to DALL·E again only mentions my name + the AI. For some, if you click the image you can see the original input that produced the image. They include “… in the style of John Harris.” I don’t think there’s a likely version of the universe where John Harris paints these images for me. Are these AI produced images good enough for my little sci-fi short story? They’re better than I hoped.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“We build what we do not understand and we know what we have done only once we destroy the systems upon which we depend. We are mad men among the stars.” ~ &lt;a href=&quot;/fiction/subversion&quot;&gt;Subversion&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The story has themes around lost knowledge and attempts to restore things now gone. There’s no direct connection to AI in the story, but creating these images does have me wondering what we might lose along the way.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;DALL·E Info&quot; href=&quot;https://labs.openai.com/s/cJdBbdqbok1m9kutzI0GV79H&quot;&gt;&lt;img alt=&quot;A large oak tree with a low branch reaching towards the ground in a wooded glen with fallen leaves and brown ferns at golden hour&quot; src=&quot;/assets/dalle2-subversion-tree.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Illusion of Knowledge</title>
+   <link href="https://bengoertz.com//2022/07/20/knowledge-illusion/"/>
+   <updated>2022-07-20T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2022/07/20/knowledge-illusion</id>
+   <content type="html">&lt;p&gt;There’s a simple experiment in cognitive science, easily self-administered, to measure how well we think we know something:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;The Knowledge Illusion&quot; data-author=&quot;Steven Sloman &amp;amp; Philip Fernbach&quot; cite=&quot;https://bookshop.org/books/the-knowledge-illusion-why-we-never-think-alone/9780399184369&quot;&gt;
+&lt;div&gt;
+1. On a scale of 1 to 7, how well do you understand how X works?&lt;br /&gt;
+2. How does X work? Describe in as much detail as you can all the steps involved.&lt;br /&gt;
+3. Now, on the same 1 to 7 scale, rate your knowledge of how X works again.
+&lt;/div&gt;
+&lt;footer&gt;The Knowledge Illusion&lt;cite&gt;&lt;a href=&quot;https://bookshop.org/books/the-knowledge-illusion-why-we-never-think-alone/9780399184369&quot;&gt;https://bookshop.org/books/the-knowledge-illusion-why-we-never-think-alone/9780399184369&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The examples in &lt;a href=&quot;https://bookshop.org/books/the-knowledge-illusion-why-we-never-think-alone/9780399184369&quot;&gt;The Knowledge Illusion&lt;/a&gt; include asking people to explain how toilets work. Amateur and professional bikers to explain how the peddles and chain are connected to bicycles (pro’s score poorly too). Everyday objects that we take for granted.&lt;/p&gt;
+
+&lt;p&gt;We operate with a level of hubris that’s beyond our abilities in many cases. Children remind you how little you understand the world when they ask “why?” Or for you to explain how something we think of as simple works.&lt;/p&gt;
+
+&lt;p&gt;How does a computer work? &lt;a href=&quot;https://bookshop.org/books/how-the-internet-really-works-an-illustrated-guide-to-protocols-privacy-censorship-and-governance/9781718500297&quot;&gt;The Internet&lt;/a&gt;? Where do their favorite shows from Netflix come from?&lt;/p&gt;
+
+&lt;p&gt;There’s a section in Richard Powers’ latest novel, &lt;a href=&quot;https://bookshop.org/books/bewilderment-9780393881141/9780393881141&quot;&gt;Bewilderment&lt;/a&gt;, where he captures in precise detail how data travels to our phones - he covers more than many technical books can capture in dozens of pages:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Bewilderment&quot; data-author=&quot;Richard Powers&quot; cite=&quot;https://bookshop.org/books/bewilderment-9780393881141/9780393881141&quot;&gt;
+&lt;div&gt;
+[...] mass cascades of error-correcting bits surged in waves of electromagnetic radiation around the planet's surface. They blasted in vertical geysers 35,786 kilometers upward into space and rained back down at 300 million meters per second. They coursed in bundles of parallel light through fiber conduits only to fan out in bursts of radio across the open air at the whim of tens of millions of grazing fingers coaxing electrons from hundreds of millions of spots on capacitive touch screens a few inches high. [The] streams were the slightest blip in the race's desperate search for mass diversion. As a fraction of the feed produced and consumed that day, a few hundred billion bits of information were like a single pip on the surface of a strawberry at the end of an eight-course dinner.
+&lt;/div&gt;
+&lt;footer&gt;Bewilderment&lt;cite&gt;&lt;a href=&quot;https://bookshop.org/books/bewilderment-9780393881141/9780393881141&quot;&gt;https://bookshop.org/books/bewilderment-9780393881141/9780393881141&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Powers has the magical ability to take extremely complex ideas and to thoroughly explain the technical detail while also capturing the core belief that we ourselves, individually and collectively, understand so little.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-word-for-world-is-forest&quot;&gt;&lt;a href=&quot;https://bookshop.org/books/the-word-for-world-is-forest/9780765324641&quot;&gt;The Word for World is Forest&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Explain how a tree works? A forest?&lt;/p&gt;
+
+&lt;p&gt;Powers pulls off an almost endless array of magic in &lt;a href=&quot;https://bookshop.org/books/the-overstory-0b6e2046-f62f-40aa-8589-97b751cbcfc8/9780393356687&quot;&gt;The Overstory&lt;/a&gt;, but at it’s core, I think he reminds us how little we know about the trees we see everyday. Even as we imagine experts explaining how trees grow, adapt, share nutrients, and more, we are peeking into an ongoing system that has billions of years of secrets. We’re fools to think we can explain it - let alone predict, change, or above all “improve” the “management” of the forest.&lt;/p&gt;
+
+&lt;p&gt;I would love to find ways to capture with his level of precision the complexity of the technical systems we interact with as engineers but also find his underlying sense of humility. Collectively, we have a problem with imagining we know more than we do.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Know Where to Polish</title>
+   <link href="https://bengoertz.com//2022/02/23/know-where-to-polish/"/>
+   <updated>2022-02-23T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2022/02/23/know-where-to-polish</id>
+   <content type="html">&lt;p&gt;Software engineers are typically drawn to the ideals of &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_craftsmanship&quot;&gt;craftsmanship&lt;/a&gt;. Many &lt;a href=&quot;https://bookshop.org/books/clean-code-a-handbook-of-agile-software-craftsmanship/9780132350884&quot;&gt;books&lt;/a&gt; and blogs praise caring deeply about code in a similar way to an artisanal woodworker caring about every detail of the wood they shape.&lt;/p&gt;
+
+&lt;p&gt;This story about Steve Jobs comes to mind for me:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Steve Jobs, page 6&quot; data-author=&quot;Walter Isaacson&quot; cite=&quot;https://bookshop.org/books/steve-jobs-9781982176860/9781501127625&quot;&gt;
+&lt;div&gt;
+Fifty years later the fence still surrounds the back and side yards of the house in Mountain View. As Jobs showed it off to me, he caressed the stockade panels and recalled a lesson that his father implanted deeply in him. It was important, his father said, to craft the backs of cabinets and fences properly, even though they were hidden. ‘He loved doing things right. He even cared about the look of the parts you couldn’t see.’
+&lt;/div&gt;
+&lt;footer&gt;Walter Isaacson&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/steve-jobs-9781982176860/9781501127625&quot;&gt;https://bookshop.org/books/steve-jobs-9781982176860/9781501127625&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Paint the part of the fence that no one else can see but you.&lt;/p&gt;
+
+&lt;h2 id=&quot;intermediate-stages-versus-the-final-piece&quot;&gt;Intermediate Stages versus the Final Piece&lt;/h2&gt;
+
+&lt;p&gt;There is an important distinction though about where we should focus our energy. For example, music and film share similar intermediate stages with software in that listeners don’t see your audio tracks or GarageBand project. Viewers don’t see your Final Cut Pro timeline organization or clip naming. Code is hopefully never seen by the people who use it. What listeners, viewers, and users care about is the piece they &lt;em&gt;experience&lt;/em&gt;. When it’s done beautifully we call it art.&lt;/p&gt;
+
+&lt;h3 id=&quot;schematics&quot;&gt;Schematics&lt;/h3&gt;
+
+&lt;p&gt;We should view source code as something more like a GarageBand file, Final Cut Pro project, or hand drawn plan by a craftsman – it’s a schematic not the final thing itself.&lt;/p&gt;
+
+&lt;p&gt;Am I suggesting we leave wood scraps and saw dust all over the work area? No.&lt;/p&gt;
+
+&lt;p&gt;But some of the best video editors I’ve worked with leave horrific messes while working. They focus relentlessly though on every moment in the final edit being exactly how they want. The names of the tracks? The folders where things are stored? The versions of the project file name? Chaotic to an outside observer. It can be hard to collaborate and work along side folks like that, but their completed work speaks for itself.&lt;/p&gt;
+
+&lt;p&gt;Given the ideal option we all want to be great at every step along the way. But your music, film, and code don’t matter if the final thing that people experience is not good. Perfectly organizing and endlessly debating parts of the &lt;em&gt;intermediate&lt;/em&gt; stage, anything that doesn’t affect the final product, is missing the big picture.&lt;/p&gt;
+
+&lt;p&gt;Most of Apple’s sample iOS code wouldn’t pass the corporate code review gauntlets at the large places I’ve worked. Yet many engineers I know aspire to work at Apple, where only the best engineers make it through the hiring process. Apple’s sample code is a teaching tool &lt;em&gt;not&lt;/em&gt; the final product. Engineers want to work there because we respect what they &lt;em&gt;ship&lt;/em&gt;. Not the sample code. They know what they’re doing.&lt;/p&gt;
+
+&lt;p&gt;Know what you’re building and which stage in the process you are focusing on. Polish the thing that people will use, yes even the parts they can’t see, but don’t fight about the intermediate stages along the way. Save your fire and fury for the final product.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Exploring the Drake Equation</title>
+   <link href="https://bengoertz.com//2021/11/22/drake-equation/"/>
+   <updated>2021-11-22T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/11/22/drake-equation</id>
+   <content type="html">&lt;p&gt;There’s a beautiful scene in &lt;a href=&quot;https://bookshop.org/books/five-billion-years-of-solitude-the-search-for-life-among-the-stars/9781617230165&quot;&gt;Five Billion Years of Solitude&lt;/a&gt; that I keep returning to where the author is touring &lt;a href=&quot;https://en.wikipedia.org/wiki/Frank_Drake&quot;&gt;Frake Drake&lt;/a&gt;’s greenhouses filled with orchids:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Five Billion Years of Solitude, page 37-38&quot; data-author=&quot;Lee Billings&quot; cite=&quot;https://bookshop.org/books/five-billion-years-of-solitude-the-search-for-life-among-the-stars/9781617230165&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;He opened the door to the nearest one, and the hum of ventilation fans and a blast of humid, loamy air flowed out over the grass. Stepping inside, he let out a peaceful sigh. Like the other two greenhouses alongside it, this one was filled with orchids.&lt;/p&gt;
+[...]
+&lt;p&gt;Drake turned to what he said was his current favorite, a single orange bloom with three angular petals
+that tapered to sharp, blood-red points. They looked like fangs. 'This one's a hybrid of two different genuses [... ] No one's seen one like this before, with this red. It wasn't blooming yesterday. Some of these only blossom one day out of the year, and the next day they're gone. You're lucky to be here right now – the flowers aren't long for this world.' He touched the petals with reverence.&lt;/p&gt;
+[...]
+&lt;p&gt;I told Drake his orchids made me think of &lt;i&gt;L&lt;/i&gt;, a technological civilizations longevity, the greatest uncertainty in his equation. If it was too low, our galaxy could give birth to millions, even billions, of civilizations over its eons-long life, but each one, isolated on a lonely planet, would wither and fall unseen with no chance for cross-pollination. If &lt;i&gt;L&lt;/i&gt; was high, then in-bloom civilizations could linger and eventually intermingle, hybridizing their cultures across the light-years. Stability could set in; some would perhaps gain a sort of immortality.&lt;/p&gt;
+&lt;p&gt;Drake smiled and nodded. The similarity had not escaped his notice.&lt;/p&gt;
+&lt;/div&gt;
+&lt;footer&gt;Lee Billings&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/five-billion-years-of-solitude-the-search-for-life-among-the-stars/9781617230165&quot;&gt;https://bookshop.org/books/five-billion-years-of-solitude-the-search-for-life-among-the-stars/9781617230165&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The book has many other fantastic moments but this scene has lodged that &lt;em&gt;L&lt;/em&gt;, longevity, in my mind as something worth thinking deeply about. Essays from &lt;a href=&quot;https://bookshop.org/books/the-clock-of-the-long-now-time-and-responsibility/9780465007806&quot;&gt;The Clock of the Long Now&lt;/a&gt; pair well with this.&lt;/p&gt;
+
+&lt;h3 id=&quot;drake-equation&quot;&gt;Drake Equation&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;N&lt;/em&gt; = &lt;em&gt;R&lt;/em&gt;&lt;sub&gt;∗&lt;/sub&gt; • &lt;em&gt;f&lt;/em&gt;&lt;sub&gt;p&lt;/sub&gt; • &lt;em&gt;n&lt;/em&gt;&lt;sub&gt;e&lt;/sub&gt; • &lt;em&gt;f&lt;/em&gt;&lt;sub&gt;l&lt;/sub&gt; • &lt;em&gt;f&lt;/em&gt;&lt;sub&gt;i&lt;/sub&gt; • &lt;em&gt;f&lt;/em&gt;&lt;sub&gt;c&lt;/sub&gt; • &lt;em&gt;L&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s hard to understand exactly what the range of possible values in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Drake_equation&quot;&gt;Drake Equation&lt;/a&gt; (above) produce, so I made a small &lt;a href=&quot;https://explorabl.es&quot;&gt;explorable&lt;/a&gt; version to play with below. Each of the underlined values is interactive and draggable like a slider.&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&quot;interactive-article-anchor&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;script src=&quot;/assets/idyll-embed.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+    // From https://en.wikipedia.org/wiki/Drake_equation
+    // The Drake equation is: N = R∗ ⋅ fp ⋅ ne ⋅ fl ⋅ fi ⋅ fc ⋅ L
+    // N = the number of civilizations in our galaxy with which communication might be possible
+    // R∗ = the average rate of star formation in our Galaxy
+    // fp = the fraction of those stars that have planets
+    // ne = the average number of planets that can potentially support life per star that has planets
+    // fl = the fraction of planets that could support life that actually develop life at some point
+    // fi = the fraction of planets with life that actually go on to develop intelligent life (civilizations)
+    // fc = the fraction of civilizations that develop a technology that releases detectable signs of their existence into space
+    // L = the length of time for which such civilizations release detectable signals into space
+
+    // Find the element where Idyll will inject content.
+    var articleAnchor = document.getElementById('interactive-article-anchor');
+
+    // Get your markup.
+    var idyllMarkup = '\
+    [var name:&quot;R&quot; value:3 /] \
+    [i]R[/i][sub]∗[/sub] = [Dynamic value:R min:0 max:25 format:&quot;d&quot; /] the average rate of star formation in our Galaxy. \
+    [br /] \
+    [var name:&quot;fp&quot; value:0.95 /] \
+    [i]f[/i][sub]p[/sub] = [Dynamic value:fp min:0 max:1 step:&quot;0.01&quot; format:&quot;0.0%&quot; /] the fraction of those stars that have planets. \
+    [br /] \
+    [var name:&quot;ne&quot; value:5 /] \
+    [i]n[/i][sub]e[/sub] = [Dynamic value:ne min:0 max:100 format:&quot;d&quot; /] the average number of planets that can potentially support life per star that has planets. \
+    [br /] \
+    [var name:&quot;fl&quot; value:0.5 /] \
+    [i]f[/i][sub]l[/sub] = [Dynamic value:fl min:0 max:1 step:&quot;0.01&quot; format:&quot;0.0%&quot; /] the fraction of planets that could support life that actually develop life at some point. \
+    [br /] \
+    [var name:&quot;fi&quot; value:0.5 /] \
+    [i]f[/i][sub]i[/sub] = [Dynamic value:fi min:0 max:1 step:&quot;0.01&quot; format:&quot;0.0%&quot; /] the fraction of planets with life that actually go on to develop intelligent life (civilizations). \
+    [br /] \
+    [var name:&quot;fc&quot; value:0.5 /] \
+    [i]f[/i][sub]c[/sub] = [Dynamic value:fc min:0 max:1 step:&quot;0.01&quot; format:&quot;0.0%&quot; /] the fraction of civilizations that develop a technology that releases detectable signs of their existence into space. \
+    [br /] \
+    [var name:&quot;L&quot; value:1000 /] \
+    [i]L[/i] = [Dynamic value:L min:0 max:1000000 step:&quot;100&quot; format:&quot;d&quot; /] the length of time for which such civilizations release detectable signals into space. \
+    [br /] \
+    [derived name:&quot;N&quot; value:`R * fp * ne * fl * fi * fc * L` /] \
+    [i]N[/i] = [Display value:N format:&quot;d&quot; /] the number of civilizations in our galaxy with which communication might be possible.';
+
+    // Instantiate the Idyll runtime.
+    Idyll.render(idyllMarkup, articleAnchor);
+&lt;/script&gt;
+
+&lt;h2 id=&quot;how-i-made-this&quot;&gt;How I Made This&lt;/h2&gt;
+&lt;p&gt;I used &lt;a href=&quot;https://github.com/idyll-lang/idyll-embed&quot;&gt;idyll-embed&lt;/a&gt; and a simple inline script. The tiny scale of this explorable reminds me of being back in high school tinkering around on the internet. Puttering aimlessly, except here I’ve found a question I want to think more about.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tape Wizard and the Magic of Short Docs</title>
+   <link href="https://bengoertz.com//2021/11/03/tape-wizard-mini-doc/"/>
+   <updated>2021-11-03T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/11/03/tape-wizard-mini-doc</id>
+   <content type="html">&lt;p&gt;I found this great mini-doc today about &lt;a href=&quot;http://www.amuletsmusic.com&quot;&gt;Amulets&lt;/a&gt; - a local Portland musician who makes incredible ambient music using, as the doc shows, tape recorders from Goodwill and other amazing lo-fi parts.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/ohnQZOi_PTs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;encrypted-media; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+These short profile documentaries are hard to pull off without falling into news / Office-style talking head interviews or just plain boring scattered footage. &lt;a href=&quot;https://www.kilianvidourek.com&quot;&gt;The filmmaker&lt;/a&gt; does a great job blending the music (from onstage, pre-recorded, and in the home-studio) in with small tidbits of Randall talking through his process. I feel so much more connected (enough to say Randall in the last sentence instead of Amulets) to the hope of what he’s making even though it’s only a 10 minute glimpse into his world.&lt;/p&gt;
+
+&lt;p&gt;What a great achievement in such a short doc.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Phone = Mood</title>
+   <link href="https://bengoertz.com//2021/06/07/match-mood/"/>
+   <updated>2021-06-07T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/06/07/match-mood</id>
+   <content type="html">&lt;p&gt;In Apple’s massive list of new features today at &lt;a href=&quot;https://developer.apple.com/wwdc21/&quot;&gt;WWDC&lt;/a&gt; is an option to “focus.” &lt;a href=&quot;https://www.apple.com/leadership/craig-federighi/&quot;&gt;Craig Federighi&lt;/a&gt;’s pitch was, “focus is a new way to match your device to your current mind-set.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Apple WWDC 2021 Keynote&quot; href=&quot;https://youtu.be/0TD96VTf0Xs?t=1134&quot;&gt;&lt;img alt=&quot;Match phone to mind-set&quot; src=&quot;/assets/wwdc-keynote2021-mood.gif&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been mulling that sentence (and the ideas that support it) for most of the afternoon.&lt;/p&gt;
+
+&lt;h2 id=&quot;control-flow&quot;&gt;Control Flow&lt;/h2&gt;
+&lt;p&gt;Which way does the control flow? Do you change your device to match your mood or is your device changing your mood?&lt;/p&gt;
+
+&lt;p&gt;A study of smartphone users (the title is aptly called “Brain Drain”) found that the mere presence of a phone, even when silenced, is enough to significantly lower our ability to focus on a task.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Brain Drain: The Mere Presence of One’s Own Smartphone Reduces Available Cognitive Capacity&quot; data-author=&quot;McCombs School of Business&quot; cite=&quot;https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/&quot;&gt;
+&lt;div&gt;&lt;div&gt;Having a smartphone within sight or within easy reach reduces a person’s ability to focus and perform tasks because part of their brain is actively working to not pick up or use the phone.&lt;/div&gt;&lt;br /&gt;&lt;div&gt;“It’s not that participants were distracted because they were getting notifications on their phones,” said Ward. “The mere presence of their smartphone was enough to reduce their cognitive capacity.”&lt;/div&gt;&lt;/div&gt;
+&lt;footer&gt;McCombs School of Business&lt;cite&gt; &lt;a href=&quot;https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/&quot;&gt;https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power/&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.calnewport.com&quot;&gt;Cal Newport&lt;/a&gt;’s recent book “&lt;a href=&quot;https://bookshop.org/books/digital-minimalism-choosing-a-focused-life-in-a-noisy-world/9780525536512&quot;&gt;Digital Minimalism&lt;/a&gt;” is a good compliment to his older book “&lt;a href=&quot;https://bookshop.org/books/deep-work-rules-for-focused-success-in-a-distracted-world-9781455586677/9781455586677&quot;&gt;Deep Work&lt;/a&gt;”, which I think taken together point towards a better path. The most obvious option for silencing your devices is to leave them behind. Walk away.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-space&quot;&gt;Design Space&lt;/h2&gt;
+&lt;p&gt;Apple, or any company, is unlikely to reach a design solution that means less of what they make or profit from. One of the choices on the list of “Focus” options (in the gif above) includes sleep! Is sleep a “mind-set”?&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Sleep Is Our Competition&quot; data-author=&quot;Reed Hastings&quot; cite=&quot;https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition&quot;&gt;
+&lt;div&gt;&quot;You get a show or a movie you’re really dying to watch, and you end up staying up late at night, so we actually compete with sleep,” he said of his No. 1 competitor. Not that he puts too much stock in his rival: &quot;And we’re winning!&quot;&lt;/div&gt;
+&lt;footer&gt;Reed Hastings&lt;cite&gt; &lt;a href=&quot;https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition&quot;&gt;https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;So far no one has found a way to profit off your sleep. I’m okay with protecting my time and sleep myself.&lt;/p&gt;
+
+&lt;p&gt;Is Apple’s aim to help you match the device to your mind-set or your mind-set to their device?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Salon of Ideas</title>
+   <link href="https://bengoertz.com//2021/05/17/salon-of-ideas/"/>
+   <updated>2021-05-17T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/05/17/salon-of-ideas</id>
+   <content type="html">&lt;p&gt;It’s a little silly but over the years my brother and I have made several attempts to host a structured intellectual discussion, a sort of &lt;a href=&quot;https://en.wikipedia.org/wiki/Coffeehouse#History&quot;&gt;17th century coffeehouse&lt;/a&gt; or a &lt;a href=&quot;https://en.wikipedia.org/wiki/Salon_(gathering)&quot;&gt;salon&lt;/a&gt; of ideas with friends. We’re pretentious sometimes like that but our goal isn’t to be pompous. The hope is to learn and sharpen all our thinking - to move beyond the latest headline or gossip towards new perspectives and the roots of our beliefs, the stuff that makes every individual uniquely interesting.&lt;/p&gt;
+
+&lt;p&gt;Attempting to add some rigor or structure to group discussions is actually difficult. In our various attempts things tend towards a more normal open chat about whatever friends want. In person we end up having a good time either way. We talk about whatever is fun, or witty, or serious, and then we go home.&lt;/p&gt;
+
+&lt;p&gt;Online the problems of any sort of discussion are significantly more thorny. Debates online are usually terrible. Most efforts to help improve this seem (take for example &lt;a href=&quot;https://letter.wiki/conversation/1141&quot;&gt;Letter.wiki&lt;/a&gt;) to be fighting uphill against our tendency towards unstructured and bitesized comments. On Twitter the ratio of thoughtful discussions to shallow or frustrating noise is a perpetual letdown.&lt;/p&gt;
+
+&lt;p&gt;None of this is breaking news, the negatives of social media and the (related) decline of people’s engagement in deep discussions in-person have been written about extensively. So why am I writing about it, what is my goal? What can I do to counteract these societal trends? I want to live in a more thoughtful and articulate world, where discourse is elevated above simplistic slogans and instead leads to deeper introspection and understanding. How can we live out what sounds about as cliche as a campaign slogan itself? I’m going to keep killing the buzz at parties with dense discussion prompts. But what about online discussions?&lt;/p&gt;
+
+&lt;p&gt;I think the problem with most recommendations for improving online discussions, especially when centering around disinformation, is the focus on persuading others. Trying to move people who disagree with me, or you, towards views we think are better (obviously better - like only a FOOL would disagree!). But some research, and I think a slowly evolving consensus based on recent history, is that efforts to persuade can move people further away. The act of causing someone to notice their own views can shift them towards the extremes. This quote from the Sante Fe Institute’s Complexity podcast has stuck with me:&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Podcast: The Physics of Attitudes &amp;amp; Beliefs&quot; data-author=&quot;Jonas Dalege&quot; cite=&quot;https://complexity.simplecast.com/episodes/57/transcript&quot;&gt;
+&lt;p&gt;Pretty direct implication of our model is that what basically happens, if you have a discussion with a person you don't agree with, there's probably two things going on... because of this conversation, the other person will of course direct attention to the issue.&lt;/p&gt;&lt;p&gt;And this in our model directly leads you to your beliefs, becoming more correlated and going to more extremes. So what then can happen is even if this person hears the information from your side, it might actually be that increase in attention and importance will actually move this person further away from you because this person's existing beliefs become more correlated and therefore this person becomes more extreme in the other direction.&lt;/p&gt;&lt;p&gt;And I think for example, if you would tell a person that basically, well, you're wrong, this will basically just lead this person to become even more entrenched in his or her former beliefs. And so basically having an open mind and signaling, yeah, I have an open mind also for what would you think would probably reduce this tendency at least somewhat, and then maybe you can actually really have a good discussion and actually exchange information instead of just entrenching your beliefs even more...&lt;/p&gt;
+&lt;footer&gt;Jonas Dalege&lt;cite&gt; &lt;a href=&quot;https://complexity.simplecast.com/episodes/57/transcript&quot;&gt;https://complexity.simplecast.com/episodes/57/transcript&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;What is to be done? I think maybe the goal is not to directly change someone else’s mind but instead to sharpen your own thinking. Writing in particular illustrates how scattered your thoughts really are. Collecting my own thoughts can cause changes in myself that actually move me, not some intellectual opponent, closer to the change I’m hoping to see broadly in society.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Finding bugs without running or even looking at code&quot; data-author=&quot;Dick Guindon&quot; cite=&quot;https://youtu.be/FvNRlE4E9QQ?t=191&quot;&gt;
+&lt;div&gt;Writing is nature's way of letting you know how sloppy your thinking is.&lt;/div&gt;
+&lt;footer&gt;Dick Guindon&lt;cite&gt; &lt;a href=&quot;https://youtu.be/FvNRlE4E9QQ?t=191&quot;&gt;https://youtu.be/FvNRlE4E9QQ?t=191&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Before launching a barrage of (extremely witty and well reasoned) Tweets I can reflect to be less reactionary. Ponder to be more imaginative. Disengage to absorb fewer petty squabbles. Take the time to be more thoughtful. Read (and hopefully write) more of the longform content I enjoy that leads to insights compared to the flickering rage inducing screeds that scroll by on various feeds.&lt;/p&gt;
+
+&lt;p&gt;This really is one of those problems that can be solved through small changes individually that then bubble up through to the larger society level changes. Our own small efforts to have better discussions individually can shift the world away from shallow extremes and out into more interesting waters.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;The Midnight Library&quot; data-author=&quot;Matt Haig&quot; cite=&quot;https://bookshop.org/books/the-midnight-library-9780655697077/9780525559474&quot;&gt;
+&lt;div&gt;“Never underestimate the power of small things.&quot;&lt;/div&gt;
+&lt;footer&gt;Matt Haig&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/the-midnight-library-9780655697077/9780525559474&quot;&gt;https://bookshop.org/books/the-midnight-library-9780655697077/9780525559474&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Cover Oregon Failure</title>
+   <link href="https://bengoertz.com//2021/05/04/cover-oregon-overview/"/>
+   <updated>2021-05-04T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/05/04/cover-oregon-overview</id>
+   <content type="html">&lt;p&gt;If we’ve met in person you’ve probably heard me try to steer the conversation towards the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cover_Oregon#Website_failure&quot;&gt;Cover Oregon website failure&lt;/a&gt;. If only the site worked as well as the &lt;a href=&quot;https://www.youtube.com/watch?v=Dh9munYYoqQ&quot;&gt;“violently adorable” TV ads&lt;/a&gt;! To me it’s a software disaster as stunning as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Hindenburg_disaster&quot;&gt;Hindenburg&lt;/a&gt; and it happened right here in my own backyard. The blank stares after talking about it for 10 (or more) minutes tell me that not everyone shares my level of fascination. In particular, I find that people who work in software are the &lt;em&gt;least&lt;/em&gt; surprised, “Oh of course it failed! I bet the code was a mess!”  But why do we view the failure of massive software projects like this as almost inevitable?&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Sam Shere (1905–1982), Public domain, via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File:Hindenburg_disaster.jpg&quot;&gt;&lt;img alt=&quot;Hindenburg disaster&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/1c/Hindenburg_disaster.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Co-worker’s aren’t wrong about the odds of success, most large software projects tend to fail not just government projects. But we don’t talk about other types of engineering like this. Bridges rarely collapse even though civil engineers in the United States issue dire reports. Even rockets, AKA literal rocket science, launch &lt;em&gt;and land&lt;/em&gt; without much fanfare these days. Yet core parts of our state infrastructure can fail to deliver unemployment insurance correctly and the reporting focuses mostly on the high level political characters - as if it’s their fault the mainframes running COBOL can’t handle the crisis.&lt;/p&gt;
+
+&lt;p&gt;In an obvious sense it is a failure in leadership to let core systems fail through mismanagement and neglect. But that’s not the story of the Cover Oregon failure. The State and (mostly) Federal government spent over $300M for a new website that never launched. We didn’t even get to see a rocket explode during testing. Nothing. Any number greater than a dollar for &lt;em&gt;nothing&lt;/em&gt; seems like a bad deal.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happened&quot;&gt;What happened?&lt;/h2&gt;
+
+&lt;p&gt;Again if you’ve ever worked in software you can probably guess most of the root causes &lt;a href=&quot;https://github.com/suite22/oregon-healthcare-website-retro&quot;&gt;listed in the reporting&lt;/a&gt;: poor planning, terrible communication, lots of political CYA’ing, shoddy work, etc… And yet how can we have nothing to show for it all beyond lawsuits between the State and Oracle? Where is the code? What were the details of some of the terrible decisions?&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-we-learn&quot;&gt;What did we learn?&lt;/h2&gt;
+
+&lt;p&gt;That’s the core of the question that has kept me interested in this story. With the Hindenburg we stopped flying around in massive explode-y ships. We &lt;a href=&quot;https://practical.engineering/blog/2019/3/9/why-the-tacoma-narrows-bridge-collapsed&quot;&gt;built bridges differently&lt;/a&gt; after the Tacoma Narrows bridge collapsed. After the Challenger disaster &lt;a href=&quot;https://www.washingtonpost.com/archive/politics/1986/06/10/challenger-disaster-blamed-on-o-rings-pressure-to-launch/6b331ca1-f544-4147-8e4e-941b7a7e47ae/&quot;&gt;the commission named names&lt;/a&gt; and made significant changes to prevent another shuttle from exploding (the &lt;a href=&quot;https://www.space.com/challenger-final-flight-netflix-docuseries.html&quot;&gt;Netflix series&lt;/a&gt; is great!). Complex problems and projects &lt;a href=&quot;https://how.complexsystems.fail&quot;&gt;fail for complex reasons&lt;/a&gt; but after reading through the newspaper reporting, TV segments, lawsuits, and Congressional report it seems most of us (residents of the state and software engineers) learned next to nothing from the $300M+.&lt;/p&gt;
+
+&lt;p&gt;I plan to highlight the best portions in later posts from the Congressional report and lawsuits about the Cover Oregon failure, but there’s no &lt;a href=&quot;http://www.feynman.com/science/the-challenger-disaster/&quot;&gt;memorable Feynman-level insight&lt;/a&gt; that I’ve uncovered. There’s also been no major reform in how the State does business with Oracle. The lawsuits were ultimately settled and Oracle still sells software that is &lt;a href=&quot;https://patch.com/oregon/portland/oregon-settles-oracle-over-cover-oregon-fiasco&quot;&gt;critical to core operations in the State&lt;/a&gt;. We’re talking about a project failure that ultimately required &lt;a href=&quot;https://pamplinmedia.com/pt/9-news/294405-171739-documents-oracle-doesnt-want-you-to-read-&quot;&gt;daily updates to Larry Ellison&lt;/a&gt; - the co-founder and head of Oracle at the time. Lots of political fallout was &lt;a href=&quot;https://www.oregonlive.com/business/2014/08/oracle_cover_oregon_lawsuit.html&quot;&gt;placed on Governor Kitzhaber&lt;/a&gt; after he left office from unrelated scandals. But are they the only satisfying characters to blame as the figureheads at the top?&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-we-prevent-another-disaster&quot;&gt;How do we prevent another disaster?&lt;/h2&gt;
+
+&lt;p&gt;Beyond the specifics of the Oregon Cover failure, how and what should we change so we actually learn from the past? Talking with other smart folks I want to write about how we can improve - building software inside and outside government.&lt;/p&gt;
+
+&lt;p&gt;In future posts my hope is to find a way to tell you a story worth sticking around for - what happened, what did we learn, and how do we prevent another disaster.&lt;/p&gt;
+
+&lt;p&gt;My (rough) outline ahead is:&lt;/p&gt;
+
+&lt;h3 id=&quot;1-what-is-code&quot;&gt;1. What is code?&lt;/h3&gt;
+&lt;p&gt;How do we talk about a software project failure in a way that everyone can follow along? What analogies or comparisons can we make to understand the scale? What does a bridge project cost? How much have other major software project failures cost? Paul Ford’s legendary 38K word article &lt;a href=&quot;https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/&quot;&gt;“What is code?”&lt;/a&gt; is a wonderful prompt for further exploration.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-reporting-on-software&quot;&gt;2. Reporting on Software&lt;/h3&gt;
+&lt;p&gt;I’ve spent hours reading and watching through the wonderful reporting done by newsrooms across the state: &lt;a href=&quot;https://twitter.com/JeffmanningOre&quot;&gt;Jeff Manning&lt;/a&gt; at The Oregonian, &lt;a href=&quot;https://twitter.com/NickBudnick&quot;&gt;Nick Budnick&lt;/a&gt; at the Portland Tribune, and &lt;a href=&quot;https://twitter.com/ChelseaKopta&quot;&gt;Chelsea Kopta&lt;/a&gt; at KATU in particular spent endless hours reporting the various angles of the story. The technical specifics of the project though are largely buried in source materials. How should technical failures be reported? Do people care about the details? Professionally, I still have questions about the high level architecture and a serious fascination with minutiae like: burn-down charts, team structures, source code, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-software-as-infrastructure&quot;&gt;3. Software as Infrastructure&lt;/h3&gt;
+&lt;p&gt;The analogy of software to roads and bridges is popular, but is it useful in this case? We grade the health of bridges in the State but do we grade the health of software used by the State? What is the state of our software infrastructure?&lt;/p&gt;
+
+&lt;h3 id=&quot;4-crash-investigators&quot;&gt;4. Crash Investigators&lt;/h3&gt;
+&lt;p&gt;When a plane crashes the NTSB is responsible for determining a root cause and making recommendations to improve overall safety for air travel. Should we have something like the NTSB for failed software projects?&lt;/p&gt;
+
+&lt;h3 id=&quot;5-software-engineering&quot;&gt;5. Software &lt;em&gt;Engineering&lt;/em&gt;?&lt;/h3&gt;
+&lt;p&gt;Is the field of engineering the best comparison for writing software? In the early days of the field people  had to fight for the title of “Software &lt;strong&gt;Engineer&lt;/strong&gt;” so that they would be taken as seriously as the other engineering disciplines. But is there a better analogy? Is writing software on a large team more like writing a novel together - software &lt;em&gt;novelists&lt;/em&gt;? Martin Fowler said that maybe a lawyer is a better comparison because what is software if not contracts between systems?&lt;/p&gt;
+
+&lt;h3 id=&quot;6-state-mishandling-vs-corporate-fraud&quot;&gt;6. State Mishandling vs Corporate Fraud?&lt;/h3&gt;
+&lt;p&gt;Did the State fail to properly manage the project? Did Oracle set out to rip the State off from the start? Who is ultimately responsible? Much of the reporting on the failure centered on these questions, and I’m not certain I will be the one to establish any new insights but I hope that a thorough review of the technical details can bring more satisfying answers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you also find this topic interesting I have an open-source &lt;a href=&quot;https://github.com/suite22/oregon-healthcare-website-retro&quot;&gt;repo on Github&lt;/a&gt; where I’ve been collecting source material and notes. If you have insights you would like to share please &lt;a href=&quot;https://twitter.com/suite22&quot;&gt;reach out on Twitter&lt;/a&gt;. I’ve spent a long time thinking this story and I’m excited to finally start sharing more of my findings here.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Response to &quot;Why has nuclear power been a flop?&quot;</title>
+   <link href="https://bengoertz.com//2021/04/23/re-why-nuclear-has-been-a-flop/"/>
+   <updated>2021-04-23T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/04/23/re-why-nuclear-has-been-a-flop</id>
+   <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;This was originally published on Letter.wiki (which is sadly now shutdown) in response to a post by &lt;a href=&quot;https://twitter.com/jasoncrawford&quot;&gt;Jason Crawford&lt;/a&gt;, author of the &lt;a href=&quot;https://rootsofprogress.org&quot;&gt;Roots of Progress&lt;/a&gt; blog.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hi Jason,&lt;/p&gt;
+
+&lt;p&gt;I’ve been enjoying reading your work on Roots of Progress and your research is fantastic! My letter here is focused on your recent post &lt;a href=&quot;https://rootsofprogress.org/devanney-on-the-nuclear-flop&quot;&gt;“Why has nuclear power been a flop?”&lt;/a&gt;. You mention several times the post is a summary of Jack Devanney’s recent book and not necessarily your views directly, so I feel a little odd debating some of these points by proxy but hopefully we can sharpen the debate together. My key points are about the limits of today’s economic analysis, the challenges of long timescales, and the struggle humans face in managing complex systems.&lt;/p&gt;
+
+&lt;p&gt;Comparing the various methods of energy production purely on the economic cost of Watt hours is too narrow a view and to me represents one of the clearest blind spots in Neoclassical economics. Adjacent to Conway’s Law I think there’s a similar economic law:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Any society that develops an economic system will produce a system whose value structure is built upon directly measurable economic elements.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Stated plainly, we currently value only what we can measure. The underlying logic in economics is basically: if we can’t measure it then we can’t price it and if we can’t price it lets lump it in as an “externality” that the model(s) mostly ignore. That might be an unfair simplification, but even if you take a generous view of what can be modeled using econometrics, the key is that models are our attempts to reason about complex systems (the economy, climate, etc) which we understand poorly. The predictive power of most economic models is weak at best. The key is to know the limits of what your model is accounting for.&lt;/p&gt;
+
+&lt;p&gt;Price per kWh is easily measurable and therefore easily comparable across all types of energy production. But how do we compare the potential cost of extremely rare failure events? A more important comparable metric that I would like to suggest could be something like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;% of the earth that is habitable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the style of Randall Monroe and Richard Hamming this is a hand wavy, back of the envelope way of focusing on an outcome that includes risks, including climate change, and can be compared across different energy production systems.&lt;/p&gt;
+
+&lt;p&gt;In favor of nuclear energy production we could use the new metric to say something like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For every kWh produced by a nuclear plant that replaces a coal plant the carbon emissions are lower by X which reduces the rate of global temperature increase by Y, leaving Z % of the earth habitable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We might debate the specifics of this example about climate change, but this is the best case argument for nuclear embedded within the post.&lt;/p&gt;
+
+&lt;p&gt;On the negative case you say we should be more realistic about the risks in talking to the public:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If nuclear power were providing most of the world’s electricity, there would be an accident every few years.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Not all accidents are the same scale. Some mean no power production for awhile. Some mean a reduction in the % of the earth that’s habitable. Not all methods of energy production lower our new metric. When a wind turbine goes out of control and clips the support beam the destruction is dramatic but we can replace it and still live within 100 miles of it.&lt;/p&gt;
+
+&lt;p&gt;You can likely guess my top negative case for nuclear, but the clearest we have on earth is Chernobyl. The exclusion zone around the disaster site is uninhabitable and will remain so (estimates vary) for a range of time beyond the timescales humans typically consider. What is the cost, beyond current economic thinking, of lowering the % of the earth that is habitable?&lt;/p&gt;
+
+&lt;p&gt;I recently got a beautiful collection of photos from &lt;a href=&quot;https://www.dsmcmillan.com&quot;&gt;David McMillan&lt;/a&gt;’s trips into the exclusion zone around Prypiat called “&lt;a href=&quot;https://atomicphotographers.com/2019/06/01/david-mcmillan-growth-and-decay-pripyat-and-the-chernobyl/&quot;&gt;Growth and Decay&lt;/a&gt;.” There’s something immeasurable and worth deeply considering from that one accident. The NOVA documentary about the construction of the massive tomb, &lt;a href=&quot;https://en.wikipedia.org/wiki/Chernobyl_New_Safe_Confinement&quot;&gt;The New Safe Confinement&lt;/a&gt;, placed over the reactor is also fascinating.  The NSC is the world’s largest movable land-based structure. Does the kWh price comparison include the ongoing cost of replacing that mega-structure every (estimated) 100 years until… some distant future.&lt;/p&gt;
+
+&lt;p&gt;On the point of long timescales, I love some of writing from Gregory Benford in “&lt;a href=&quot;http://www.gregorybenford.com/product/deep-time/&quot;&gt;Deep Time: How Humanity Communicates Across Millennia&lt;/a&gt;” and Steward Brand’s “&lt;a href=&quot;https://bookshop.org/books/the-clock-of-the-long-now-time-and-responsibility/9780465007806&quot;&gt;The Clock of the Long Now&lt;/a&gt;.” From Benford for example he has the example of trying to create warning messages for future humans who might not speak any of our known languages about why they shouldn’t dig up radioactive waste. The range of possible warnings is worth reading.&lt;/p&gt;
+
+&lt;p&gt;I agree with the point that we should take a holistic view of risk that includes inaction on addressing climate change and providing power to regions of the world without reliable and affordable access. However, there are clear risks from nuclear power that are mostly ignored by lines like “virtually emission free” and the large section of the post about “what amount of radiation is harmful?” I think at the point we’re thinking along those lines we might be missing the point. For detailed analysis of the effects of radiation I’ve enjoyed a few of the chapters within “&lt;a href=&quot;https://bookshop.org/books/strange-glow-the-story-of-radiation/9780691178349&quot;&gt;Strange Glow&lt;/a&gt;” by Timothy J. Jorgensen. Measuring human deaths alone is again far too narrow a view of our impact on broader systems.&lt;/p&gt;
+
+&lt;p&gt;I wasn’t familiar with Jack Devanney until your post and it was only after reading your post that I saw this important caveat about his point of view on his website for the book:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The author is the Chief Designer for ThorCon which is developing a molten salt reactor based nuclear power plant. Although the book makes no mention of ThorCon, he has a horse in this race and an obvious conflict of interest.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think that’s an important caveat to state early in the post, like stories in the Washington Post prefacing stories about Amazon with “Jeff Bezos owns the Post…”&lt;/p&gt;
+
+&lt;p&gt;I am approaching the limits here on Letter so I will defer an extended section on managing complex systems. We share a similar background in software engineering and I think we probably agree that humans are not great at managing complex systems. We do it! We pull it off, but mostly through a mixture of luck and relentless attention to improvement.&lt;/p&gt;
+
+&lt;p&gt;I hope you find some of these points worth continuing in a discussion here on Letter. Thanks for your time and keep up the great work on Roots of Progress!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Into the Unknown</title>
+   <link href="https://bengoertz.com//2021/02/22/into-the-unknown/"/>
+   <updated>2021-02-22T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2021/02/22/into-the-unknown</id>
+   <content type="html">&lt;p&gt;Some of the teachers at our school have a quote in their email signatures that I love:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If you want to build a ship, don’t drum up people to collect wood and don’t assign them tasks and work, but rather teach them to long for the endless immensity of the sea.”&lt;/p&gt;
+
+  &lt;p&gt;~ &lt;a href=&quot;https://en.wikipedia.org/wiki/Antoine_de_Saint-Exupéry&quot;&gt;Antoine de Saint-Exupéry&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“&lt;a href=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;Beyond the Known&lt;/a&gt;” uses its quick 300 pages to launch a bright flare across the imagination.  There are lots of potential flaws in attempting to summarize all of (recorded) history into a popular book, but part of the magic of distilling and lining up events through the lens of exploration is the amazing comparisons across time - all of human history on Earth. Until reading this (and some of Jared Diamond’s chapter on Easter Island in &lt;a href=&quot;https://bookshop.org/books/collapse-how-societies-choose-to-fail-or-succeed/9780143117001&quot;&gt;Collapse&lt;/a&gt;) I don’t remember learning about how the Polynesians explored the distant islands scattered around the vast oceans but now I’m completely amazed! What would it have been like to explore a totally unknown ocean?&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Beyond the Known, page 38&quot; data-author=&quot;Andrew Rader&quot; cite=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;
+&lt;div&gt;If a future civilization were judging our accomplishments by, say, deciphering the characters on the Lincoln and Jefferson Memorials, they might never imagine that we'd traveled to the Moon. We can definitively recount some exploits of ancient people and guess about others, but we can never know with certainty the full magnitude of their achievements.&lt;/div&gt;
+&lt;footer&gt;Andrew Rader&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Andrew Rader’s goal with the book is I think a lot like teaching people to long for the sea: he briefly covers generation after generation setting out towards goals deemed next to impossible and then towards the end of the book points up at the open sea of space that’s calling us. I’m a sucker for that siren song. During &lt;a href=&quot;https://arstechnica.com/science/2021/02/humans-had-never-seen-a-spacecraft-land-on-another-planet-until-now/&quot;&gt;Perseverance’s landing on Mars&lt;/a&gt; the other day I had to contain myself while driving when the livestream I was listening to started roaring through the stereo as everyone at mission control cheered. We have so much to learn about everything around us.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quoteback&quot; darkmode=&quot;true&quot; data-title=&quot;Beyond the Known, page 160&quot; data-author=&quot;Andrew Rader&quot; cite=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;
+&lt;div&gt;Like Columbus, Magellan continued to massively underestimate the size of the world. In his imagination, the world's largest ocean shrank to a few days' sailing. Thus, two of the greatest explorations in history were grounded in profound ignorance.&lt;/div&gt;
+&lt;footer&gt;Andrew Rader&lt;cite&gt; &lt;a href=&quot;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&quot;&gt;https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;script note=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;There are lots of books arguing for sending humans to Mars, but the strength of this book is the broader appeal to all exploration. I don’t share his gushing optimism for a future where exploration resolves all our collective ills, but it is a wonderful shared purpose to rally behind. Sections of his futuristic utopia echo Sagan’s positivity which is good company to join.&lt;/p&gt;
+
+&lt;p&gt;Each chapter is short, potentially bordering near Wikipedia summary length sometimes, but the great thing is all the ideas and related books that reading this has sparked for me. My concurrent (and slow moving) cruise through related books is a recent habit but I’m following up from “Beyond the Known” with a long list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/collapse-how-societies-choose-to-fail-or-succeed/9780143117001&quot;&gt;Collapse&lt;/a&gt; by Jared Diamond&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-silk-roads-a-new-history-of-the-world/9781101912379&quot;&gt;The Silk Roads&lt;/a&gt; by Peter Frankopan&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-map-of-knowledge-a-thousand-year-history-of-how-classical-ideas-were-lost-and-found/9781101974063&quot;&gt;The Map of Knowledge&lt;/a&gt; by Violet Moller&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/libraries-in-the-ancient-world-revised/9780300097214&quot;&gt;Libraries in the Ancient World&lt;/a&gt; by Lionel Casson&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-clock-of-the-long-now-time-and-responsibility-revised/9780465007806&quot;&gt;Clock of the Long Now&lt;/a&gt; by Stewart Brand&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/tupaia-captain-cook-s-polynesian-navigator/9780995130906&quot;&gt;Tupaia: Captain Cook’s Polynesian Navigator&lt;/a&gt; by Joan Druett&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-journals-of-lewis-and-clark-9780395859964/9780395859964&quot;&gt;The Journals of Lewis and Clark&lt;/a&gt; edited by Bernard Devoto&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bookshop.org/books/the-prehistoric-exploration-and-colonisation-of-the-pacific/9780521476515&quot;&gt;The Prehistoric Exploration and Colonisation of the Pacific&lt;/a&gt; by Geoffrey Irwin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A few more books will likely wander onto the list as I keep following the trail of interesting ideas and stories. If you have any suggestions or recommendations please share them with me!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Screaming into the Void of the Internet</title>
+   <link href="https://bengoertz.com//2020/12/06/screaming-into-the-internet-void/"/>
+   <updated>2020-12-06T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2020/12/06/screaming-into-the-internet-void</id>
+   <content type="html">&lt;h2 id=&quot;what-orwell-got-wrong&quot;&gt;What Orwell Got Wrong&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.everythingisaremix.info/&quot;&gt;Kirby Ferguson&lt;/a&gt;’s post “&lt;a href=&quot;https://link.medium.com/qhmdrKvX0bb&quot;&gt;Censored For 48 Hours&lt;/a&gt;” about the brief removal of one of his videos for “cyberbullying” has sparked some thoughts about ways to improve the content review process. I want to expand on several of his suggestions, about transparency and censorship, but you should start with his post first if you haven’t yet.&lt;/p&gt;
+
+&lt;p&gt;Kirby’s key point that censoring material can cause the inverse intention, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Streisand_effect&quot;&gt;Streisand effect&lt;/a&gt; (where more attention comes from being banned), points towards the path forward. Attention is the rare resource. Perception matters and as Kirby points out being banned can radicalize people with views in the gray zone. Platforms are failing at an impossible mission by trying to play the outright guardian of truth for all users. These companies should flip the script by giving all users the power to opt-in or opt-out of filtering efforts. You want to read the sitting President’s tweets, no matter how false they are deemed to be by the platform, then opt &lt;em&gt;out&lt;/em&gt; of warning labels on his tweets. Make the process available but full of friction so that the default choice means 90%+ of users experience content with additional context to fight disinformation. This step alone removes the rhetorical attack of people screaming “censorship” by side stepping the volley.&lt;/p&gt;
+
+&lt;p&gt;Orwell famously raised the dystopian nightmare of censorship in 1984 - Big brother, thought crimes, etc. The nuanced discussion (covered by many smarter folks) that when YouTube, Facebook, or Twitter remove “free speech” from their platforms it’s not the govenment that’s censoring speech but a private company no longer hosting it (for free). The complex truth is worth stating but these nuances miss the simplistic attack that rings true enough to most Americans. Having something you’ve written deemed “too much” for these sites &lt;em&gt;feels&lt;/em&gt; Orwellian. Some now wear it as a badge of honor. I have a greater fear of the vapid mental intake of most social media than platforms where political debates become too crass. Huxley’s view of a world where we entertain ourselves into oblivian rings truer to me than Orwell’s direct assault on truth.&lt;/p&gt;
+
+&lt;p&gt;What is more dangerous for an idea: that it dies in obsurity (as most of our thoughts and works do) or that they’re are deemed too dangerous (and gain the allure of the metaphorical apple from the tree of good and evil)? If you’ve ever tried to get attention online (for good or bad) you know that being ignored is far harsher than someone taking the time to disagree or even attack you. In many cases on the internet, and one of Trump’s greatest strengths, is truly that no news is bad news.&lt;/p&gt;
+
+&lt;p&gt;If a video strays too far from YouTube’s guidelines, the gradient of actions should only reach outright remove after:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Demonetize it (remove the economic incentive to dance along the line of the gray zone)&lt;/li&gt;
+  &lt;li&gt;De-prioritize it in the recommendation system (how the majority of videos gain viral reach)&lt;/li&gt;
+  &lt;li&gt;Disable comments (reduce engagement and the chance for even worse content to be highlighted by bad actors)&lt;/li&gt;
+  &lt;li&gt;De-prioritize it in search (Google already does this for web results)&lt;/li&gt;
+  &lt;li&gt;De-list so it’s only available via direct link&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Maybe some of these actions already happen? Kirby’s request for more transparency holds here. A community review board and other ways to determine why your views might be supressed are valid. The key here is that supression on the platform is not the same as censorship. Is this list of suggestions the perfect answer? No. And no system will be. I think the danger of the current approach from Twitter and Facebook in particular is that Congress will potentially introduce oversight which could be far more complex and less effective (potentially, I know smart folks are debating options). And the other clear outcome is that users are leaving for far more dangerous platforms where oversight might not even reach - Parler, 8chan, and dark corners of Reddit for example (how on earth has the management of Reddit avoided being hauled before congress?). We are better off sharing common spaces with ideas we disagree with than fracturing into corners where we no longer see any common ground.&lt;/p&gt;
+
+&lt;p&gt;Companies like YouTube want users to spend time on the site for advertising and they don’t want the platform to become so toxic that users or advertisers leave. I also want to be on platforms with protections so that I don’t receive death threats or view reprehensible things. Remember that many abhorrent types of content are already governed by strict laws in the U.S. My argument here is for speech that falls into the debatable gray zone - not beheadings.&lt;/p&gt;
+
+&lt;p&gt;There is a key distinction between stopping the spread of misinformation and trying to stop the &lt;em&gt;existence&lt;/em&gt; of misinformation. Information, however bad or dangerous it might be, will find a way to replicate and exist on the internet as long as data is basically free to copy and store. This post is hosted for free on Github and could be de-platformed but I can take my markdown files to basically any other host and continue. At worst my git repo (nerd speak for backups) that stores all the files is copied to several of my machines. De-platforming me would do almost nothing to stop these ideas from existing other than maybe making it annoying for me to share it (which can be effective for low propensity bullshitters!) and could help the moderators at Github / Microsoft feel a little better. It’s the spread of “bad” ideas that platforms can help with, not cleaning up all bad ideas.&lt;/p&gt;
+
+&lt;p&gt;Social media is terrible but some form of it will be with us for a long time. Leave terrible ideas to exist and scream into the dark empty void of internet space. Don’t give fuel to bad ideas by giving them the allure of being dangerous. Use censorship as only the last resort. Reduce the attacks against platforms by giving users a burdensome process to opt-out.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>If You Hear The Music</title>
+   <link href="https://bengoertz.com//2020/12/03/wood-plane/"/>
+   <updated>2020-12-03T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2020/12/03/wood-plane</id>
+   <content type="html">&lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/38458933?byline=0&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I love the closing story in &lt;a href=&quot;https://incisive.nu&quot;&gt;Erin Kissane&lt;/a&gt;‘s talk (about 33:00 in) from James Krenov:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When you have the right plane and you understand the wood and you slide the plane across the wood. The sound that comes across isn’t just an ugly sound or a vibration, you’re actually making music.
+If you hear the music that means you’re doing it right. You have the right system, the right wood, the right touch, you’re making the right thing.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m a sucker for stories about woodworking but I’m trying to hold off from falling down that rabbit hole as a hobby. The number of software developer souls lost to handcrafts is immense.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="https://bengoertz.com//2020/12/01/hello-world/"/>
+   <updated>2020-12-01T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2020/12/01/hello-world</id>
+   <content type="html">&lt;p&gt;It’s trite to open a blog with an “Initial commit” style post, but I think I’ve finally got Jekyll reasonably configured and working! It only took a few weeks 😂 from when I first started poking around and joking about it on Twitter to now.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-dnt=&quot;true&quot; data-theme=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I&amp;#39;m going to attempt to setup a blog section of my site using Jekyll and github actions. Let&amp;#39;s see how long this takes...&lt;/p&gt;&amp;mdash; Ben Goertz (@suite22) &lt;a href=&quot;https://twitter.com/suite22/status/1323074787812417536?ref_src=twsrc%5Etfw&quot;&gt;November 2, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Thankfully it was only a couple hours after work a few nights.&lt;/p&gt;
+
+&lt;p&gt;My personal site has been static HTML and CSS for years now and my hope is now that I’ve got this running as a Github action on commit it’ll keep working for… who am I kidding! I know I’ll have to cajole this thing back to life whenever some upstream dependency changes. The hope is that keeping important writings (like this significant achievement here) in markdown files will make the eventual migration to the future easier.&lt;/p&gt;
+
+&lt;p&gt;I’m mostly writing all this to laugh at myself in the future.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Let’s Get Ready for SXSWi 2016</title>
+   <link href="https://bengoertz.com//2015/03/01/sxswi/"/>
+   <updated>2015-03-01T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2015/03/01/sxswi</id>
+   <content type="html">&lt;p&gt;SXSWi 2015 just ended last night and I want to capture my initial reactions to the festival and offer advice for next year. A lot of people tried to warn me that my first time to SX would be overwhelming, but outside Mardi Gras it’s the most frantic experiences I’ve seen.&lt;/p&gt;
+
+&lt;h2 id=&quot;fear-of-missing-out&quot;&gt;Fear of Missing Out&lt;/h2&gt;
+&lt;p&gt;You will miss most of the festival. Accept it now. The schedule is so overwhelming it might as well be a textbook example of &lt;a href=&quot;http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice?language=en&quot;&gt;The Paradox of Choice&lt;/a&gt;. Do whatever it takes to limit your options and focus on what you care about most.&lt;/p&gt;
+
+&lt;h2 id=&quot;lower-the-bar-for-success&quot;&gt;Lower the Bar for Success&lt;/h2&gt;
+&lt;p&gt;Aim for one win a day. Pick the one session you really want to see and then spend the rest of the your unscheduled time exploring around and talking to interesting people. My favorite experiences were unplanned:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Running into &lt;a href=&quot;https://twitter.com/aaronareed&quot;&gt;@aaronareed&lt;/a&gt; at the Gaming Expo and getting to talk about his &lt;a href=&quot;http://www.ice-bound.com/&quot;&gt;new project&lt;/a&gt; 1-on-1.&lt;/li&gt;
+  &lt;li&gt;Playing the new VR game &lt;a href=&quot;http://www.keeptalkinggame.com/&quot;&gt;Keep Talking and Nobody Explodes&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Finding new friends from all over the world like &lt;a href=&quot;https://twitter.com/cailyoung&quot;&gt;@cailyoung&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-people-around-you-are-the-main-attraction&quot;&gt;The People Around You Are the Main Attraction&lt;/h2&gt;
+&lt;p&gt;Your phone can wait. Talk to the people you’re in line with. It’s likely you share many of the same interests — hence the reason you’re standing in the same line. In many cases the people I met along the way were more interesting than the panel discussions or the sessions themselves. Stay in touch throughout the week and enjoy cultivating relationships with your new friends.&lt;/p&gt;
+
+&lt;h2 id=&quot;focus-on-experiences&quot;&gt;Focus on Experiences&lt;/h2&gt;
+&lt;p&gt;Almost all the big sessions are &lt;a href=&quot;http://sxsw.com/sxsw-streaming-schedule-2015&quot;&gt;available online to watch later&lt;/a&gt;, so find things that you have to experience in person. Find tactical, physical things to try and avoid panels like the plague. Almost every panel I went to had corporate exec’s shilling for their companies products. I would suggest only going to panels where you know at least one of the participants.&lt;/p&gt;
+
+&lt;h2 id=&quot;asymmetric-chaos-strategy&quot;&gt;Asymmetric Chaos Strategy&lt;/h2&gt;
+&lt;p&gt;When you see the horde moving in one direction, that probably means you can find some great seats in the opposite direction. Because popular sessions can fill up early, try to find undervalued opportunities. Break free of groupthink to avoid hour-plus lines.&lt;/p&gt;
+
+&lt;h2 id=&quot;stay-in-one-area&quot;&gt;Stay in One Area&lt;/h2&gt;
+&lt;p&gt;It’s almost impossible to criss-cross downtown fast enough to make it from the Hyatt for the next session at the Convention Center. Once you find the main session you want to see for the day use that as an anchor — go to sessions in the same area — it’s likely you’ll find interesting related sessions.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-bars&quot;&gt;Open Bars&lt;/h2&gt;
+&lt;p&gt;You find out who you (or others) really are at an open bar.&lt;/p&gt;
+
+&lt;p&gt;I’m not a big party guy, but I’d say once you go to a couple parties you’ve really seen them all. Free booze, pounding music, maybe some free small portions of food, and crushing crowds. I heard some people just come for the parties, but I’d suggest trying to play the long game and save up your energy as best you can for the long week. I feel like I barely survived and we definitely cut most of the nights short.&lt;/p&gt;
+
+&lt;h2 id=&quot;find-a-way-to-come-for-free&quot;&gt;Find a Way to Come for Free&lt;/h2&gt;
+&lt;p&gt;Obviously the ideal would be to come as a speaker. Otherwise find a way to get your company to pay for it. The festival is bazaar of commercialism. The hustle is at full tilt. Be prepared to be pitched at a lot. Nothing wrong with having projects to talk about, but I’m not sure its worth paying full price unless you also have something to hustle.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Opening LEGOs Again</title>
+   <link href="https://bengoertz.com//2015/01/01/open-legos/"/>
+   <updated>2015-01-01T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2015/01/01/open-legos</id>
+   <content type="html">&lt;p&gt;The sound of raking through them.&lt;/p&gt;
+
+&lt;p&gt;Finding an old friends name taped to the back of a road plate. &lt;/p&gt;
+
+&lt;p&gt;The instant reaction my son has to anything I’ve halfway built. &lt;/p&gt;
+
+&lt;p&gt;That’s the only audience I need. &lt;/p&gt;
+
+&lt;p&gt;I want to go back to when I didn’t even know I wanted likes or retweets or comments. Just building because it was fun. &lt;/p&gt;
+
+&lt;p&gt;Each Git commit or social media post feels like a choice to expose a select and hopefully positive thing to the world. I don’t post things that won’t get liked. I don’t go back and delete, but I definitely filter. We all do. &lt;/p&gt;
+
+&lt;p&gt;Here’s to throwing more things into the playground.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Learning by Powers of 10</title>
+   <link href="https://bengoertz.com//2012/05/14/learning-by-powers-of-10/"/>
+   <updated>2012-05-14T00:00:00+00:00</updated>
+   <id>https://bengoertz.com/2012/05/14/learning-by-powers-of-10</id>
+   <content type="html">&lt;p&gt;“The ability to collect, store, and manage data is increasing quickly, but our ability to understand it remains constant.” ~ Ben Fry – &lt;a href=&quot;http://benfry.com/phd/&quot;&gt;Computational Information Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gathering-information&quot;&gt;GATHERING INFORMATION&lt;/h2&gt;
+&lt;p&gt;We’re great at reading, gathering, searching, and finding new and interesting ideas. With search engines now almost anything on the internet can be found using the right keywords. The problem now is not finding information, but sorting and relating it to other information we already know. We start doing this sorting and categorizing at a young age – this is a dog, it’s an animal; this is a cat, it’s also an animal. Slowly over time the number of categories and items we understand expands through learning – Kampala is the capital of Uganda, which is a country in Africa, which is one of 7 continents. These layers can become quite complex and deep. As I learn more about Uganda I store it away in my mind with other information about the country or maybe even relating it to some of its neighboring countries.&lt;/p&gt;
+
+&lt;h2 id=&quot;context-is-everything&quot;&gt;CONTEXT IS EVERYTHING&lt;/h2&gt;
+&lt;p&gt;Once we have a basic framework, we start to hang new information around what we already know. However, without an understanding of the big picture new information can seem meaningless. For example, in my economics class we jumped straight into utility theory formulas without discussing the broader context of how and why we need to analyze individuals utility preferences.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/powers-of-10-micro-econ.jpg&quot; alt=&quot;micro economics class notes about utility preferences&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After looking at these graphs long enough I started to build an understanding on my own, but only through repeated rote exercises – copying the board directly from the professor. If instead we could slowly zoom further in to each level of detail, the foundation for each idea would be much firmer. The best example of this idea of zooming if of course Powers of 10 by Ray &amp;amp; Charles Eames:&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://www.youtube-nocookie.com/embed/0fKBhvDjuy0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;encrypted-media; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Why don’t we have a massive Powers of 10-esque way of presenting knowledge? We have Wikipedia, but right now we can only see one page at a time. The average person can’t aggregate data into any sort of meaningful visual form.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-as-exploration&quot;&gt;LEARNING AS EXPLORATION&lt;/h2&gt;
+&lt;p&gt;Once a beginner sees the big picture – micro vs macro economics – its time to zoom into those groups for more information. &lt;a href=&quot;https://prezi.com&quot;&gt;Prezi&lt;/a&gt; presentations are the most popular way to visually represent this movement. Concepts only become visible once we zoom down through the larger items.&lt;/p&gt;
+
+&lt;p&gt;These broad sweeps of information should not be limited to something that only the professor does as part of a presentation. By visually representing the data so students can explore and relate interesting ideas on their own, learning can become exploratory and interesting again.&lt;/p&gt;
+
+&lt;p&gt;Imagine a zoomable Prezi for any topic you want to learn that has detailed layers that allow you to skim the broad concepts or learn all the way down to ongoing research.&lt;/p&gt;
+
+&lt;p&gt;The problem with Prezi’s is that the proportions and layers are all built individually by the presenter. We need a new system that allows the data to persist between Prezi’s, for this web to expand through the efforts of everyone just like Wikipedia is built by the masses instead of one author.&lt;/p&gt;
+
+&lt;h2 id=&quot;big-history&quot;&gt;BIG HISTORY&lt;/h2&gt;
+&lt;p&gt;Microsoft’s &lt;a href=&quot;https://www.microsoft.com/en-us/research/project/chronozoom/&quot;&gt;ChronoZoom&lt;/a&gt; research project is one of the best examples I’ve seen of trying to give the broadest sense of context with an ability to zoom in to what interests you. ChronoZoom is part of the broader field of &lt;a href=&quot;http://en.wikipedia.org/wiki/Big_History&quot;&gt;Big History&lt;/a&gt; – best summarized by &lt;a href=&quot;http://www.ted.com/talks/david_christian_big_history.html&quot;&gt;David Christian at TED&lt;/a&gt; – which tries to place human history within the context of the full history of the universe. Imagine learning history in school with this massive level of context that’s fully zoomable.&lt;/p&gt;
+
+&lt;h2 id=&quot;not-just-pretty-computable&quot;&gt;NOT JUST PRETTY; COMPUTABLE&lt;/h2&gt;
+&lt;p&gt;I keep talking about representing the ideas or data visually but the key here is that the web of information isn’t just a static mindmap that’s used once; instead by defining the relationships between items we can sort, pivot, rotate, filter, and re-organize the data in ways that answer questions. These sorts of questions are the ones I hope to answer and illustrate in future postings.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
