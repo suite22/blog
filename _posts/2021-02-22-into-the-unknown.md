@@ -2,6 +2,7 @@
 layout: post
 title: Into the Unknown
 image: https://images-us.bookshop.org/ingram/9781982123550.jpg?height=500&v=v2
+tags: book
 ---
 
 Some of the teachers at our school have a quote in their email signatures that I love:

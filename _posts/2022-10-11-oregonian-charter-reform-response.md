@@ -2,6 +2,7 @@
 layout: post
 title: The Oregonian's Flawed Charter Reform Editorial
 image: /assets/oregonian-charter-reform/ballot-image.png
+tags: portland
 ---
 
 The Oregonian's[^1] recent [editorial against the proposed charter reform](https://www.oregonlive.com/opinion/2022/10/editorial-endorsement-november-2022-vote-no-on-mega-measure-to-overhaul-portland-city-government.html) is riddled with enough issues I want to address them individually here. The editorial opens with a point most Portlander's agree with: the city is not functioning well.

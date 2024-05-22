@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Know Where to Polish
+tags: software
 ---
 
 Software engineers are typically drawn to the ideals of [craftsmanship](https://en.wikipedia.org/wiki/Software_craftsmanship). Many [books](https://bookshop.org/books/clean-code-a-handbook-of-agile-software-craftsmanship/9780132350884) and blogs praise caring deeply about code in a similar way to an artisanal woodworker caring about every detail of the wood they shape. 

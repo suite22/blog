@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Learning from What We Build
-image: $$ Use something from Midjourney $$
-published: false
 ---
 Build measure fix - cite the actual model that people use. 
 This article is valuable because we're going to show examples of why you can learn faster and better through better telemetry.

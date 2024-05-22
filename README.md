@@ -28,7 +28,7 @@ On every change to the main branch the Github action should 🤞 run to deploy t
 * Install Homebrew
 * Install `chruby`
 * Install `ruby-install`
-  * I've been using Ruby 2.7.3
+  * I've upgraded to use Ruby 3.3.0
 * Use chruby for managing the local version of Ruby
 
 ### 1. Install dependencies
