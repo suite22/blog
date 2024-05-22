@@ -9,7 +9,7 @@ title: Home
 </section>
 
 <section>
-<h1>Favorite Posts</h1>
+<h1>Favorite <a href="/posts">Posts</a></h1>
 {% assign favposts = site.posts | where: "favorite", true %}
 <ul>
 {% for post in favposts %}
