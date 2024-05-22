@@ -2,6 +2,7 @@
 layout: post
 title: Exploring the Drake Equation
 image: https://images-us.bookshop.org/ingram/9781617230165.jpg?height=400&v=v2
+favorite: true
 ---
 
 There's a beautiful scene in [Five Billion Years of Solitude](https://bookshop.org/books/five-billion-years-of-solitude-the-search-for-life-among-the-stars/9781617230165) that I keep returning to where the author is touring [Frake Drake](https://en.wikipedia.org/wiki/Frank_Drake)'s greenhouses filled with orchids:

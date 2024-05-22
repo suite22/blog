@@ -2,6 +2,7 @@
 layout: post
 title: ...And Then I Fed Lines From My Short Story Into Midjourney
 image: /assets/midjourney/subversion-the-feeling-of-a-poem.jpg
+favorite: true
 ---
 
 In my [previous post](/2022/08/01/creating-with-dalle/) I fed lines from my short story, [Subversion](/fiction/subversion), into Open AI's [DALL·E](https://openai.com/dall-e-2/). It took some experimenting to land on the postfix "... in the style of John Harris" to produce images I felt matched the style for the short story. The results were interesting enough to share and continue learning more about AI image generators.
