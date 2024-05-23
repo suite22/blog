@@ -8,7 +8,7 @@ favorite: true
 I've been stretching myself to try new creative projects that in one way or another intimidate me. When possible, I've tried to step away from computers and make real things with my hands – which is actually difficult to pull off!
 
 ## Hand Lettering & Sign Painting + RISO Printing
-This past weekend I took a hand lettering class at [Outlet](https://www.outletpdx.com) (imagine all the brightest and beautiful art perfectly arranged in your cool neighbors converted garage) and made this RISO print for my [wife's campaign](https://www.lisaforportland.com):
+This past weekend I took a hand lettering class at [Outlet](https://www.outletpdx.com) (imagine all the brightest and beautiful art perfectly arranged in your cool neighbors converted garage) and made this RISO print for my [partner's campaign](https://www.lisaforportland.com):
 
 <img src="/assets/real-things/NewBloomsRISO.jpeg"/>
 
