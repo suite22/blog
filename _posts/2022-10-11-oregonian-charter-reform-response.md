@@ -73,7 +73,7 @@ I could keep going but I don't want to get sidetracked, like the Oregonian, but 
 <footer>Editorial endorsement November 2022: Vote ‘no’ on mega-measure to overhaul Portland city government<cite><a href="https://caselaw.findlaw.com/us-9th-circuit/1568172.html">https://caselaw.findlaw.com/us-9th-circuit/1568172.html</a></cite></footer>
 </blockquote><script src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>
 
-The paper goes go on to disagree with the courts argument _but none of that matters_ because the paper isn't even about the primary type of ranked-choice voting that's proposed in the Charter reform. Most of the power will be at the Commissioner level and all of those positions will not be IRV. The failure to explain (or catch) the distinction causes the core complaint in the editorial to crumble - they are arguing against the wrong thing!
+The paper goes go on to disagree with the courts argument _but none of that matters_ because the paper isn't even about the primary type of ranked-choice voting that's proposed in the Charter reform. Most of the power will be at the City Councilor level and all of those positions will not be IRV. The failure to explain (or catch) the distinction causes the core complaint in the editorial to crumble - they are arguing against the wrong thing!
 
 [![Wikipedia entry on STV, not to be confused with IRV](/assets/oregonian-charter-reform/wikipedia-screenshot-not-to-be-confused.png)](https://en.wikipedia.org/wiki/Single_transferable_vote)
 
