@@ -2,7 +2,7 @@
 layout: post
 title: Into the Unknown
 image: https://images-us.bookshop.org/ingram/9781982123550.jpg?height=500&v=v2
-tags: book
+tags: books
 ---
 
 Some of the teachers at our school have a quote in their email signatures that I love:
@@ -11,7 +11,7 @@ Some of the teachers at our school have a quote in their email signatures that I
 >
 > ~ [Antoine de Saint-Exupéry](https://en.wikipedia.org/wiki/Antoine_de_Saint-Exupéry)
 
-"[Beyond the Known](https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550)" uses its quick 300 pages to launch a bright flare across the imagination.  There are lots of potential flaws in attempting to summarize all of (recorded) history into a popular book, but part of the magic of distilling and lining up events through the lens of exploration is the amazing comparisons across time - all of human history on Earth. Until reading this (and some of Jared Diamond's chapter on Easter Island in [Collapse](https://bookshop.org/books/collapse-how-societies-choose-to-fail-or-succeed/9780143117001)) I don't remember learning about how the Polynesians explored the distant islands scattered around the vast oceans but now I'm completely amazed! What would it have been like to explore a totally unknown ocean? 
+"[Beyond the Known](https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550)" uses its quick 300 pages to launch a bright flare across the imagination.  There are lots of potential flaws in attempting to summarize all of (recorded) history into a popular book, but part of the magic of distilling and lining up events through the lens of exploration is the amazing comparisons across time - all of human history on Earth. Until reading this (and some of Jared Diamond's chapter on Easter Island in [Collapse](https://bookshop.org/books/collapse-how-societies-choose-to-fail-or-succeed/9780143117001)) I don't remember learning about how the Polynesians explored the distant islands scattered around the vast oceans but now I'm completely amazed! What would it have been like to explore a totally unknown ocean?
 
 <blockquote class="quoteback" darkmode="true" data-title="Beyond the Known, page 38" data-author="Andrew Rader" cite="https://bookshop.org/books/beyond-the-known-how-exploration-created-the-modern-world-and-will-take-us-to-the-stars/9781982123550">
 <div>If a future civilization were judging our accomplishments by, say, deciphering the characters on the Lincoln and Jefferson Memorials, they might never imagine that we'd traveled to the Moon. We can definitively recount some exploits of ancient people and guess about others, but we can never know with certainty the full magnitude of their achievements.</div>
