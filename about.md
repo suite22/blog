@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I love living in Portland, OR with my partner and our kids. Together with my business partner, [Sasha](https://www.chedygov.com/), I run a [software consultancy](https://www.semidecent.com/). Previously, I worked as a [video editor and producer](/projects#videos) and still enjoy filming when I can.
+I love living in Portland, OR with my partner and our kids. Together with my business partner, [Sasha](https://www.chedygov.com/), I run a [software consultancy](https://www.semidecent.com/). Before working in software I was a [video editor and producer](/projects#videos) and still enjoy filming when I can.
 
 Creatively I'm trying to blend the artistic with the technical: [stories](/fiction/subversion) + code. A small is an [Explorable Explanation](https://explorabl.es) section in [my post about the Drake equation](https://bengoertz.com/2021/11/22/drake-equation/) where you can try different values in the famous equation.
 
