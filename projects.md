@@ -13,11 +13,11 @@ I've been gathering [notes related to complex systems](/complex-systems). Please
 * [What is Code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) by Paul Ford
 * [The Logic of Failure](https://bookshop.org/books/the-logic-of-failure-recognizing-and-avoiding-error-in-complex-situations/9780201479485) by Dietrich Dörner
 
---- 
+---
 
 <p id="videos"></p>
 ## Videos
-Over the years I've made [silly videos for friends](https://vimeo.com/90770645), [timelapses](https://vimeo.com/89745119), [satire](https://youtu.be/ABmj8w8h3ak), Emmy award-winning [broadcast TV specials](https://vimeo.com/92482491), [political campaign promos](https://www.youtube.com/channel/UCwxFbm6I-iEYPuMJ5BgAdZw), and directed stadium productions for 100K+ rabid fans. 
+Over the years I've made [silly videos for friends](https://vimeo.com/90770645), [timelapses](https://vimeo.com/89745119), [satire](https://youtu.be/ABmj8w8h3ak), Emmy award-winning [broadcast TV specials](https://vimeo.com/92482491), [political campaign promos](https://www.youtube.com/channel/UCwxFbm6I-iEYPuMJ5BgAdZw), and directed stadium productions for 100K+ rabid fans.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/92269602?h=d7c25c8760&autopause=0&player_id=0&app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -33,6 +33,12 @@ Over the years I've made [silly videos for friends](https://vimeo.com/90770645),
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/34638032?h=be671a4a2a&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="All Access: Road to 14 - Tornado segment"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+### Political Ads
+
+<iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/euwuEhrlUEQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/YeKiOtoLIrU" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
 ### Promos
 
 <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/938839580?h=f0d5079c97&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SAGE. flowers Instagram promo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -41,7 +47,7 @@ Over the years I've made [silly videos for friends](https://vimeo.com/90770645),
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/161328819?h=f0d5079c97&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Crema: How to Brew French Press"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
---- 
+---
 
 ## Cover Oregon website failure
 
