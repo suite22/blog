@@ -59,14 +59,18 @@ By September we hit our stride and released, on average, a new video every week 
 ## Keep it simple
 One of the best performing ads was this quick ad listing climate endorsements.
 
-<iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/YeKiOtoLIrU" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+  <iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/YeKiOtoLIrU" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 We filmed it in an afternoon near the house and I had it posted the next day. Less than 24 hour turnaround.
 
 ## Upbeat?
 We tried to bring positive energy to the campaign trail, but...
 
-<iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/Fa8DXLCrc60" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+  <iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/Fa8DXLCrc60" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ...some of the feedback we got is that people were angry. There's a lot broken in the city. Fun vibes came off a little too cheery.
 
@@ -88,7 +92,9 @@ Those ads are probably the closest we came to pushing the narrative away from th
 
 ## Democracy
 Throughout the campaign Lisa kept refining her 60 second pitch (with so many candidates running forums often set short time limits) and with only a few weeks left she got [strong responses from voters at forums](https://www.youtube.com/shorts/do7yMmNm2_E) and at doors talking about the threats to democracy. [For symbolic reasons](https://www.npr.org/2020/07/17/892277592/federal-officers-use-unmarked-vehicles-to-grab-protesters-in-portland), we filmed outside the Federal courthouse downtown and turned this ad around quickly to try and make it part of the closing argument.
-<iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/euwuEhrlUEQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+  <iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/euwuEhrlUEQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
 I love this ad because it speaks to one of the main animating forces for me - protecting Portland.
 
 ## Rank 6!
@@ -110,4 +116,6 @@ Ultimately, a lot of progressive votes stayed together as candidates were elimin
 ## Why vote?
 With less than a week left in the campaign I sat down with Lisa for a loooong (too long) interview and pulled together this last ad trying to push the final GOTV. More people than you might think were answering their doors during canvassing and saying how unenthusiastic they were. We tried to encourage people to be engaged with the local election even if they didn't like the top of the ticket.
 
-<iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/otQJvPF5EcQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+  <iframe width=640 height=360 src="https://www.youtube-nocookie.com/embed/otQJvPF5EcQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
