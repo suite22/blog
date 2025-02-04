@@ -5,7 +5,7 @@ title: Projects
 
 ## Engineering Complex Systems
 
-I've been gathering [notes related to complex systems](/complex-systems). Please get in contact through [Mastodon](https://moth.social/@suite22) if you have related reading suggestions or want to chat more.
+I've been gathering [notes related to complex systems](/complex-systems). Please get in contact through [Mastodon](https://pdx.social/@suite22) if you have related reading suggestions or want to chat more.
 
 ### Related Reading
 
@@ -51,7 +51,7 @@ Over the years I've made [silly videos for friends](https://vimeo.com/90770645),
 
 ## Cover Oregon website failure
 
-I'm learning about the Cover Oregon project failure from several years ago. My notes so far are available in [this repo](https://github.com/suite22/oregon-healthcare-website-retro). Please get in contact through [Mastodon](https://moth.social/@suite22) if you have any information related to the project.
+I'm learning about the Cover Oregon project failure from several years ago. My notes so far are available in [this repo](https://github.com/suite22/oregon-healthcare-website-retro). Please get in contact through [Mastodon](https://pdx.social/@suite22) if you have any information related to the project.
 
 ### Posts
 * [The Cover Oregon Failure (overview)](https://bengoertz.com/2021/05/04/cover-oregon-overview/)
