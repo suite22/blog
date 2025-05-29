@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Weekend Food Tour of Tuscaloosa
-date: 2012-02-27 01:41:53
-categories:
-  - Food
+tags: food
 ---
 
 We have a lot of friends come down to visit us who have never been to Tuscaloosa. It's a mid-size town with a few things worth seeing, but the main attraction is the football and food. When there's no football, we just have to make do with great food.

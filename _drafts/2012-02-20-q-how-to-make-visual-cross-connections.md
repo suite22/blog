@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Q: How to Make Visual Cross-Connections?"
-date: 2012-02-20 22:14:50
 categories:
   - Economics
   - Information Design
 ---
 
-After a bit of reading online I think I'm finally on the trail of what I've been searching for - how to link different ideas together across different hierarchies. Here is the situation now - I am studying economics and as I learn about key economist I want to understand where they are in the context of different schools of thought. For example, <a class="zem_slink" title="Milton Friedman" href="http://en.wikipedia.org/wiki/Milton_Friedman" rel="wikipedia">Milton Friedman</a> is listed as "<a class="zem_slink" title="Chicago school of economics" href="http://en.wikipedia.org/wiki/Chicago_school_of_economics" rel="wikipedia">Chicago School of Economics</a>" by Wikipedia, <a class="zem_slink" title="Ludwig von Mises" href="http://en.wikipedia.org/wiki/Ludwig_von_Mises" rel="wikipedia">Ludwig von Mises</a> as "<a class="zem_slink" title="Austrian School" href="http://en.wikipedia.org/wiki/Austrian_School" rel="wikipedia">Austrian</a>", and <a class="zem_slink" title="Paul Krugman" href="http://en.wikipedia.org/wiki/Paul_Krugman" rel="wikipedia">Paul Krugman</a> as "<a class="zem_slink" title="Keynesian economics" href="http://en.wikipedia.org/wiki/Keynesian_economics" rel="wikipedia">Keynesian</a>." The typical presentation is a simple hierarchy, maybe in a mind map format.
+After a bit of reading online I think I'm finally on the trail of what I've been searching for - how to link different ideas together across different hierarchies. Here is the situation now - I am studying economics and as I learn about key economist I want to understand where they are in the context of different schools of thought. For example, <a title="Milton Friedman" href="http://en.wikipedia.org/wiki/Milton_Friedman" rel="wikipedia">Milton Friedman</a> is listed as "<a title="Chicago school of economics" href="http://en.wikipedia.org/wiki/Chicago_school_of_economics" rel="wikipedia">Chicago School of Economics</a>" by Wikipedia, <a title="Ludwig von Mises" href="http://en.wikipedia.org/wiki/Ludwig_von_Mises" rel="wikipedia">Ludwig von Mises</a> as "<a title="Austrian School" href="http://en.wikipedia.org/wiki/Austrian_School" rel="wikipedia">Austrian</a>", and <a title="Paul Krugman" href="http://en.wikipedia.org/wiki/Paul_Krugman" rel="wikipedia">Paul Krugman</a> as "<a title="Keynesian economics" href="http://en.wikipedia.org/wiki/Keynesian_economics" rel="wikipedia">Keynesian</a>." The typical presentation is a simple hierarchy, maybe in a mind map format.
 
 <img class="size-medium wp-image-96 aligncenter" style="border-style: initial; border-color: initial;" title="traditional mind map" src="http://bengoertz.com/wp-content/uploads/2012/02/typical-mindmap-300x174.jpg" alt="" width="300" height="174" />
 

@@ -27,15 +27,20 @@ def clean_content(content: Optional[str]) -> str:
 def escape_yaml_string(s: str) -> str:
     """Escape string for YAML frontmatter"""
     # If string contains any of these characters, wrap it in quotes
-    special_chars = ":{}[]!@#$%^&*()=+<>?,'"
+    special_chars = ":{}[]!@#$%^&*()=+<>?,"
+
+    # Always quote strings containing single or double quotes
+    if "'" in s or '"' in s:
+        # Replace any existing double quotes with single quotes
+        s = s.replace('"', "'")
+        # Wrap the entire string in double quotes
+        return f'"{s}"'
+
+    # For other special characters
     needs_quotes = any(c in s for c in special_chars)
-
-    # Replace double quotes with single quotes
-    s = s.replace('"', "'")
-
-    # If string needs quotes and isn't already quoted
     if needs_quotes and not (s.startswith('"') and s.endswith('"')):
         return f'"{s}"'
+
     return s
 
 
@@ -54,8 +59,8 @@ def create_markdown_file(post: ET.Element) -> None:
         "wp:post_type", namespaces={"wp": "http://wordpress.org/export/1.2/"}
     ).text
 
-    # Skip if not a regular post or if draft
-    if post_type != "post" or status != "publish":
+    # Skip if not a post
+    if post_type != "post":
         return
 
     # Clean the content
@@ -80,6 +85,10 @@ def create_markdown_file(post: ET.Element) -> None:
         f.write("layout: post\n")
         f.write(f"title: {escape_yaml_string(title)}\n")
         f.write(f'date: {date.strftime("%Y-%m-%d %H:%M:%S")}\n')
+
+        # Add draft status if not published
+        if status != "publish":
+            f.write("draft: true\n")
 
         # Add categories if present
         categories = post.findall('category[@domain="category"]')

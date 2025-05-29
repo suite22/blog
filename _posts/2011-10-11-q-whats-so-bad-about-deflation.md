@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "Q: What's so bad about deflation?"
-date: 2011-10-11 15:32:12
-categories:
-  - Economics
+tags: economics
 ---
 
 We have been learning in macroeconomics class that deflation is an incredibly negative situation, especially from the perspective of central banks. Monetary policy becomes less effective in managing the economy once you have serious deflation. From there the basic argument goes that the economy may enter into a <a href="http://en.wikipedia.org/wiki/Deflation#Deflationary_spiral">deflationary spiral</a> causing lower prices to lead to lower production and therefore lower employment.

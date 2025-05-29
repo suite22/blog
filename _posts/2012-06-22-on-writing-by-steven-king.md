@@ -1,20 +1,11 @@
 ---
 layout: post
 title: "'On Writing' by Steven King"
-date: 2012-06-22 23:25:27
-categories:
-  - Books
+tag: books
 ---
 
-<a href="http://www.amazon.com/gp/product/1439193630/ref=as_li_ss_tl?ie=UTF8&tag=bengoeprosol-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1439193630"><img class="alignright  wp-image-387" style="margin-left: 10px; margin-right: 10px;" title="on-writing" src="http://bengoertz.com/wp-content/uploads/2012/06/on-writing.jpg" alt="" width="204" height="315" /></a>
-
-<em><a href="http://www.amazon.com/gp/product/1439193630/ref=as_li_ss_tl?ie=UTF8&tag=bengoeprosol-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1439193630">On Writing</a> </em>by Steven King
-
-Read: 6/18/12
-
-Rating: 4/5
-<img src="http://www.assoc-amazon.com/e/ir?t=bengoeprosol-20&l=as2&o=1&a=0393076016" alt="" width="1" height="1" border="0" />
-<h2>My Highlights & Notes:</h2>
+# My Highlights & Notes
+<!-- Remove all the Amazon links -->
 In many ways, Eula-Beulah prepared me for literary criticism. After having a two-hundred-pound babysitter fart on your face and yell Pow!, The Village Voice holds few terrors.<a href="kindle://book?action=open&asin=B000FC0SIM&location=119">Read more at location 119
 </a>
 <div>
@@ -26,8 +17,6 @@ face and rotatin’ tongues,” as we used to say).<a href="kindle://book?action
 <div>
 
 At some point I began to write my own stories. Imitation preceded creation;<a href="kindle://book?action=open&asin=B000FC0SIM&location=208">Read more at location 208</a>
-
- 
 
 </div>
 <div>There were more doors than one person could ever open in a lifetime, I thought (and still think).<a href="kindle://book?action=open&asin=B000FC0SIM&location=221">Read more at location 221</a></div>
@@ -399,4 +388,3 @@ The first is that good writing consists of mastering the fundamentals (vocabular
 Writing isn’t about making money, getting famous, getting dates, getting laid, or making friends. In the end, it’s about enriching the lives of those who will read your work, and enriching your own life, as well.<a href="kindle://book?action=open&asin=B000FC0SIM&location=3354">Read more at location 3354</a>
 
 </div>
-<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/?px"><img class="zemanta-pixie-img" style="border: none; float: right;" src="http://img.zemanta.com/zemified_e.png?x-id=4cf1fa60-b2d6-48d2-89ee-2c26d0c839e0" alt="Enhanced by Zemanta" /></a></div>

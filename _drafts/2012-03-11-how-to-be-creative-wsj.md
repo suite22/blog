@@ -24,7 +24,7 @@ Of course, not every creative challenge requires an epiphany; a relaxing shower 
 
 There is nothing fun about this kind of creativity, which consists mostly of sweat and failure. It's the red pen on the page and the discarded sketch, the trashed prototype and the failed first draft. <strong>Nietzsche referred to this as the "rejecting process,"</strong> noting that while creators like to brag about their big epiphanies, their everyday reality was much less romantic. "<strong>All great artists and thinkers are great workers,</strong>" he wrote.
 
-This relentless form of creativity is nicely exemplified by the legendary graphic designer <a class="zem_slink" title="Milton Glaser" href="http://miltonglaser.com" rel="homepage" target="_blank">Milton Glaser</a>, who engraved the slogan "<strong><a class="zem_slink" title="Art is Work" href="http://www.amazon.com/Art-Work-Milton-Glaser/dp/1590200063%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dbengoeprosol-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1590200063" rel="amazon" target="_blank">Art is Work</a></strong>" above his office door.
+This relentless form of creativity is nicely exemplified by the legendary graphic designer <a title="Milton Glaser" href="http://miltonglaser.com" rel="homepage" target="_blank">Milton Glaser</a>, who engraved the slogan "<strong><a title="Art is Work" href="http://www.amazon.com/Art-Work-Milton-Glaser/dp/1590200063%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dbengoeprosol-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1590200063" rel="amazon" target="_blank">Art is Work</a></strong>" above his office door.
 
 But this raises an obvious question: If different kinds of creative problems benefit from different kinds of creative thinking, how can we ensure that we're thinking in the right way at the right time? When should we daydream and go for a relaxing stroll, and when should we keep on sketching and toying with possibilities?
 
@@ -32,9 +32,9 @@ The good news is that the human mind has a surprising natural ability to assess 
 
 <strong>If you're trying to be more creative, one of the most important things you can do is increase the volume and diversity of the information to which you are exposed.</strong>
 
-<strong><a class="zem_slink" title="Steve Jobs" href="http://en.wikipedia.org/wiki/Steve_Jobs" rel="wikipedia" target="_blank">Steve Jobs</a> famously declared that "creativity is just connecting things."</strong>
+<strong><a title="Steve Jobs" href="http://en.wikipedia.org/wiki/Steve_Jobs" rel="wikipedia" target="_blank">Steve Jobs</a> famously declared that "creativity is just connecting things."</strong>
 
-Or look at Google: <a class="zem_slink" title="Larry Page" href="http://en.wikipedia.org/wiki/Larry_Page" rel="wikipedia" target="_blank">Larry Page</a> and <a class="zem_slink" title="Sergey Brin" href="http://en.wikipedia.org/wiki/Sergey_Brin" rel="wikipedia" target="_blank">Sergey Brin</a> came up with their famous search algorithm by applying the ranking method used for academic articles (more citations equals more influence) to the sprawl of the Internet.
+Or look at Google: <a title="Larry Page" href="http://en.wikipedia.org/wiki/Larry_Page" rel="wikipedia" target="_blank">Larry Page</a> and <a title="Sergey Brin" href="http://en.wikipedia.org/wiki/Sergey_Brin" rel="wikipedia" target="_blank">Sergey Brin</a> came up with their famous search algorithm by applying the ranking method used for academic articles (more citations equals more influence) to the sprawl of the Internet.
 
 How can people get better at making these kinds of connections? <strong>Mr. Jobs argued that the best inventors seek out "diverse experiences," collecting lots of dots that they later link together.</strong> Instead of developing a narrow specialization, they study, say, calligraphy (as Mr. Jobs famously did) or hang out with friends in different fields. Because they don't know where the answer will come from, they are willing to look for the answer everywhere.
 
@@ -47,7 +47,7 @@ Books I added to my wishlist:
 <iframe style="width: 120px; height: 240px;" src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=bengoeprosol-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1590200063" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="320" height="240"></iframe>
 <iframe style="width: 120px; height: 240px;" src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=bengoeprosol-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0547386079" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="320" height="240"></iframe>
 
- 
+
 <h6 class="zemanta-related-title" style="font-size: 1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://saintleoinkblot.com/2012/03/02/the-creative-time-of-day/" target="_blank">The Creative Time of Day</a> (saintleoinkblot.com)</li>
