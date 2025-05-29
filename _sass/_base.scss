@@ -48,14 +48,14 @@ iframe {
   margin-right: auto;
 }
 
-.iframe-container{
+.iframe-container {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
   margin-bottom: 1rem;
 }
 
-.iframe-container iframe{
+.iframe-container iframe {
   position: absolute;
   top:0;
   left: 0;
@@ -68,6 +68,12 @@ table {
   width: 100%;
   border: 0 solid var(--border-color);
   border-collapse: collapse;
+}
+
+.two-videos {
+  position: relative;
+  width: 50%;
+  aspect-ratio: 16 / 9;
 }
 
 td,

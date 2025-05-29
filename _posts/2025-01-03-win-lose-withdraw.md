@@ -80,7 +80,7 @@ People wanted solutions on public safety. So we created several ads about Lisa's
 <div class="extended-content-container">
   <table>
     <tr>
-      <th><iframe width=400 height=220 src="https://www.youtube-nocookie.com/embed/4t9qnjRlfiw" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      <th class="two-videos"><iframe width=400 height=220 src="https://www.youtube-nocookie.com/embed/4t9qnjRlfiw" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
       </th>
       <th><iframe width=400 height=220 src="https://www.youtube-nocookie.com/embed/_VklX1vsFFA" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
       </th>
