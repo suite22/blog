@@ -19,19 +19,23 @@ I've been gathering [notes related to complex systems](/complex-systems). Please
 ## Videos
 Over the years I've made [silly videos for friends](https://vimeo.com/90770645), [timelapses](https://vimeo.com/89745119), [satire](https://youtu.be/ABmj8w8h3ak), Emmy award-winning [broadcast TV specials](https://vimeo.com/92482491), [political campaign promos](https://www.youtube.com/channel/UCwxFbm6I-iEYPuMJ5BgAdZw), and directed stadium productions for 100K+ rabid fans.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/92269602?h=d7c25c8760&autopause=0&player_id=0&app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include vimeo.html videoID=92269602 %}
 
 ### Music Videos
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/6932046?h=d7c25c8760&autopause=0&player_id=0&app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include vimeo.html videoID=1057315789 %}
 
 <br>
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/96543923?h=1ca7693a9b&autopause=0&player_id=0&app_id=58479" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+{% include vimeo.html videoID=6932046 %}
+
+<br>
+
+{% include vimeo.html videoID=96543923 %}
 
 ### Broadcast
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/34638032?h=be671a4a2a&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="All Access: Road to 14 - Tornado segment"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include vimeo.html videoID=34638032 %}
 
 ### Political Ads
 
@@ -41,11 +45,12 @@ Over the years I've made [silly videos for friends](https://vimeo.com/90770645),
 
 ### Promos
 
+<!-- Leaving this embed since it's vertical -->
 <div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/938839580?h=f0d5079c97&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SAGE. flowers Instagram promo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <br>
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/161328819?h=f0d5079c97&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Crema: How to Brew French Press"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include vimeo.html videoID=161328819 %}
 
 ---
 

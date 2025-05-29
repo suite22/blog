@@ -9,7 +9,7 @@ One morning in the spring last year, my partner, Lisa, said, "I'm thinking about
 
 What did I think?
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1043727748?h=dda654edc3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Deciding to Run"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include vimeo.html videoID="1043727748" vimeoh="dda654edc3" %}
 
 <br>
 I was flooded with excitement! Not only is she one of the most qualified candidates I could imagine but with the historic changes to Portland's government we both knew this was a unique moment.
@@ -41,7 +41,8 @@ The list is huge!
 
 - I learned about Ranked Choice Voting tabulation and did some early modeling of potential election scenarios. Thank you to the amazing developers at the [Ranked Choice Voting Resource Center](https://www.rcvresources.org/) for answering my questions and providing helpful guidance early on.
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1009707518?h=50ba6e8891&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ranked Choice Voting: Progressive Voter Block Simulation"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+{% include vimeo.html videoID="1009707518" vimeoh="50ba6e8891" %}
+
 <br>
 
 - I learned how to build an [Observable dashboard](https://observablehq.com/) using public data to look at donations.

@@ -1,8 +1,8 @@
-# Personal Site powered by Jekyll 
+# Personal Site powered by Jekyll
 
 [![Build and deploy Jekyll site to GitHub Pages](https://github.com/suite22/blog/actions/workflows/jekyll.yml/badge.svg?branch=main)](https://github.com/suite22/blog/actions/workflows/jekyll.yml)
 
-I forked the theme from dark-poole with the goal of hosting a "simple" site that I can publish to and write using markdown files and hopefully as little fuss as possible. 
+I forked the theme from dark-poole with the goal of hosting a "simple" site that I can publish to and write using markdown files and hopefully as little fuss as possible.
 
 To serve locally use:
 ```bash
@@ -70,7 +70,7 @@ Ah, but say you want to include [draft posts](https://jekyllrb.com/docs/posts/#d
 $ bundle exec jekyll serve --draft
 ```
 
-Drafts should be added to the `_drafts` folder without a date as a prefix in the filename. 
+Drafts should be added to the `_drafts` folder without a date as a prefix in the filename.
 
 Open <http://localhost:4000> in your browser, and voilà.
 
@@ -133,7 +133,33 @@ nav:
 
 ## Quotebacks
 
-I love the intent behind [Quoteback](https://quotebacks.net) and my goal is to use them whenever I cite someone else. 
+I love the intent behind [Quoteback](https://quotebacks.net) and my goal is to use them whenever I cite someone else.
+
+### Reusable include
+
+Instead of remembering the embed setup for each post there's now an include `_includes/quoteback.html`. The inputs are:
+- title
+- author
+- sourceURL
+- quote
+
+Here's an example usage:
+```html
+{% include quoteback.html title="Nonzero: The Logic of Human Destiny" author="Robert Wright" sourceURL="https://en.wikipedia.org/wiki/Nonzero:_The_Logic_of_Human_Destiny"
+quote="... over the long run, non-zero-sum situations produce more positive sums than negative sums, more mutual benefit than parasitism. As a result, people become embedded in larger and richer webs of interdependence.
+<br><br>
+This basic sequence - the conversion of non-zero-sum situations into mostly positive sums - had started happening at least as early as 15,000 years ago. Then it happened again. And again. And again. Until - voila - here we are, riding in airplanes, sending emails, living in a global village." %}
+```
+
+## Video embeds
+
+I made a simple include for Vimeo videos.
+
+```html
+{% include vimeo.html videoID="1043727748" vimeoh="dda654edc3" %}
+```
+
+The `h` parameter appears to be important for Vimeo to be able to render the embed.
 
 ## Interactive articles
 
