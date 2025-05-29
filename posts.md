@@ -18,9 +18,10 @@ title: Posts
 ---
 
 # Posts By Topic
-{% for tag in site.tags %}
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
   {% assign tagnames = tag[0] %}
-  
+
   <h2>{{ tagnames | capitalize }}</h2>
   <ul>
   {% assign topicposts = tag[1] %}
